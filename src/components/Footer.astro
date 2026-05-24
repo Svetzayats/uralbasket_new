@@ -1,0 +1,64 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="logo">URALBASKET</p>
+    <nav class="footer-nav" aria-label="Навигация в подвале">
+      <a href="/about">О нас</a>
+      <a href="/delivery">Оплата и доставка</a>
+      <a href="/contacts">Контакты</a>
+      <a href="/blog">Блог</a>
+    </nav>
+    <p class="copy">&copy; {year} UralBasket. Все права защищены.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--color-primary);
+    color: #ffffff;
+    margin-top: auto;
+  }
+
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.5rem;
+  }
+
+  .footer-nav a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    opacity: 0.8;
+    transition: opacity 0.15s;
+  }
+
+  .footer-nav a:hover {
+    opacity: 1;
+  }
+
+  .copy {
+    font-size: 0.75rem;
+    opacity: 0.55;
+  }
+</style>

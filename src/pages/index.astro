@@ -1,0 +1,136 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Главная" description="UralBasket — плетёные корзины ручной работы. Подарочные корзины, корзины для хранения, торговое оборудование из лозы.">
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>URALBASKET</h1>
+      <p class="tagline">Плетёные корзины ручной работы</p>
+      <a href="/baskets" class="btn">Смотреть каталог</a>
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="container">
+      <h2>Каталог</h2>
+      <ul class="category-grid">
+        <li>
+          <a href="/baskets" class="category-card">
+            <span class="category-name">Корзины</span>
+          </a>
+        </li>
+        <li>
+          <a href="/trade" class="category-card">
+            <span class="category-name">Торговое оборудование</span>
+          </a>
+        </li>
+        <li>
+          <a href="/design" class="category-card">
+            <span class="category-name">Интерьер и дизайн</span>
+          </a>
+        </li>
+        <li>
+          <a href="/boxes" class="category-card">
+            <span class="category-name">Сундуки и короба</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    background: var(--color-primary);
+    color: #ffffff;
+    padding: 5rem 1.5rem;
+    text-align: center;
+  }
+
+  .hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 800;
+    letter-spacing: 0.1em;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: 0.85;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.85rem 2rem;
+    background: var(--color-accent);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    transition: background 0.15s;
+  }
+
+  .btn:hover {
+    background: #046b33;
+  }
+
+  .categories {
+    padding: 4rem 1.5rem;
+    background: var(--color-bg-subtle);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .categories h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+
+  .category-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .category-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 12px rgba(5, 130, 64, 0.12);
+  }
+
+  .category-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-align: center;
+  }
+</style>

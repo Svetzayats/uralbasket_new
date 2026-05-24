@@ -1,0 +1,164 @@
+---
+const navLinks = [
+  { href: '/baskets', label: 'Корзины' },
+  { href: '/trade', label: 'Торговое оборудование' },
+  { href: '/design', label: 'Интерьер и дизайн' },
+  { href: '/boxes', label: 'Сундуки и короба' },
+  { href: '/delivery', label: 'Оплата и доставка' },
+  { href: '/about', label: 'О нас' },
+  { href: '/blog', label: 'Блог' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <nav class="nav" aria-label="Главная навигация">
+    <a href="/" class="logo" aria-label="UralBasket — на главную">URALBASKET</a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      {navLinks.map(link => (
+        <li>
+          <a
+            href={link.href}
+            class:list={['nav-link', { active: currentPath.startsWith(link.href) }]}
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle') as HTMLButtonElement;
+  const navLinks = document.getElementById('nav-links');
+
+  toggle?.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+    navLinks?.classList.toggle('open');
+  });
+</script>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    height: var(--nav-height);
+  }
+
+  .nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: var(--color-primary);
+    flex-shrink: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    margin-left: auto;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: var(--color-primary);
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    transition: color 0.15s, background 0.15s;
+    white-space: nowrap;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    color: var(--color-accent);
+  }
+
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: auto;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--color-primary);
+    transition: transform 0.2s, opacity 0.2s;
+  }
+
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: var(--nav-height);
+      left: 0;
+      right: 0;
+      background: var(--color-primary);
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+      margin-left: 0;
+      padding: 1rem 0;
+    }
+
+    .nav-links.open {
+      display: flex;
+    }
+
+    .nav-links li {
+      width: 100%;
+    }
+
+    .nav-link {
+      display: block;
+      width: 100%;
+      padding: 0.75rem 1.5rem;
+      color: #ffffff;
+      border-radius: 0;
+      font-size: 0.95rem;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: #ffffff;
+      background: var(--color-hover);
+    }
+  }
+</style>
