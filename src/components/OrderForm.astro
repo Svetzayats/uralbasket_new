@@ -1,0 +1,313 @@
+---
+interface Props {
+  productSlug?: string;
+  compact?: boolean;
+}
+const { productSlug, compact = false } = Astro.props;
+---
+
+<div class:list={['order-form-wrap', { compact }]}>
+  {!compact && <h2 class="form-heading">Оставить заявку</h2>}
+
+  <form class="order-form" novalidate data-product-slug={productSlug ?? ''}>
+    <div class="field">
+      <label for="of-name">Имя <span class="required" aria-hidden="true">*</span></label>
+      <input id="of-name" name="name" type="text" autocomplete="name" required placeholder="Ваше имя" />
+      <p class="field-error" aria-live="polite"></p>
+    </div>
+
+    <div class="field">
+      <label for="of-phone">Телефон <span class="required-either" aria-hidden="true">*</span></label>
+      <input id="of-phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 900 000-00-00" />
+      <p class="field-error" aria-live="polite"></p>
+    </div>
+
+    <div class="field">
+      <label for="of-email">Email <span class="required-either" aria-hidden="true">*</span></label>
+      <input id="of-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
+      <p class="field-error" aria-live="polite"></p>
+    </div>
+    <p class="either-hint">* Укажите телефон или email — достаточно одного</p>
+
+    <div class="field">
+      <label for="of-message">Сообщение</label>
+      <textarea id="of-message" name="message" rows="3" placeholder="Уточните детали заказа (размер, количество, сроки…)"></textarea>
+    </div>
+
+    <button type="submit" class="btn-submit">Отправить заявку</button>
+  </form>
+
+  <div class="form-success" hidden aria-live="polite">
+    <p class="success-icon" aria-hidden="true">✓</p>
+    <p class="success-title">Заявка отправлена!</p>
+    <p class="success-text">Мы свяжемся с вами в ближайшее время.</p>
+  </div>
+
+  <p class="form-server-error" hidden aria-live="assertive"></p>
+</div>
+
+<script>
+  function initOrderForm(wrap: Element) {
+    const form = wrap.querySelector<HTMLFormElement>('.order-form');
+    const successBox = wrap.querySelector<HTMLElement>('.form-success');
+    const serverErrorEl = wrap.querySelector<HTMLElement>('.form-server-error');
+    if (!form || !successBox || !serverErrorEl) return;
+
+    const productSlug = form.dataset.productSlug || undefined;
+
+    const phoneInput = form.elements.namedItem('phone') as HTMLInputElement;
+    const emailInput = form.elements.namedItem('email') as HTMLInputElement;
+    const nameInput  = form.elements.namedItem('name')  as HTMLInputElement;
+
+    function showFieldError(input: HTMLInputElement | HTMLTextAreaElement, message: string | null) {
+      const errorEl = input.closest('.field')?.querySelector<HTMLElement>('.field-error');
+      if (!errorEl) return;
+      errorEl.textContent = message ?? '';
+      input.setAttribute('aria-invalid', message ? 'true' : 'false');
+    }
+
+    function getNameError(v: string): string | null {
+      if (!v.trim()) return 'Укажите ваше имя';
+      if (v.trim().length < 2) return 'Имя слишком короткое';
+      return null;
+    }
+
+    function getEmailFormatError(v: string): string | null {
+      if (v.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim())) return 'Некорректный email';
+      return null;
+    }
+
+    function getPhoneFormatError(v: string): string | null {
+      if (v.trim()) {
+        const digits = v.replace(/\D/g, '');
+        if (digits.length < 10) return 'Слишком короткий номер';
+        if (digits.length > 15) return 'Слишком длинный номер';
+      }
+      return null;
+    }
+
+    function validateContactFields(): boolean {
+      const hasEmail = !!emailInput.value.trim();
+      const hasPhone = !!phoneInput.value.trim();
+      let ok = true;
+
+      if (!hasEmail && !hasPhone) {
+        const msg = 'Укажите email или номер телефона';
+        showFieldError(emailInput, msg);
+        showFieldError(phoneInput, msg);
+        ok = false;
+      } else {
+        showFieldError(emailInput, getEmailFormatError(emailInput.value));
+        showFieldError(phoneInput, getPhoneFormatError(phoneInput.value));
+        if (getEmailFormatError(emailInput.value) || getPhoneFormatError(phoneInput.value)) ok = false;
+      }
+      return ok;
+    }
+
+    // Blur: revalidate the contact pair whenever either field loses focus
+    [phoneInput, emailInput].forEach(input => {
+      input.addEventListener('blur', () => validateContactFields());
+    });
+
+    nameInput.addEventListener('blur', () => {
+      showFieldError(nameInput, getNameError(nameInput.value));
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const nameErr = getNameError(nameInput.value);
+      showFieldError(nameInput, nameErr);
+      const contactOk = validateContactFields();
+      if (nameErr || !contactOk) return;
+
+      const submitBtn = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Отправляем…';
+      serverErrorEl.hidden = true;
+
+      try {
+        const data: Record<string, string> = {
+          name: (form.elements.namedItem('name') as HTMLInputElement).value.trim(),
+          phone: (form.elements.namedItem('phone') as HTMLInputElement).value.trim(),
+          email: (form.elements.namedItem('email') as HTMLInputElement).value.trim(),
+          message: (form.elements.namedItem('message') as HTMLTextAreaElement).value.trim(),
+        };
+        if (productSlug) data.productSlug = productSlug;
+
+        const res = await fetch('/api/order', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+
+        if (res.ok) {
+          form.hidden = true;
+          successBox.hidden = false;
+        } else {
+          const json = await res.json() as { error?: string };
+          serverErrorEl.textContent = json.error ?? 'Произошла ошибка. Попробуйте позже.';
+          serverErrorEl.hidden = false;
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Отправить заявку';
+        }
+      } catch {
+        serverErrorEl.textContent = 'Нет связи с сервером. Попробуйте позже.';
+        serverErrorEl.hidden = false;
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Отправить заявку';
+      }
+    });
+  }
+
+  document.querySelectorAll('.order-form-wrap').forEach(initOrderForm);
+</script>
+
+<style>
+  .order-form-wrap {
+    max-width: 520px;
+  }
+
+  .order-form-wrap.compact {
+    max-width: 100%;
+  }
+
+  .form-heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+  }
+
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .required {
+    color: #c0392b;
+  }
+
+  .required-either {
+    color: #c0392b;
+  }
+
+  .either-hint {
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+    margin-top: -0.5rem;
+  }
+
+  input,
+  textarea {
+    font-family: var(--font-primary);
+    font-size: 0.95rem;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    transition: border-color 0.15s, box-shadow 0.15s;
+    width: 100%;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(5, 130, 64, 0.12);
+  }
+
+  input[aria-invalid="true"],
+  textarea[aria-invalid="true"] {
+    border-color: #c0392b;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  .field-error {
+    font-size: 0.75rem;
+    color: #c0392b;
+    min-height: 1em;
+  }
+
+  .btn-submit {
+    font-family: var(--font-primary);
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 0.85rem 2rem;
+    background: var(--color-accent);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.15s;
+    align-self: flex-start;
+  }
+
+  .btn-submit:hover:not(:disabled) {
+    background: #046b33;
+  }
+
+  .btn-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .form-hint {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  /* Success state */
+  .form-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 2.5rem 1rem;
+  }
+
+  .success-icon {
+    font-size: 2.5rem;
+    color: var(--color-accent);
+    line-height: 1;
+  }
+
+  .success-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .success-text {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+
+  .form-server-error {
+    font-size: 0.85rem;
+    color: #c0392b;
+    padding: 0.6rem 0.85rem;
+    background: #fdf2f2;
+    border: 1px solid #f5c6c6;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+</style>

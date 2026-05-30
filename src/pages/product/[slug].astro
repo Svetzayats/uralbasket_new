@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import OrderForm from '../../components/OrderForm.astro';
 
 export async function getStaticPaths() {
   const products = await getCollection('products');
@@ -88,10 +89,6 @@ const categoryLabels: Record<string, string> = {
           </div>
         )}
 
-        <a href="/contacts" class="btn-order">
-          Заказать
-        </a>
-        <p class="order-hint">Напишите нам — уточним детали и стоимость</p>
       </div>
     </div>
 
@@ -100,6 +97,11 @@ const categoryLabels: Record<string, string> = {
         <Content />
       </div>
     )}
+
+    <div class="product-form-section">
+      <h2 class="form-section-title">Оставить заявку на этот товар</h2>
+      <OrderForm productSlug={product.id} compact />
+    </div>
   </div>
 </Layout>
 
@@ -293,28 +295,6 @@ const categoryLabels: Record<string, string> = {
     margin: 0;
   }
 
-  .btn-order {
-    display: inline-block;
-    padding: 0.9rem 2.5rem;
-    background: var(--color-accent);
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 1rem;
-    border-radius: 4px;
-    transition: background 0.15s;
-    text-decoration: none;
-  }
-
-  .btn-order:hover {
-    background: #046b33;
-  }
-
-  .order-hint {
-    margin-top: 0.6rem;
-    font-size: 0.8rem;
-    color: var(--color-text-muted);
-  }
-
   /* Body content */
   .product-body {
     margin-top: 3rem;
@@ -353,6 +333,20 @@ const categoryLabels: Record<string, string> = {
   .product-body :global(strong) {
     font-weight: 600;
     color: var(--color-primary);
+  }
+
+  /* Order form section */
+  .product-form-section {
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .form-section-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
   }
 
   @media (max-width: 768px) {

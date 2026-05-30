@@ -1,0 +1,153 @@
+---
+import Layout from '../layouts/Layout.astro';
+import OrderForm from '../components/OrderForm.astro';
+---
+
+<Layout
+  title="Контакты"
+  description="Свяжитесь с UralBasket — оставьте заявку или напишите нам."
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Хлебные крошки">
+        <a href="/">Главная</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Контакты</span>
+      </nav>
+      <h1>Контакты</h1>
+    </div>
+  </div>
+
+  <div class="container page-body">
+    <div class="contacts-layout">
+      <div class="contacts-info">
+        <h2>Как с нами связаться</h2>
+        <p>Оставьте заявку — ответим в течение рабочего дня, уточним детали и стоимость.</p>
+
+        <ul class="info-list">
+          <li>
+            <span class="info-label">Email</span>
+            <a href="mailto:info@uralbasket.ru">info@uralbasket.ru</a>
+          </li>
+          <li>
+            <span class="info-label">Режим работы</span>
+            <span>Пн–Пт, 9:00–18:00 МСК</span>
+          </li>
+          <li>
+            <span class="info-label">Доставка</span>
+            <span>По всей России</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="form-col">
+        <OrderForm />
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background: var(--color-bg-subtle);
+    border-bottom: 1px solid var(--color-border);
+    padding: 2rem 1.5rem 1.75rem;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .breadcrumb a {
+    color: var(--color-text-muted);
+    transition: color 0.15s;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-accent);
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  .page-body {
+    padding: 3rem 1.5rem;
+  }
+
+  .contacts-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .contacts-info h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+  }
+
+  .contacts-info p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: var(--color-text-muted);
+    margin-bottom: 1.75rem;
+  }
+
+  .info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .info-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .info-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+  }
+
+  .info-list a,
+  .info-list span:not(.info-label) {
+    font-size: 0.9rem;
+    color: var(--color-text);
+  }
+
+  .info-list a {
+    color: var(--color-accent);
+    transition: color 0.15s;
+  }
+
+  .info-list a:hover {
+    color: var(--color-hover);
+  }
+
+  @media (max-width: 768px) {
+    .contacts-layout {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+</style>
