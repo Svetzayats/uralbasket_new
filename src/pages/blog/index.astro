@@ -1,0 +1,202 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const allPosts = await getCollection('blog');
+const posts = allPosts
+  .filter(p => !p.data.draft)
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
+
+const categoryLabels: Record<string, string> = {
+  'master-class': 'Мастер-класс',
+  'reviews': 'Отзывы',
+  'how-to': 'Инструкция',
+  'materials': 'Материалы',
+};
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+---
+
+<Layout
+  title="Блог"
+  description="Статьи о плетении, материалах, мастер-классы и вдохновение от UralBasket."
+>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Хлебные крошки">
+        <a href="/">Главная</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Блог</span>
+      </nav>
+      <h1>Блог</h1>
+    </div>
+  </div>
+
+  <div class="container posts-container">
+    {posts.length === 0 ? (
+      <p class="empty">Статьи появятся совсем скоро.</p>
+    ) : (
+      <ul class="post-list">
+        {posts.map(post => (
+          <li>
+            <a href={`/blog/${post.id}`} class="post-card">
+              <div class="post-image">
+                <img src={post.data.coverImage} alt={post.data.title} loading="lazy" />
+              </div>
+              <div class="post-body">
+                <span class="post-category">{categoryLabels[post.data.category]}</span>
+                <h2 class="post-title">{post.data.title}</h2>
+                <p class="post-excerpt">{post.data.excerpt}</p>
+                <time class="post-date" datetime={post.data.publishedAt.toISOString()}>
+                  {formatDate(post.data.publishedAt)}
+                </time>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background: var(--color-bg-subtle);
+    border-bottom: 1px solid var(--color-border);
+    padding: 2rem 1.5rem 1.75rem;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .breadcrumb a {
+    color: var(--color-text-muted);
+    transition: color 0.15s;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-accent);
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  .posts-container {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .post-card {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--color-bg);
+    transition: border-color 0.15s, box-shadow 0.15s;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .post-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 16px rgba(5, 130, 64, 0.08);
+  }
+
+  .post-image {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: var(--color-bg-subtle);
+    flex-shrink: 0;
+  }
+
+  .post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .post-card:hover .post-image img {
+    transform: scale(1.04);
+  }
+
+  .post-body {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .post-category {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .post-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 1.35;
+  }
+
+  .post-excerpt {
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: var(--color-text-muted);
+  }
+
+  .post-date {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+  }
+
+  .empty {
+    text-align: center;
+    color: var(--color-text-muted);
+    padding: 4rem 0;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 640px) {
+    .post-card {
+      grid-template-columns: 1fr;
+    }
+
+    .post-image {
+      aspect-ratio: 16 / 9;
+    }
+
+    .post-body {
+      padding: 1rem 1rem 1.25rem;
+    }
+  }
+</style>
