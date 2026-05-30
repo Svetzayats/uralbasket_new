@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Страница не найдена" description="Запрошенная страница не существует.">
+  <div class="not-found">
+    <div class="not-found-inner">
+      <p class="code">404</p>
+      <h1>Страница не найдена</h1>
+      <p class="message">Такой страницы не существует — возможно, она была перемещена или удалена.</p>
+      <div class="links">
+        <a href="/" class="btn-primary">На главную</a>
+        <a href="/baskets" class="btn-secondary">Смотреть каталог</a>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .not-found {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .not-found-inner {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .code {
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--color-border);
+    line-height: 1;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .message {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .links {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  .btn-primary {
+    padding: 0.75rem 1.75rem;
+    background: var(--color-accent);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: background 0.15s;
+  }
+
+  .btn-primary:hover {
+    background: #046b33;
+  }
+
+  .btn-secondary {
+    padding: 0.75rem 1.75rem;
+    background: transparent;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-primary);
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .btn-secondary:hover {
+    background: var(--color-primary);
+    color: #ffffff;
+  }
+</style>

@@ -6,8 +6,10 @@ interface Props {
 }
 
 const { product } = Astro.props;
-const { title, price, images, sizes, inStock } = product.data;
-const sizeCaption = [sizes.width, sizes.depth, sizes.height].filter(Boolean).join(' x ');
+const { title, price, images, sizes } = product.data;
+const sizeCaption = sizes
+  ? [sizes.width, sizes.depth, sizes.height].filter(Boolean).join(' x ')
+  : null;
 const image = images[0] ?? null;
 ---
 

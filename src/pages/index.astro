@@ -1,8 +1,25 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+
+const allProducts = await getCollection('products');
+const featured = allProducts
+  .filter(p => p.data.featured)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const categories = [
+  { href: '/baskets', label: 'Корзины' },
+  { href: '/trade', label: 'Торговое оборудование' },
+  { href: '/design', label: 'Интерьер и дизайн' },
+  { href: '/boxes', label: 'Сундуки и короба' },
+];
 ---
 
-<Layout title="Главная" description="UralBasket — плетёные корзины ручной работы. Подарочные корзины, корзины для хранения, торговое оборудование из лозы.">
+<Layout
+  title="Главная"
+  description="UralBasket — плетёные корзины ручной работы. Подарочные корзины, корзины для хранения, торговое оборудование из лозы."
+>
   <section class="hero">
     <div class="hero-inner">
       <h1>URALBASKET</h1>
@@ -11,36 +28,48 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </section>
 
-  <section class="categories">
+  <section class="categories-section">
     <div class="container">
-      <h2>Каталог</h2>
+      <h2 class="section-title">Каталог</h2>
       <ul class="category-grid">
-        <li>
-          <a href="/baskets" class="category-card">
-            <span class="category-name">Корзины</span>
-          </a>
-        </li>
-        <li>
-          <a href="/trade" class="category-card">
-            <span class="category-name">Торговое оборудование</span>
-          </a>
-        </li>
-        <li>
-          <a href="/design" class="category-card">
-            <span class="category-name">Интерьер и дизайн</span>
-          </a>
-        </li>
-        <li>
-          <a href="/boxes" class="category-card">
-            <span class="category-name">Сундуки и короба</span>
-          </a>
-        </li>
+        {categories.map(cat => (
+          <li>
+            <a href={cat.href} class="category-card">
+              <span class="category-name">{cat.label}</span>
+            </a>
+          </li>
+        ))}
       </ul>
+    </div>
+  </section>
+
+  {featured.length > 0 && (
+    <section class="featured-section">
+      <div class="container">
+        <h2 class="section-title">Популярные товары</h2>
+        <ul class="product-grid">
+          {featured.map(product => (
+            <li>
+              <ProductCard product={product} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-inner">
+        <p class="cta-text">Нужна корзина под ваши параметры?</p>
+        <a href="/contacts" class="btn">Написать нам</a>
+      </div>
     </div>
   </section>
 </Layout>
 
 <style>
+  /* Hero */
   .hero {
     background: var(--color-primary);
     color: #ffffff;
@@ -71,7 +100,6 @@ import Layout from '../layouts/Layout.astro';
 
   .btn {
     display: inline-block;
-    margin-top: 0.5rem;
     padding: 0.85rem 2rem;
     background: var(--color-accent);
     color: #ffffff;
@@ -86,27 +114,29 @@ import Layout from '../layouts/Layout.astro';
     background: #046b33;
   }
 
-  .categories {
-    padding: 4rem 1.5rem;
-    background: var(--color-bg-subtle);
-  }
-
+  /* Shared */
   .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1.5rem;
   }
 
-  .categories h2 {
-    font-size: 1.5rem;
+  .section-title {
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--color-primary);
-    margin-bottom: 2rem;
-    text-align: center;
+    margin-bottom: 1.75rem;
+  }
+
+  /* Categories */
+  .categories-section {
+    padding: 3.5rem 0;
+    background: var(--color-bg-subtle);
   }
 
   .category-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1rem;
   }
 
@@ -114,23 +144,55 @@ import Layout from '../layouts/Layout.astro';
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 140px;
+    min-height: 120px;
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 1.25rem;
     transition: border-color 0.15s, box-shadow 0.15s;
   }
 
   .category-card:hover {
     border-color: var(--color-accent);
-    box-shadow: 0 2px 12px rgba(5, 130, 64, 0.12);
+    box-shadow: 0 2px 12px rgba(5, 130, 64, 0.1);
   }
 
   .category-name {
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 600;
     color: var(--color-primary);
     text-align: center;
+  }
+
+  /* Featured products */
+  .featured-section {
+    padding: 3.5rem 0;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.25rem;
+  }
+
+  /* CTA */
+  .cta-section {
+    padding: 3rem 0;
+    background: var(--color-bg-subtle);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-primary);
   }
 </style>
