@@ -4,7 +4,11 @@ category: boxes
 description: Декоративный плетёный сундук из лозы для хранения пледов, подушек и мелочей. Украшает интерьер и служит дополнительным местом для хранения.
 price: "от 4 200 р."
 images:
-  - /images/products/placeholder.jpg
+  - /images/products/placeholder.svg
+sizes:
+  width: 40
+  height: 35
+  depth: 60
 inStock: true
 featured: false
 order: 1

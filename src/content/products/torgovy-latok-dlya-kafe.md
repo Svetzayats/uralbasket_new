@@ -4,7 +4,11 @@ category: trade
 description: Плетёный лоток из лозы для подачи хлеба и выпечки в кафе, ресторане или пекарне. Создаёт уютную атмосферу и подчёркивает натуральность продукта.
 price: "от 800 р."
 images:
-  - /images/products/placeholder.jpg
+  - /images/products/placeholder.svg
+sizes:
+  width: 25
+  height: 8
+  depth: 35
 inStock: true
 featured: true
 order: 1

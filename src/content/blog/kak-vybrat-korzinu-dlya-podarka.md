@@ -3,7 +3,7 @@ title: Как выбрать корзину для подарка
 publishedAt: 2025-03-15
 category: how-to
 excerpt: Плетёная корзина — универсальный подарок на любой случай. Рассказываем, как выбрать правильный размер, форму и оформление под ваши задачи.
-coverImage: /images/blog/placeholder.jpg
+coverImage: /images/blog/placeholder.svg
 draft: false
 ---
 

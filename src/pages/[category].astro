@@ -1,0 +1,131 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+
+export async function getStaticPaths() {
+  return [
+    { params: { category: 'baskets' } },
+    { params: { category: 'trade' } },
+    { params: { category: 'design' } },
+    { params: { category: 'boxes' } },
+  ];
+}
+
+const categoryMeta: Record<string, { label: string; description: string }> = {
+  baskets: {
+    label: 'Корзины',
+    description: 'Плетёные корзины ручной работы — подарочные, для хранения, для домашних животных и флористики.',
+  },
+  trade: {
+    label: 'Торговое оборудование',
+    description: 'Плетёные лотки, корзины и стеллажи для кафе, ресторанов, пекарен и магазинов.',
+  },
+  design: {
+    label: 'Интерьер и дизайн',
+    description: 'Декоративные плетёные изделия для украшения интерьера дома и офиса.',
+  },
+  boxes: {
+    label: 'Сундуки и короба',
+    description: 'Декоративные плетёные сундуки, короба и люльки ручной работы.',
+  },
+};
+
+const { category } = Astro.params;
+const meta = categoryMeta[category!];
+
+const allProducts = await getCollection('products');
+const products = allProducts
+  .filter(p => p.data.category === category)
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<Layout title={meta.label} description={meta.description}>
+  <div class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Хлебные крошки">
+        <a href="/">Главная</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">{meta.label}</span>
+      </nav>
+      <h1>{meta.label}</h1>
+      {products.length > 0 && (
+        <p class="product-count">{products.length} {products.length === 1 ? 'товар' : products.length < 5 ? 'товара' : 'товаров'}</p>
+      )}
+    </div>
+  </div>
+
+  <div class="container catalog">
+    {products.length === 0 ? (
+      <p class="empty">Товары в этой категории появятся совсем скоро.</p>
+    ) : (
+      <ul class="product-grid">
+        {products.map(product => (
+          <li>
+            <ProductCard product={product} />
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Layout>
+
+<style>
+  .page-header {
+    background: var(--color-bg-subtle);
+    border-bottom: 1px solid var(--color-border);
+    padding: 2rem 1.5rem 1.75rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+  }
+
+  .breadcrumb a {
+    color: var(--color-text-muted);
+    transition: color 0.15s;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-accent);
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
+    color: var(--color-primary);
+    margin-bottom: 0.25rem;
+  }
+
+  .product-count {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+
+  .catalog {
+    padding: 2rem 1.5rem;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .empty {
+    text-align: center;
+    color: var(--color-text-muted);
+    padding: 4rem 0;
+    font-size: 0.95rem;
+  }
+</style>

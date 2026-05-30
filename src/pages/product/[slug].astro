@@ -1,0 +1,364 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const products = await getCollection('products');
+  return products.map(product => ({
+    params: { slug: product.id },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const { title, description, price, images, sizes, inStock, category } = product.data;
+const { Content } = await render(product);
+
+const categoryLabels: Record<string, string> = {
+  baskets: 'Корзины',
+  trade: 'Торговое оборудование',
+  design: 'Интерьер и дизайн',
+  boxes: 'Сундуки и короба',
+};
+---
+
+<Layout title={title} description={description}>
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Хлебные крошки">
+      <a href="/">Главная</a>
+      <span aria-hidden="true">›</span>
+      <a href={`/${category}`}>{categoryLabels[category]}</a>
+      <span aria-hidden="true">›</span>
+      <span aria-current="page">{title}</span>
+    </nav>
+
+    <div class="product-layout">
+      <div class="gallery">
+        {images.length > 0 ? (
+          <>
+            <div class="gallery-main">
+              <img
+                id="gallery-active"
+                src={images[0]}
+                alt={title}
+                class="main-image"
+              />
+            </div>
+            {images.length > 1 && (
+              <ul class="gallery-thumbs">
+                {images.map((src, i) => (
+                  <li>
+                    <button
+                      class:list={['thumb-btn', { active: i === 0 }]}
+                      data-src={src}
+                      aria-label={`Фото ${i + 1}`}
+                    >
+                      <img src={src} alt={`${title} — фото ${i + 1}`} loading="lazy" />
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </>
+        ) : (
+          <div class="no-image" aria-label="Фото отсутствует" />
+        )}
+      </div>
+
+      <div class="product-info">
+        <h1>{title}</h1>
+
+        <div class="meta-row">
+          {price && <p class="price">{price}</p>}
+          <span class:list={['stock-badge', inStock ? 'in-stock' : 'out-stock']}>
+            {inStock ? 'В наличии' : 'Нет в наличии'}
+          </span>
+        </div>
+
+        <p class="description">{description}</p>
+
+        {sizes && (sizes.width || sizes.height || sizes.depth) && (
+          <div class="sizes-block">
+            <h2 class="sizes-heading">Размеры</h2>
+            <dl class="sizes-grid">
+              {sizes.width && <><dt>Ширина</dt><dd>{sizes.width} см</dd></>}
+              {sizes.height && <><dt>Высота</dt><dd>{sizes.height} см</dd></>}
+              {sizes.depth && <><dt>Глубина</dt><dd>{sizes.depth} см</dd></>}
+            </dl>
+          </div>
+        )}
+
+        <a href="/contacts" class="btn-order">
+          Заказать
+        </a>
+        <p class="order-hint">Напишите нам — уточним детали и стоимость</p>
+      </div>
+    </div>
+
+    {product.body && (
+      <div class="product-body">
+        <Content />
+      </div>
+    )}
+  </div>
+</Layout>
+
+<script>
+  const mainImg = document.getElementById('gallery-active') as HTMLImageElement | null;
+  const thumbBtns = document.querySelectorAll<HTMLButtonElement>('.thumb-btn');
+
+  thumbBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (mainImg) mainImg.src = btn.dataset.src ?? '';
+      thumbBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+</script>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .breadcrumb a {
+    color: var(--color-text-muted);
+    transition: color 0.15s;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-accent);
+  }
+
+  .product-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  /* Gallery */
+  .gallery-main {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--color-bg-subtle);
+    border: 1px solid var(--color-border);
+  }
+
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: transform 0.3s ease;
+  }
+
+  .main-image:active {
+    transform: scale(1.05);
+  }
+
+  .gallery-thumbs {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .thumb-btn {
+    width: 72px;
+    height: 72px;
+    border: 2px solid var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    transition: border-color 0.15s;
+  }
+
+  .thumb-btn.active,
+  .thumb-btn:hover {
+    border-color: var(--color-accent);
+  }
+
+  .thumb-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .no-image {
+    aspect-ratio: 4 / 3;
+    background: var(--color-bg-subtle);
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+  }
+
+  /* Product info */
+  h1 {
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    font-weight: 800;
+    color: var(--color-primary);
+    line-height: 1.25;
+    margin-bottom: 1rem;
+  }
+
+  .meta-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .stock-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+  }
+
+  .in-stock {
+    background: #d1f0da;
+    color: #166534;
+  }
+
+  .out-stock {
+    background: #fff3cd;
+    color: #856404;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    margin-bottom: 2rem;
+  }
+
+  .sizes-block {
+    margin-bottom: 2rem;
+  }
+
+  .sizes-heading {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.6rem;
+  }
+
+  .sizes-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 1.5rem;
+    row-gap: 0.3rem;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background: var(--color-bg-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    width: fit-content;
+    min-width: 180px;
+  }
+
+  .sizes-grid dt {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+
+  .sizes-grid dd {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  .btn-order {
+    display: inline-block;
+    padding: 0.9rem 2.5rem;
+    background: var(--color-accent);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background 0.15s;
+    text-decoration: none;
+  }
+
+  .btn-order:hover {
+    background: #046b33;
+  }
+
+  .order-hint {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
+
+  /* Body content */
+  .product-body {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+    max-width: 720px;
+  }
+
+  .product-body :global(h2) {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .product-body :global(p) {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+  }
+
+  .product-body :global(ul),
+  .product-body :global(ol) {
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .product-body :global(li) {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+  }
+
+  .product-body :global(strong) {
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 768px) {
+    .product-layout {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+</style>

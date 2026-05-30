@@ -6,6 +6,11 @@ export const productSchema = z.object({
   description: z.string().min(1),
   price: z.string().optional(),
   images: z.array(z.string()).min(0),
+  sizes: z.object({
+    width: z.number().optional(),
+    height: z.number().optional(),
+    depth: z.number().optional(),
+  }).optional(),
   inStock: z.boolean().default(true),
   featured: z.boolean().default(false),
   order: z.number().int().default(0),

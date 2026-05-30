@@ -4,7 +4,11 @@ category: baskets
 description: Большая плетёная корзина из лозы ручной работы. Идеально подходит для подарков на любой праздник — Новый год, день рождения, свадьба. Экологически чистые материалы, натуральная лоза.
 price: "от 2 500 р."
 images:
-  - /images/products/placeholder.jpg
+  - /images/products/placeholder.svg
+sizes:
+  width: 30
+  height: 25
+  depth: 40
 inStock: true
 featured: true
 order: 1
