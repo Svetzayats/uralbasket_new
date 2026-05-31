@@ -24,6 +24,10 @@ export interface OrderFields {
   phone: string;
   message?: string;
   productSlug?: string;
+  productTitle?: string;
+  productDescription?: string;
+  productSizes?: string;
+  productUrl?: string;
 }
 
 export interface ValidationErrors {

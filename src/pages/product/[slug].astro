@@ -13,6 +13,10 @@ export async function getStaticPaths() {
 
 const { product } = Astro.props;
 const { title, description, price, images, sizes, inStock, category } = product.data;
+
+const sizesStr = sizes
+  ? [sizes.width, sizes.depth, sizes.height].filter(Boolean).join(' x ') + ' см'
+  : undefined;
 const { Content } = await render(product);
 
 const categoryLabels: Record<string, string> = {
@@ -100,7 +104,13 @@ const categoryLabels: Record<string, string> = {
 
     <div class="product-form-section">
       <h2 class="form-section-title">Оставить заявку на этот товар</h2>
-      <OrderForm productSlug={product.id} compact />
+      <OrderForm
+        productSlug={product.id}
+        productTitle={title}
+        productDescription={description}
+        productSizes={sizesStr}
+        compact
+      />
     </div>
   </div>
 </Layout>

@@ -1,15 +1,31 @@
 import type { OrderFields } from './formValidation';
 
 function buildMessage(fields: OrderFields): string {
-  const lines = [
+  const lines: string[] = [
     '📦 <b>Новый запрос с сайта UralBasket</b>',
     '',
-    `👤 <b>Имя:</b> ${fields.name}`,
-    `📞 <b>Телефон:</b> ${fields.phone}`,
-    `✉️ <b>Email:</b> ${fields.email}`,
   ];
-  if (fields.message) lines.push(`💬 <b>Сообщение:</b> ${fields.message}`);
-  if (fields.productSlug) lines.push(`🛒 <b>Товар:</b> /product/${fields.productSlug}`);
+
+  if (fields.productSlug) {
+    const url = fields.productUrl ?? `/product/${fields.productSlug}`;
+    const title = fields.productTitle ?? fields.productSlug;
+    lines.push(`🛒 <b>Товар:</b> <a href="${url}">${title}</a>`);
+    if (fields.productSizes) lines.push(`📐 <b>Размеры:</b> ${fields.productSizes}`);
+    if (fields.productDescription) {
+      const desc = fields.productDescription.length > 150
+        ? fields.productDescription.slice(0, 150) + '…'
+        : fields.productDescription;
+      lines.push(`📝 <b>Описание:</b> ${desc}`);
+    }
+    lines.push('');
+  }
+
+  lines.push(
+    `👤 <b>Имя:</b> ${fields.name}`,
+    `📞 <b>Телефон:</b> ${fields.phone || '—'}`,
+    `✉️ <b>Email:</b> ${fields.email || '—'}`,
+  );
+  if (fields.message) lines.push(`\n💬 <b>Сообщение:</b> ${fields.message}`);
   return lines.join('\n');
 }
 

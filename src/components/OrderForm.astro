@@ -1,15 +1,25 @@
 ---
 interface Props {
   productSlug?: string;
+  productTitle?: string;
+  productDescription?: string;
+  productSizes?: string;
   compact?: boolean;
 }
-const { productSlug, compact = false } = Astro.props;
+const { productSlug, productTitle, productDescription, productSizes, compact = false } = Astro.props;
 ---
 
 <div class:list={['order-form-wrap', { compact }]}>
   {!compact && <h2 class="form-heading">Оставить заявку</h2>}
 
-  <form class="order-form" novalidate data-product-slug={productSlug ?? ''}>
+  <form
+    class="order-form"
+    novalidate
+    data-product-slug={productSlug ?? ''}
+    data-product-title={productTitle ?? ''}
+    data-product-description={productDescription ?? ''}
+    data-product-sizes={productSizes ?? ''}
+  >
     <div class="field">
       <label for="of-name">Имя <span class="required" aria-hidden="true">*</span></label>
       <input id="of-name" name="name" type="text" autocomplete="name" required placeholder="Ваше имя" />
@@ -54,6 +64,9 @@ const { productSlug, compact = false } = Astro.props;
     if (!form || !successBox || !serverErrorEl) return;
 
     const productSlug = form.dataset.productSlug || undefined;
+    const productTitle = form.dataset.productTitle || undefined;
+    const productDescription = form.dataset.productDescription || undefined;
+    const productSizes = form.dataset.productSizes || undefined;
 
     const phoneInput = form.elements.namedItem('phone') as HTMLInputElement;
     const emailInput = form.elements.namedItem('email') as HTMLInputElement;
@@ -133,7 +146,13 @@ const { productSlug, compact = false } = Astro.props;
           email: (form.elements.namedItem('email') as HTMLInputElement).value.trim(),
           message: (form.elements.namedItem('message') as HTMLTextAreaElement).value.trim(),
         };
-        if (productSlug) data.productSlug = productSlug;
+        if (productSlug) {
+          data.productSlug = productSlug;
+          data.productUrl = `${window.location.origin}/product/${productSlug}`;
+        }
+        if (productTitle) data.productTitle = productTitle;
+        if (productDescription) data.productDescription = productDescription;
+        if (productSizes) data.productSizes = productSizes;
 
         const res = await fetch('/api/order', {
           method: 'POST',
