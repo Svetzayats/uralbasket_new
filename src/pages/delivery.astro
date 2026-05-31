@@ -1,0 +1,18 @@
+---
+import { getEntry, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import ProseContent from '../components/ProseContent.astro';
+
+const entry = await getEntry('pages', 'delivery');
+if (!entry) return Astro.redirect('/404');
+const { Content } = await render(entry);
+---
+
+<Layout
+  title={entry.data.title}
+  description="Условия оплаты и доставки заказов UralBasket по всей России."
+>
+  <ProseContent title={entry.data.title} breadcrumbLabel="Оплата и доставка">
+    <Content />
+  </ProseContent>
+</Layout>

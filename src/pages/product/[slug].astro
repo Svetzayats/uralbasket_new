@@ -42,12 +42,15 @@ const categoryLabels: Record<string, string> = {
         {images.length > 0 ? (
           <>
             <div class="gallery-main">
-              <img
-                id="gallery-active"
-                src={images[0]}
-                alt={title}
-                class="main-image"
-              />
+              <button class="zoom-trigger" aria-label="Увеличить фото" id="zoom-trigger">
+                <img
+                  id="gallery-active"
+                  src={images[0]}
+                  alt={title}
+                  class="main-image"
+                />
+                <span class="zoom-hint" aria-hidden="true">🔍</span>
+              </button>
             </div>
             {images.length > 1 && (
               <ul class="gallery-thumbs">
@@ -113,11 +116,20 @@ const categoryLabels: Record<string, string> = {
       />
     </div>
   </div>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Просмотр фото">
+    <button class="lightbox-close" aria-label="Закрыть">✕</button>
+    <img class="lightbox-img" src="" alt="" />
+  </dialog>
 </Layout>
 
 <script>
   const mainImg = document.getElementById('gallery-active') as HTMLImageElement | null;
   const thumbBtns = document.querySelectorAll<HTMLButtonElement>('.thumb-btn');
+  const zoomTrigger = document.getElementById('zoom-trigger') as HTMLButtonElement | null;
+  const lightbox = document.getElementById('lightbox') as HTMLDialogElement | null;
+  const lightboxImg = lightbox?.querySelector<HTMLImageElement>('.lightbox-img');
+  const lightboxClose = lightbox?.querySelector<HTMLButtonElement>('.lightbox-close');
 
   thumbBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -125,6 +137,19 @@ const categoryLabels: Record<string, string> = {
       thumbBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     });
+  });
+
+  zoomTrigger?.addEventListener('click', () => {
+    if (!lightbox || !lightboxImg || !mainImg) return;
+    lightboxImg.src = mainImg.src;
+    lightboxImg.alt = mainImg.alt;
+    lightbox.showModal();
+  });
+
+  lightboxClose?.addEventListener('click', () => lightbox?.close());
+
+  lightbox?.addEventListener('click', (e) => {
+    if (e.target === lightbox) lightbox.close();
   });
 </script>
 
@@ -170,16 +195,94 @@ const categoryLabels: Record<string, string> = {
     border: 1px solid var(--color-border);
   }
 
+  .zoom-trigger {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: zoom-in;
+    position: relative;
+  }
+
+  .zoom-hint {
+    position: absolute;
+    bottom: 0.6rem;
+    right: 0.6rem;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.45rem;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+
+  .zoom-trigger:hover .zoom-hint {
+    opacity: 1;
+  }
+
   .main-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    cursor: zoom-in;
     transition: transform 0.3s ease;
+    display: block;
   }
 
-  .main-image:active {
-    transform: scale(1.05);
+  .zoom-trigger:hover .main-image {
+    transform: scale(1.03);
+  }
+
+  /* Lightbox */
+  .lightbox {
+    border: none;
+    background: transparent;
+    padding: 0;
+    max-width: 90vw;
+    max-height: 90vh;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(4px);
+  }
+
+  .lightbox-img {
+    max-width: 90vw;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 4px;
+    display: block;
+  }
+
+  .lightbox-close {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #ffffff;
+    font-size: 1.1rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s;
+  }
+
+  .lightbox-close:hover {
+    background: rgba(255,255,255,0.3);
   }
 
   .gallery-thumbs {
