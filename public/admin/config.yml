@@ -1,0 +1,175 @@
+# ---------------------------------------------------------------------------
+# Decap CMS configuration for UralBasket
+# ---------------------------------------------------------------------------
+# PRODUCTION AUTH SETUP (one-time, ~5 min):
+#   1. github.com/settings/developers → OAuth Apps → New OAuth App
+#      - Homepage URL:              https://uralbasket-new.pages.dev
+#      - Authorization callback URL: https://uralbasket-new.pages.dev/
+#   2. Copy the Client ID and paste it below as `app_id`.
+#   3. Leave "Generate a new client secret" – PKCE needs no secret.
+#
+# LOCAL DEV:
+#   Run `npm run cms` in a second terminal, then open http://localhost:4321/admin/
+# ---------------------------------------------------------------------------
+
+backend:
+  name: github
+  repo: Svetzayats/uralbasket_new
+  branch: main
+  auth_type: pkce
+  app_id: YOUR_GITHUB_OAUTH_APP_CLIENT_ID # ← replace after creating OAuth App
+
+# Uncomment to use local proxy (run: npm run cms)
+# local_backend: true
+
+locale: ru
+
+media_folder: public/images/products
+public_folder: /images/products
+
+collections:
+  # ── Товары ──────────────────────────────────────────────────────────────
+  - name: products
+    label: Товары
+    label_singular: Товар
+    folder: src/content/products
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: Название
+        name: title
+        widget: string
+
+      - label: Категория
+        name: category
+        widget: select
+        options:
+          - { label: "Корзины", value: baskets }
+          - { label: "Торговое оборудование", value: trade }
+          - { label: "Интерьер и дизайн", value: design }
+          - { label: "Сундуки и короба", value: boxes }
+
+      - label: Описание
+        name: description
+        widget: text
+
+      - label: Цена (например «от 2 500 р.»)
+        name: price
+        widget: string
+        required: false
+
+      - label: Фотографии
+        name: images
+        widget: list
+        field:
+          label: Фото
+          name: image
+          widget: image
+
+      - label: Размеры
+        name: sizes
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - label: "Ширина (см)"
+            name: width
+            widget: number
+            required: false
+            value_type: int
+            min: 1
+          - label: "Высота (см)"
+            name: height
+            widget: number
+            required: false
+            value_type: int
+            min: 1
+          - label: "Глубина (см)"
+            name: depth
+            widget: number
+            required: false
+            value_type: int
+            min: 1
+
+      - label: В наличии
+        name: inStock
+        widget: boolean
+        default: true
+
+      - label: Показывать на главной
+        name: featured
+        widget: boolean
+        default: false
+
+      - label: Порядок сортировки
+        name: order
+        widget: number
+        default: 0
+        value_type: int
+
+      - label: Подробное описание (Markdown)
+        name: body
+        widget: markdown
+        required: false
+
+  # ── Блог ────────────────────────────────────────────────────────────────
+  - name: blog
+    label: Блог
+    label_singular: Статья
+    folder: src/content/blog
+    create: true
+    slug: "{{slug}}"
+    media_folder: /public/images/blog
+    public_folder: /images/blog
+    fields:
+      - label: Заголовок
+        name: title
+        widget: string
+
+      - label: Дата публикации
+        name: publishedAt
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DDTHH:mm:ss.SSSZ
+
+      - label: Категория
+        name: category
+        widget: select
+        options:
+          - { label: "Мастер-класс", value: master-class }
+          - { label: "Отзывы", value: reviews }
+          - { label: "Инструкции", value: how-to }
+          - { label: "Материалы", value: materials }
+
+      - label: Краткое описание
+        name: excerpt
+        widget: text
+
+      - label: Обложка
+        name: coverImage
+        widget: image
+
+      - label: Черновик
+        name: draft
+        widget: boolean
+        default: false
+
+      - label: Текст статьи
+        name: body
+        widget: markdown
+
+  # ── Страницы ─────────────────────────────────────────────────────────────
+  - name: pages
+    label: Страницы
+    label_singular: Страница
+    folder: src/content/pages
+    create: false
+    fields:
+      - label: Заголовок
+        name: title
+        widget: string
+
+      - label: Содержимое
+        name: body
+        widget: markdown
