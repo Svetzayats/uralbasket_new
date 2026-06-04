@@ -3,40 +3,49 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import ProductCard from '../components/ProductCard.astro';
 
+type PageMeta = { label: string; description: string; filterCats: string[] };
+
 export async function getStaticPaths() {
-  return [
-    { params: { category: 'baskets' } },
-    { params: { category: 'trade' } },
-    { params: { category: 'design' } },
-    { params: { category: 'boxes' } },
-  ];
+  const pages: Record<string, PageMeta> = {
+    baskets: {
+      label: 'Корзины',
+      description: 'Плетёные корзины ручной работы — подарочные, для хранения, для домашних животных и флористики.',
+      filterCats: ['baskets'],
+    },
+    display_equipment: {
+      label: 'Торговое оборудование',
+      description: 'Плетёные лотки, корзины и стеллажи для кафе, ресторанов, пекарен и магазинов.',
+      filterCats: ['display_equipment'],
+    },
+    design: {
+      label: 'Интерьер и дизайн',
+      description: 'Декоративные плетёные изделия для украшения интерьера дома и офиса.',
+      filterCats: ['design', 'home_and_garden'],
+    },
+    boxes: {
+      label: 'Сундуки и короба',
+      description: 'Декоративные плетёные сундуки и короба ручной работы.',
+      filterCats: ['boxes', 'chests'],
+    },
+    cribs: {
+      label: 'Детские колыбели',
+      description: 'Плетёные подвесные и напольные колыбели ручной работы.',
+      filterCats: ['cribs'],
+    },
+  };
+  return Object.entries(pages).map(([slug, meta]) => ({
+    params: { category: slug },
+    props: { meta },
+  }));
 }
 
-const categoryMeta: Record<string, { label: string; description: string }> = {
-  baskets: {
-    label: 'Корзины',
-    description: 'Плетёные корзины ручной работы — подарочные, для хранения, для домашних животных и флористики.',
-  },
-  trade: {
-    label: 'Торговое оборудование',
-    description: 'Плетёные лотки, корзины и стеллажи для кафе, ресторанов, пекарен и магазинов.',
-  },
-  design: {
-    label: 'Интерьер и дизайн',
-    description: 'Декоративные плетёные изделия для украшения интерьера дома и офиса.',
-  },
-  boxes: {
-    label: 'Сундуки и короба',
-    description: 'Декоративные плетёные сундуки, короба и люльки ручной работы.',
-  },
-};
-
+interface Props { meta: PageMeta }
+const { meta } = Astro.props;
 const { category } = Astro.params;
-const meta = categoryMeta[category!];
 
 const allProducts = await getCollection('products');
 const products = allProducts
-  .filter(p => p.data.category === category)
+  .filter(p => meta.filterCats.some(cat => p.data.categories.includes(cat as any)))
   .sort((a, b) => a.data.order - b.data.order);
 ---
 

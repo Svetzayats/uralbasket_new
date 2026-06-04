@@ -3,7 +3,7 @@ import { productSchema, blogSchema, pageSchema } from "../content/schemas";
 
 const validProduct = {
   title: "Подарочная корзина",
-  category: "baskets" as const,
+  categories: ["baskets"] as const,
   description: "Красивая плетёная корзина ручной работы.",
   images: ["/images/test.jpg"],
   inStock: true,
@@ -36,7 +36,7 @@ describe("productSchema", () => {
   it("applies defaults for inStock, featured, order", () => {
     const minimal = {
       title: "T",
-      category: "trade" as const,
+      categories: ["display_equipment"] as const,
       description: "D",
       images: ["/img.jpg"],
     };
@@ -58,8 +58,20 @@ describe("productSchema", () => {
 
   it("rejects an invalid category", () => {
     expect(() =>
-      productSchema.parse({ ...validProduct, category: "furniture" }),
+      productSchema.parse({ ...validProduct, categories: ["furniture"] }),
     ).toThrow();
+  });
+
+  it("rejects an empty categories array", () => {
+    expect(() =>
+      productSchema.parse({ ...validProduct, categories: [] }),
+    ).toThrow();
+  });
+
+  it("accepts multiple categories", () => {
+    expect(() =>
+      productSchema.parse({ ...validProduct, categories: ["baskets", "outdoor", "gift"] }),
+    ).not.toThrow();
   });
 
   it("accepts an empty images array", () => {

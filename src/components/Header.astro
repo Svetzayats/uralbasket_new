@@ -1,12 +1,13 @@
 ---
 const navLinks = [
-  { href: '/baskets', label: 'Корзины' },
-  { href: '/trade', label: 'Торговое оборудование' },
-  { href: '/design', label: 'Интерьер и дизайн' },
-  { href: '/boxes', label: 'Сундуки и короба' },
-  { href: '/delivery', label: 'Оплата и доставка' },
-  { href: '/about', label: 'О нас' },
-  { href: '/blog', label: 'Блог' },
+  { href: '/baskets',           label: 'Корзины' },
+  { href: '/boxes',             label: 'Сундуки и короба' },
+  { href: '/design',            label: 'Интерьер и дизайн' },
+  { href: '/cribs',             label: 'Детские колыбели' },
+  { href: '/display_equipment', label: 'Торговое оборудование' },
+  { href: '/delivery',          label: 'Оплата и доставка' },
+  { href: '/about',             label: 'О нас' },
+  { href: '/blog',              label: 'Блог' },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -59,13 +60,13 @@ const currentPath = Astro.url.pathname;
   }
 
   .nav {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 1.5rem;
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .logo {
@@ -79,8 +80,8 @@ const currentPath = Astro.url.pathname;
   .nav-links {
     display: flex;
     align-items: center;
-    gap: 0.25rem;
-    flex-wrap: wrap;
+    gap: 0;
+    flex-wrap: nowrap;
     margin-left: auto;
   }
 
@@ -89,7 +90,7 @@ const currentPath = Astro.url.pathname;
     font-weight: 500;
     letter-spacing: 0.03em;
     color: var(--color-primary);
-    padding: 0.4rem 0.6rem;
+    padding: 0.4rem 0.45rem;
     border-radius: 4px;
     transition: color 0.15s, background 0.15s;
     white-space: nowrap;

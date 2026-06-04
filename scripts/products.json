@@ -1,0 +1,3921 @@
+{
+  "products": [
+    {
+      "id": "sk002",
+      "sku": "СК002",
+      "name": "Круглая корзина Фрида",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6163-6133-4239-b930-366163613430/IMG_20190121_204930_.jpg"
+      ],
+      "description": "Очаровательная и удобная корзинка. Размеры : диаметр 26 см, высота 15 см. Материал : цельный ивовый прут. Без обшива",
+      "text": "Размеры : диаметр 26 см, высота 15 см. Материал : цельный ивовый прут.",
+      "price": 1990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 150
+      },
+      "seo": {
+        "title": "Круглая плетеная корзина с обшивом",
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b001",
+      "sku": "B001",
+      "name": "Плетеный короб Моряк",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3935-6232-4630-b033-613764666361/IMG_20190608_101035.jpg"
+      ],
+      "description": "Размеры : 37х31 см, высота 32 см",
+      "text": "Отличный вариант для ванной или гостиной: оплетенные канатные ручки смотрятся стильно, размер — универсальный! Размеры : 37х31 см, высота 32 см Материал : цельный ивовый прут, фанерное дно.",
+      "price": 2890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 370,
+        "width": 310,
+        "height": 320
+      },
+      "seo": {
+        "title": "Плетеный короб для вещей",
+        "description": "Корзина ручной работы из лозы для белья и вещей",
+        "keywords": null
+      }
+    },
+    {
+      "id": "ok001",
+      "sku": "OK001",
+      "name": "Большая овальная корзина Полли",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6535-6165-4362-a336-613365346333/IMG_20190121_204339_.jpg"
+      ],
+      "description": "Вместительная корзина с праздничным обшивом. Размеры : 44х27 см, высота 15 см Материал : цельный ивовый прут. С обшивом / Без обшива",
+      "text": "Вместительная корзина с праздничным обшивом. Размеры : 47х27 см, высота 15 см Материал : цельный ивовый прут.",
+      "price": 2600,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 470,
+        "width": 270,
+        "height": 150
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "sk001",
+      "sku": "СК001",
+      "name": "Плетеная круглая корзина Ариана",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6334-3761-4563-b666-363261626461/IMG_20190601_145709.jpg"
+      ],
+      "description": "Вместительная круглая корзина с роскошной плетеной косой. Идеально подойдет для рукоделия или в подарок. Размеры: диаметр низа 25 см, верх - 36 см, высота без ручки 21 см. Материал: цельный ивовый прут.",
+      "text": "Вместительная круглая корзина с роскошной плетеной косой. Идеально подойдет для рукоделия или в подарок. Размеры : диаметр низа 25 см, верх - 36 см, высота без ручки 21 см. Материал : цельный ивовый прут.",
+      "price": 2430,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ok002",
+      "sku": "OK002",
+      "name": "Корзина Виктория",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6236-6230-4436-b932-336338663461/2.jpg"
+      ],
+      "description": "Большая высокая корзина. Размеры: низ 23х31 см, верх 35х47 см, высота 28 см. Материал: цельный ивовый прут.",
+      "text": "Высокая овальная корзина, идеально подходящая для тех, кто собирает большой урожай или знает грибные места ;) Размеры : низ 23х31 см, верх 35х47 см, высота 28 см. Материал : цельный ивовый прут.",
+      "price": 2600,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 280
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ok003",
+      "sku": "OK003",
+      "name": "Корзина Чарли",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6336-3939-4462-a262-633461396162/2.jpg"
+      ],
+      "description": "Вместительная корзина среднего размера. Размеры: низ 31х23 см, верх 41х33 см, высота 18 см. Материал: цельный ивовый прут.",
+      "text": "Вместительная корзина среднего размера. Вы удивитесь, сколько сюда может поместиться грибов или яблок! Размеры : низ 31х23 см, верх 41х33 см, высота 18 см. Материал : цельный ивовый прут.",
+      "price": 2050,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 180
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ok004",
+      "sku": "OK004",
+      "name": "Корзина Дачная",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6566-6638-4532-b036-363531373933/2.jpg"
+      ],
+      "description": "Большая корзина для грибов или урожая. Размеры: дно 30х20 см. Верх 44х33 см. Высота 24 см. Материал: цельный ивовый прут.",
+      "text": "Большая корзина для грибов или урожая. Идеальна для походов в лес и поездок на дачу. Размеры : дно 30х20 см. Верх 44х33 см. Высота 24 см. Материал : цельный ивовый прут.",
+      "price": 2340,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 240
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p001",
+      "sku": "P001",
+      "name": "Корзина подарочная Лодка",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3064-6536-4865-b032-623633366563/photo.jpg"
+      ],
+      "description": "Идеальная корзина, чтобы наполнить её подарками для друзей, коллег и не только ;) Размеры: дно 20х30 см, высота без ручки 10-15 см. Материалы: цельный ивовый прут, фанерное дно.",
+      "text": "Идеальная корзина, чтобы наполнить её подарками для друзей, коллег и не только ;) Размеры : дно 20х30 см, высота без ручки 10-15 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 999,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ck004",
+      "sku": "CK004",
+      "name": "Домашняя корзина Бриджит",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3134-3161-4465-a631-633833303739/IMG_20190714_1303091.jpg"
+      ],
+      "description": "Бонбоньерка с крышкой для дома или дачи: вместительная и красивая. Размеры: диаметр низа 24 см, диаметр верха 28 см, высота 24 см. Материал : цельный ивовый прут.",
+      "text": "Бонбоньерка с крышкой для дома или дачи: вместительная и красивая. Размеры: диаметр низа 24 см, диаметр верха 28 см, высота 24 см. Материал : цельный ивовый прут.",
+      "price": 2950,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "kk001",
+      "sku": "КК001",
+      "name": "Корзина Шарлотта",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6439-3266-4463-a432-666236666631/photo532103736288252.jpg"
+      ],
+      "description": "Высокая корзина с круглой крышкой на ремешках. Размеры: диаметр дна 19 см, диаметр верха 25 см, высота 35 см. Материал: цельный ивовый прут.",
+      "text": "Высокая корзина с круглой крышкой на ремешках. Размеры: диаметр дна 19 см, диаметр верха 25 см, высота 35 см. Материал : цельный ивовый прут. Подойдет для прогулок, пикников и шоппинга. Одновременно вместительная и изящная. С такой корзиной вам гарантировано повышенное внимание окружающих ;)",
+      "price": 3550,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 350
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "s001",
+      "sku": "С001",
+      "name": "Плетеная сумка Джейн",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3263-6530-4162-b132-656130316430/photo533931635714724.jpg"
+      ],
+      "description": "Сумка-корзинка, подходящая для прогулок по городу. Размеры : диаметр 17-18 см, высота 26 см. Материал : цельный ивовый прут.",
+      "text": "Сумка-корзинка, подходящая для прогулок по городу. Размеры : диаметр 17-18 см, высота 26 см. Материал : цельный ивовый прут.",
+      "price": 3250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 260
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "s002",
+      "sku": "С002",
+      "name": "Плетеная сумка Мечтательница",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3661-3531-4733-b536-353766653939/photo542713266293556.jpg"
+      ],
+      "description": "Хотите сумку-корзинку как у Джейн Биркин? Мечта ближе, чем кажется ;) Высота корзинки 25 см, в качестве ручки - тесьма (цвет на ваш выбор + вы сами легко сможете менять ремешки, покажем как)",
+      "text": "Хотите сумку-корзинку как у Джейн Биркин? Мечта ближе, чем кажется ;) Высота корзинки 25 см, в качестве ручки - тесьма (цвет на ваш выбор + вы сами легко сможете менять ремешки, покажем как)",
+      "price": 2590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 250
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h003",
+      "sku": "H003",
+      "name": "Винная корзина Эмилия",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3662-3139-4637-b932-373732393362/IMG-20190629-WA0006.jpg"
+      ],
+      "description": "Плетеная корзина с внутренними стенками-разделителями. Красиво и удобно! Размеры : 44х25 см, высота 20 см (без ручки). Материал : цельный ивовый прут, фанера.",
+      "text": "Настоящий плетеный мини-бар: дома будет украшать кухню или гостиную, а в поездке сохранит бутылки в целости и позволит удобно переносить. Оригинальный вариант подарка. Размеры : 44х25 см, высота 20 см (без ручки). Материал : цельный ивовый прут, фанера.",
+      "price": 3185,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 440,
+        "width": 250,
+        "height": 200
+      },
+      "seo": {
+        "title": "Плетеная винная корзина",
+        "description": "Плетеный мини-бар для дома и для пикников. Отличный подарок. Ручная работа.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "sk005",
+      "sku": "СК005",
+      "name": "Корзина Малышка",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3539-3135-4931-b833-336263383133/1.jpg"
+      ],
+      "description": "Миниатюрная и милая корзина с прямоугольным верхом и овальным дном. Размеры: верх 23х32 см, дно 15х20 см, высота 18 см. Материал: цельный ивовый прут.",
+      "text": "Миниатюрная и милая корзина с прямоугольным верхом и овальным дном. Размеры : верх 23х32 см, дно 15х20 см, высота 18 см. Материал : цельный ивовый прут. Идеально подойдет для ребенка, чтобы собирать грибы или ягоды. Может стать удобной корзинкой для ежедневных покупок для девушки.",
+      "price": 1450,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 180
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ok006",
+      "sku": "OK006",
+      "name": "Средняя корзина Кубышка",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6633-3663-4136-b836-346161353761/IMG_20190609_093530.jpg"
+      ],
+      "description": "Идеальный вариант для дачи! Крепкая, вместительная корзина со вставками неокоренной лозы и шикарной загибкой в виде косы. Размеры : диаметр низа 27 см, высота без ручки 20 см. Материал : цельный ивовый прут.",
+      "text": "Идеальный вариант для дачи! Крепкая, вместительная корзина со вставками неокоренной лозы и шикарной загибкой в виде косы. Размеры : диаметр низа 27 см, высота без ручки 20 см. Материал : цельный ивовый прут.",
+      "price": 1890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "0100",
+      "sku": "0100",
+      "name": "Семейный набор корзин",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3861-3165-4631-a266-343565353933/photo547415320468295.jpg"
+      ],
+      "description": "4 корзины: от очень большой для папы до миниатюрной для малыша. Цена комплекта выгоднее, чем приобретать корзины по отдельности.",
+      "text": null,
+      "price": 9700,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ok005",
+      "sku": "OK005",
+      "name": "Городская корзина Венецианка",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6134-6137-4666-b537-306665303930/photo535063505196611.jpg"
+      ],
+      "description": "Овальная корзина с прямыми стенками, в которую поместятся все покупки и ничего не помнётся! Удобная и красивая Размеры : 24х38 см, высота 24-30 см (без ручки).",
+      "text": "Размеры: 24х38 см, высота 24-30 см (без ручки). Это идеальная корзина для города, потому что: во-первых, с ней можно пойти в парк на пикник. Пара бутылок лимонада, фрукты, бутерброды, плед, книга - поместится всё. Плюс - стильные фото. Во-вторых, с ней удобно ходить в магазины: вам не нужны будут пластиковые пакеты и ни одна покупка не помнётся. В-третьих, она просто красивая и отлично будет смотреться в любом интерьере.",
+      "price": 2700,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 240,
+        "width": 380,
+        "height": 300
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "0900",
+      "sku": "0900",
+      "name": "Колыбель подвесная Колыбель с капюшоном",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3139-3764-4737-b932-323532656361/craddle-mini.jpg"
+      ],
+      "description": "Размеры : 80х40 см, высота без капюшона 30 см Материал : цельный ивовый прут.",
+      "text": "Размеры : 80х40 см, высота без капюшона 30 см Материал : цельный ивовый прут.",
+      "price": 8890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 800,
+        "width": 400,
+        "height": 300
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "0901",
+      "sku": "0901",
+      "name": "Люлька подвесная Люлька с косой",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3332-6536-4666-b839-366363663632/IMG_20180326_232258_.jpg"
+      ],
+      "description": "Размеры : дно 80х40 см, высота 30 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : дно 80х40 см, высота 30 см. Материал : цельный ивовый прут.",
+      "price": 6850,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 800,
+        "width": 400,
+        "height": 300
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "0902",
+      "sku": "0902",
+      "name": "Колыбель подвесная Парнас",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6264-3566-4639-b735-363363663038/2.jpg"
+      ],
+      "description": "Размеры : 90х60 см, высота 30 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : 90х60 см, высота 30 см. Материал : цельный ивовый прут.",
+      "price": 7390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 900,
+        "width": null,
+        "height": 300
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "0903",
+      "sku": "0903",
+      "name": "Люлька напольная Геркулес",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3061-3163-4435-b063-333636343036/noroot.jpg"
+      ],
+      "description": "Размеры : длина окружности эллипса в верхней части 85*65 см, в нижней части 75*60 см, высота 20 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : длина окружности эллипса в верхней части 85*65 см, в нижней части 75*60 см, высота 20 см. Материал : цельный ивовый прут.",
+      "price": 8990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "0904",
+      "sku": "0904",
+      "name": "Колыбель подвесная Шармант",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6666-3038-4134-b033-363136303662/IMG_20190609_092519-.jpg"
+      ],
+      "description": "Размеры : дно 80х40 см, высота 30 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : дно 80х40 см, высота 30 см. Материал : цельный ивовый прут.",
+      "price": 5500,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "uiexiadr27xijhky8jc9",
+      "sku": null,
+      "name": "Система крепления для колыбели",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6430-6232-4337-a535-306462383538/photo_2020-10-08_21-.jpg"
+      ],
+      "description": "Система крепления : ремни, 2 карабина, пружина, страховочный трос, чехол.",
+      "text": "Система крепления : ремни, 2 карабина, пружина, страховочный трос, чехол.",
+      "price": null,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "apiza5ydtcgn1yksjvlv",
+      "sku": null,
+      "name": "Полный комплект для стандартной люльки",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3233-3662-4765-b133-396661396637/photo_2020-10-08_21-.jpg"
+      ],
+      "description": "Система крепления + белье. В комплект белья входит : бортики, ортопедический матрас (кокосовая койра), плед, комплект простыней на резинке, непромокаемый махровый наматрасник. Система крепления : ремни, 2 карабина, пружина, страховочный трос, чехол.",
+      "text": "Система крепления + белье. В комплект белья входит : бортики, ортопедический матрас (кокосовая койра), плед, комплект простыней на резинке, непромокаемый махровый наматрасник. Система крепления : ремни, 2 карабина, пружина, страховочный трос, чехол.",
+      "price": 6900,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "i001",
+      "sku": "И001",
+      "name": "Корзина для кухни Муза",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6534-3862-4434-b437-316232386132/IMG_20180326_233142.jpg"
+      ],
+      "description": "Размеры : диаметр 51 см, высота 34 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : диаметр 51 см, высота 34 см. Материал : цельный ивовый прут.",
+      "price": 4995,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 340
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "i002",
+      "sku": "И002",
+      "name": "Корзина настольная Грация",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3333-6533-4634-a462-366236396439/photo.jpg"
+      ],
+      "description": "Размеры: диаметр 44 см, высота 20 см. Материал : цельный ивовый прут.",
+      "text": "Размеры: диаметр 44 см, высота 20 см. Материал : цельный ивовый прут.",
+      "price": 2835,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 200
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "i003",
+      "sku": "И003",
+      "name": "Корзинка настольная Амур",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3864-6431-4564-a132-326537333635/photo.jpg"
+      ],
+      "description": "Размер : диаметр 37 см, высота 18 см Материал : цельный ивовый прут.",
+      "text": "Размер : диаметр 37 см, высота 18 см Материал : цельный ивовый прут.",
+      "price": 2430,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 180
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "i004",
+      "sku": "И004",
+      "name": "Корзины для стеллажа 4 шт.",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3662-3336-4962-a634-353138633965/noroot.jpg"
+      ],
+      "description": "Размеры : боковые стороны - 36 см, высота 12 см и 20 см. Материал : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : боковые стороны - 36 см, высота 12 см и 20 см. Материал : цельный ивовый прут, фанерное дно.",
+      "price": 4690,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "i005",
+      "sku": "И005",
+      "name": "Плетеный мини-бар Винный велосипед",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3965-6430-4336-a565-653937653363/IMG20170809WA0000.jpg"
+      ],
+      "description": "Необычный вариант мини-бара: велосипед с корзинкой и прицепом для хранения бутылок. Яркое решение для дизайна интерьера, а также отличный подарок к юбилею или свадьбе. Размеры: высота 27 см . Цена одного велосипеда: 2 750 руб. Цена велосипеда + прицеп: #nbsp;4 090 руб.",
+      "text": "Необычный вариант мини-бара: велосипед с корзинкой и прицепом для хранения бутылок. Яркое решение для дизайна интерьера, а также отличный подарок к юбилею или свадьбе. Размеры: высота 27 см . Цена одного велосипеда: 2 750 руб. Цена велосипеда + прицеп: 4 090 руб.",
+      "price": 4190,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "i006",
+      "sku": "И006",
+      "name": "Плетеная шкатулка Фландрия",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6536-3530-4534-b236-363734363632/IMG20170821WA0005.jpg"
+      ],
+      "description": "",
+      "text": null,
+      "price": 2350,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h008",
+      "sku": "H008",
+      "name": "Винная полка Майорка",
+      "categories": [
+        "display_equipment",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3938-6564-4132-a233-316564373630/4.jpg"
+      ],
+      "description": "Размеры : ширина 50 см, высота 85 см.",
+      "text": "Размеры : ширина 50 см, высота 85 см.",
+      "price": 6590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": 500,
+        "height": 850
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h009",
+      "sku": "H009",
+      "name": "Винная полка Швейцария",
+      "categories": [
+        "display_equipment",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6239-6565-4166-a336-356139386162/1000.jpg"
+      ],
+      "description": "Размеры: ширина 1 м, глубина 20 см. Ваза, винные корзинки заказываются отдельно.",
+      "text": "Размеры: ширина 1 м, глубина 20 см. Ваза, винные корзинки заказываются отдельно.",
+      "price": 5500,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h010",
+      "sku": "H010",
+      "name": "Плетеный комод Дворянский",
+      "categories": [
+        "chests",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6537-6564-4238-b563-306636653235/1000.jpg"
+      ],
+      "description": "Размеры : 1,20 м х 0,45 м, высота 1,3 м. Плетеные ящики, верх - полотно из ленты.",
+      "text": "Размеры : 1,20 м х 0,45 м, высота 1,3 м. Плетеные ящики, верх - полотно из ленты.",
+      "price": 27500,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 1200,
+        "width": 450,
+        "height": 1300
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n011",
+      "sku": "Н011",
+      "name": "Плетеная ваза",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3638-6134-4466-b339-623237346564/noroot.JPG"
+      ],
+      "description": "Размеры : высота 25 см, диаметр 30 см.",
+      "text": "Размеры : высота 25 см, диаметр 30 см.",
+      "price": 2750,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": 250
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h006",
+      "sku": "H006",
+      "name": "Винная полка Италия",
+      "categories": [
+        "display_equipment",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6561-3163-4438-b133-323831336532/1.jpg"
+      ],
+      "description": "Настенная винная полка с креплениями. Размеры: ширина 50 см, высота 85 см.",
+      "text": "Настенная винная полка с креплениями. Размеры: ширина 50 см, высота 85 см.",
+      "price": 6500,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": null,
+        "width": 500,
+        "height": 850
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h007",
+      "sku": "H007",
+      "name": "Винная полка Классика",
+      "categories": [
+        "display_equipment",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3834-6436-4434-a464-616362336135/2.jpg"
+      ],
+      "description": "Размеры : ширина 1,5 м, высота 30 см, глубина 40 см.",
+      "text": "Размеры : ширина 1,5 м, высота 30 см, глубина 40 см.",
+      "price": 11500,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 1500,
+        "width": 400,
+        "height": 300
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t001",
+      "sku": "T001",
+      "name": "Багетница «Колизей»",
+      "categories": [
+        "display_equipment",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3535-3032-4533-b365-373465313735/photo_2018-04-03_22-.jpg"
+      ],
+      "description": "Материал : цельный ивовый прут, покрытие лаком. Размер : диаметр 32 см, высота 40 см.",
+      "text": "Материал : цельный ивовый прут, покрытие лаком. Размер : диаметр 32 см, высота 40 см.",
+      "price": 3090,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 320,
+        "width": 320,
+        "height": 400
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "01nev0zp5sdljzl9rhht",
+      "sku": null,
+      "name": "Корзинка интерьерная Алиса",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3036-6333-4365-b862-633031353162/-.jpg"
+      ],
+      "description": "Размеры : 12х35 см, высота 12 см. Материал : цельный ивовый прут, фанерное дно. Возможно изготовление на плетеном дне (вторая цена).",
+      "text": "Размеры : 12х35 см, высота 12 см. Материал : цельный ивовый прут, фанерное дно. Возможно изготовление на плетеном дне (вторая цена).",
+      "price": null,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 120,
+        "width": 350,
+        "height": 120
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "hjhbzhpdtuzlojx5bczs",
+      "sku": null,
+      "name": "Корзинка интерьерная Алиса - Да",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "pdduh4srnfxhn24nvzhz",
+      "sku": null,
+      "name": "Корзинка интерьерная Алиса - Да",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 1690,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "zh001",
+      "sku": "Ж001",
+      "name": "Плетеная клетка",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3033-3936-4635-a236-393464623837/ZiTksNH1cuE.jpg"
+      ],
+      "description": "Большая плетеная клетка с дверцей. Отлично подойдет для фотосессий или декора дома. Размеры : диаметр дна 60 см, высота 60 см. Материал : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "text": "Большая плетеная клетка с дверцей. Отлично подойдет для фотосессий или декора дома. Размеры : диаметр дна 60 см, высота 60 см. Материал : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "price": 4690,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n012",
+      "sku": "Н012",
+      "name": "Плетеная клумба",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3663-3362-4234-a438-376539663332/noroot.JPG"
+      ],
+      "description": "Диаметр : 50 см. Материал : цельный неочищенный ивовый прут.",
+      "text": "Диаметр : 50 см. Материал : цельный неочищенный ивовый прут.",
+      "price": 1390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n013",
+      "sku": "Н013",
+      "name": "Клумба цветочная",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6232-3535-4735-b962-393061626434/f13011653d1640babb2ef7393e670a8e.jpg"
+      ],
+      "description": "Диаметр : 50 см. Материал : цельный неочищенный ивовый прут.",
+      "text": "Диаметр : 50 см. Материал : цельный неочищенный ивовый прут.",
+      "price": 1390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n014",
+      "sku": "Н014",
+      "name": "Плетень Ограда",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6130-3632-4439-a266-613165376661/noroot.JPG"
+      ],
+      "description": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 35 см, длина 1,5 м. Цена указана за стандартную секцию.",
+      "text": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 35 см, длина 1,5 м. Цена указана за стандартную секцию.",
+      "price": 1190,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n015",
+      "sku": "Н015",
+      "name": "Плетень Весенний",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3233-3830-4336-b534-376335333035/1.JPG"
+      ],
+      "description": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 40 см, длина 1,5 м. Цена указана за стандартную секцию.",
+      "text": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 40 см, длина 1,5 м. Цена указана за стандартную секцию.",
+      "price": 1490,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n016",
+      "sku": "Н016",
+      "name": "Плетень Французский",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6263-3231-4334-b534-353037383465/noroot.JPG"
+      ],
+      "description": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 35 см, длина 1,5 м. Цена указана за стандартную секцию.",
+      "text": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 35 см, длина 1,5 м. Цена указана за стандартную секцию.",
+      "price": 1290,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n017",
+      "sku": "Н017",
+      "name": "Плетень Ажурный",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6461-3563-4563-a636-363331646230/noroot.JPG"
+      ],
+      "description": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 1,4 м, длина 1,5 м. Цена указана за стандартную секцию.",
+      "text": "Плетень делается по вашим размерам, в зависимости от вашего участка. Вы можете заказать нужную высоту, длину и оформление. Размер стандартной секции : высота 1,4 м, длина 1,5 м. Цена указана за стандартную секцию.",
+      "price": 4990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "d001",
+      "sku": "D001",
+      "name": "Арка",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3638-3764-4030-b865-393662616665/noroot.JPG"
+      ],
+      "description": "Арка делается по вашим размерам, в зависимости от вашего участка. Размер арки на фото : высота 2,2 м, ширина полотна 0,5 м, проем 1,2 м.",
+      "text": "Арка делается по вашим размерам, в зависимости от вашего участка. Размер арки на фото : высота 2,2 м, ширина полотна 0,5 м, проем 1,2 м.",
+      "price": 8390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "d002",
+      "sku": "D002",
+      "name": "Калитка в плетне",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3130-3536-4566-b833-323462363633/2.jpg"
+      ],
+      "description": "Калитка является частью плетеного забора. Размеры: ширина 35 см, высота 45 см.",
+      "text": "Калитка является частью плетеного забора. Размеры: ширина 35 см, высота 45 см.",
+      "price": 590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "d003",
+      "sku": "D003",
+      "name": "Плетеная тачка",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3939-3862-4330-b135-663061383834/noroot.jpg"
+      ],
+      "description": "Необычный элемент оформления участка или даже мобильной клумбы.",
+      "text": "Необычный элемент оформления участка или даже мобильной клумбы.",
+      "price": 6790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "517072475283",
+      "sku": null,
+      "name": "Плетеное дерево",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6265-6232-4636-b037-313639633564/noroot.jpg"
+      ],
+      "description": "Размеры: высота от 70 см до 160 см. За деревом необходимо ухаживать, поливать. Верх дерева зеленеет, оно постепенно разрастается. Оригинальное украшение для сада, террасы или балкона.",
+      "text": "Размеры: высота от 70 см до 160 см. За деревом необходимо ухаживать, поливать. Верх дерева зеленеет, оно постепенно разрастается. Оригинальное украшение для сада, террасы или балкона.",
+      "price": 1600,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "n018",
+      "sku": "Н018",
+      "name": "Плетеный самовар",
+      "categories": [
+        "display_equipment",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6632-6261-4433-a664-633466626265/1000.jpg"
+      ],
+      "description": "Фигурное плетение Размеры : высота 50 см. Материал : цельный ивовый прут, дерево.",
+      "text": "Фигурное плетение Размеры : высота 50 см. Материал : цельный ивовый прут, дерево.",
+      "price": 7190,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "cz92uyznsfmbfhvfunky",
+      "sku": null,
+      "name": "Плетеные сани",
+      "categories": [
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6630-3637-4562-a362-383831363833/750.jpg"
+      ],
+      "description": "Фигурное плетение Материал : цельный ивовый прут.",
+      "text": "Материал : цельный ивовый прут.",
+      "price": 10600,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b010",
+      "sku": "B010",
+      "name": "Плетеный сундук Бали",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3564-3763-4132-b933-326533616334/noroot.jpg"
+      ],
+      "description": "Размеры сундука : ширина 60 см, глубина 40 см, высота 50 см.",
+      "text": "Размеры сундука : ширина 60 см, глубина 40 см, высота 50 см. Материалы : цельный ивовый прут, фанерное дно, полотно из ленты.",
+      "price": 7790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "130491235210",
+      "sku": null,
+      "name": "Интерьерный плетёный щиток",
+      "categories": [
+        "display_equipment",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3165-3062-4737-a136-326165373833/noroot.JPG"
+      ],
+      "description": "Размеры : 40х50 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : 40х50 см. Материал : цельный ивовый прут.",
+      "price": 1020,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t001",
+      "sku": "T001",
+      "name": "Ширма для ресторана",
+      "categories": [
+        "display_equipment",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6132-3266-4235-b566-393664386436/2.jpg"
+      ],
+      "description": "Размеры: 1,2 м х 1,5 м. Материал : цельный ивовый прут.",
+      "text": "Размеры: 1,2 м х 1,5 м. Материал : цельный ивовый прут.",
+      "price": 8250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t002",
+      "sku": "T002",
+      "name": "Щиток в деревянной раме",
+      "categories": [
+        "display_equipment",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3562-6466-4535-a662-653030633033/noroot.JPG"
+      ],
+      "description": "Размеры: 1 м х 1,5 м. Материал : цельный ивовый прут, дерево.",
+      "text": "Размеры: 1 м х 1,5 м. Материал : цельный ивовый прут, дерево.",
+      "price": 7790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t003",
+      "sku": "T003",
+      "name": "Наклонный короб Локки",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6138-3731-4432-b336-376362333830/2.jpg"
+      ],
+      "description": "Размеры : 40х35, высота 12-15 см. Материал : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "text": "Размеры : 40х35, высота 12-15 см. Материал : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "price": 1690,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t004",
+      "sku": "T004",
+      "name": "Прямоугольный короб с ручками",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3136-6563-4636-b334-633533346337/noroot.jpg"
+      ],
+      "description": "Размеры: 60х45 см, высота без ручек 15 см, высота с ручками 23 см. Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "text": "Размеры: 60х45 см, высота без ручек 15 см, высота с ручками 23 см. Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "price": 2190,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t005",
+      "sku": "T005",
+      "name": "Поднос с ручкой",
+      "categories": [
+        "display_equipment",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3633-6335-4333-b663-333866393238/noroot.jpg"
+      ],
+      "description": "Размеры : 40х50 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : 40х50 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "clya5m8g7hmpdaxyo6yc",
+      "sku": null,
+      "name": "Багетницы разных размеров",
+      "categories": [
+        "display_equipment",
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6263-3134-4538-a431-356361393139/noroot.jpg"
+      ],
+      "description": "Размеры : Ширина 30 см. Глубина 45 см. Высоты: 55 см, 75 см, 95 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : Ширина 30 см. Глубина 45 см. Высоты: 55 см, 75 см, 95 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": null,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t006",
+      "sku": "T006",
+      "name": "Багетницы разных размеров - 55 см",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 3390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t007",
+      "sku": "T007",
+      "name": "Багетницы разных размеров - 75 см",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 4590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t008",
+      "sku": "T008",
+      "name": "Багетницы разных размеров - 95 см",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 5490,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t009",
+      "sku": "T009",
+      "name": "Длинный узкий короб",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3530-3033-4262-a363-303038633730/noroot.jpg"
+      ],
+      "description": "Размеры: 70х20 см, высота 5 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры: 70х20 см, высота 5 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 1290,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t010",
+      "sku": "T010",
+      "name": "Лоток для приборов",
+      "categories": [
+        "display_equipment",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6239-3232-4430-b062-393634613837/2.jpg"
+      ],
+      "description": "Размеры : 25х10 см,высота 5 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : 25х10 см,высота 5 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t011",
+      "sku": "T011",
+      "name": "Круглый поднос",
+      "categories": [
+        "display_equipment"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6234-6332-4037-a536-633635373365/noroot.jpg"
+      ],
+      "description": "Размеры : диаметр 45 см. Материал : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : диаметр 45 см. Материал : цельный ивовый прут, фанерное дно.",
+      "price": 1250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t012",
+      "sku": "T012",
+      "name": "Короб с разделителями",
+      "categories": [
+        "display_equipment",
+        "chests",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3531-6162-4166-b638-623632643264/2.jpg"
+      ],
+      "description": "Размеры: 60х35 см, высота 15 см. Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "text": "Размеры: 60х35 см, высота 15 см. Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "price": 2250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t013",
+      "sku": "T013",
+      "name": "Наклонный короб Дюшес",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3763-6639-4338-a236-633666323430/2.jpg"
+      ],
+      "description": "Размеры : 70х40 см, высота 10-15 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : 70х40 см, высота 10-15 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 2450,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "1ikexlpbvye96vejnd3d",
+      "sku": null,
+      "name": "Квадратный короб с ручками",
+      "categories": [
+        "display_equipment",
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3439-6662-4463-b164-386137666432/1384013583215.jpg"
+      ],
+      "description": "Размеры : 40х45 см, высота 15 см",
+      "text": "Размеры : 40х45 см, высота 15 см Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "price": null,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t015",
+      "sku": "T015",
+      "name": "Квадратный короб с ручками - Фанерное",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 1750,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t016",
+      "sku": "T016",
+      "name": "Квадратный короб с ручками - Плетеное",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 2050,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b002",
+      "sku": "B002",
+      "name": "Ажурный короб",
+      "categories": [
+        "display_equipment",
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3866-3166-4564-a364-656561336139/2.jpg"
+      ],
+      "description": "Размеры: дно 60х40 см, высота 17 см.",
+      "text": "Размеры: дно 60х40 см, высота 17 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 2390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b011",
+      "sku": "B011",
+      "name": "Прямоугольный низкий короб",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3538-6535-4437-a236-646461353362/noroot.jpg"
+      ],
+      "description": "Размеры : 40х30 см, высота 8 см.",
+      "text": "Размеры : 40х30 см, высота 8 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "an7hmf8kkv1gz58mjxrh",
+      "sku": null,
+      "name": "Квадратный короб",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3831-6535-4631-b034-363262613262/2.jpg"
+      ],
+      "description": "Размеры : 40х45 см, высота 13 см. Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "text": "Размеры : 40х45 см, высота 13 см. Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "price": null,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t016",
+      "sku": "T016",
+      "name": "Квадратный короб",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 1450,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t017",
+      "sku": "T017",
+      "name": "Квадратный короб",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 1790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t016",
+      "sku": "T016",
+      "name": "Круглый маленький короб",
+      "categories": [
+        "display_equipment",
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3838-6337-4336-a332-376465626464/mini.jpg"
+      ],
+      "description": "Размеры : диаметр 20 см, высота 10 см.",
+      "text": "Размеры : диаметр 20 см, высота 10 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 550,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t017",
+      "sku": "T017",
+      "name": "Прямоугольный высокий короб",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3832-3861-4131-a265-653061373936/400.jpg"
+      ],
+      "description": "Размеры : 60х40 см, высота 20 см",
+      "text": "Размеры : 60х40 см, высота 20 см Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 2690,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t018",
+      "sku": "T018",
+      "name": "Короб под картошку",
+      "categories": [
+        "display_equipment",
+        "chests",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6432-3838-4537-b835-623663616666/noroot.jpg"
+      ],
+      "description": "Размеры : 80х50 см, высота 70-85 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : 80х50 см, высота 70-85 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 10900,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t019",
+      "sku": "T019",
+      "name": "Полка для выпечки",
+      "categories": [
+        "display_equipment"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6163-3064-4339-b933-623335653038/noroot.jpg"
+      ],
+      "description": "Размеры : 70х30 см. Материалы : цельный ивовый прут, полотно для оформления, брус.",
+      "text": "Размеры : 70х30 см. Материалы : цельный ивовый прут, полотно для оформления, брус.",
+      "price": 5900,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t021",
+      "sku": "T021",
+      "name": "Лоток наклонный Булочка",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3431-3233-4030-a131-366632333532/400.JPG"
+      ],
+      "description": "Размеры : дно 45х35 см, высота 5-10 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : дно 45х35 см, высота 5-10 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 950,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t022",
+      "sku": "T022",
+      "name": "Накопитель низкий",
+      "categories": [
+        "display_equipment",
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3538-3531-4037-a539-646465656331/400.JPG"
+      ],
+      "description": "Размеры : даметр дна 25 см, диаметр верха 45 см, высота 20 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : даметр дна 25 см, диаметр верха 45 см, высота 20 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 1250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h004",
+      "sku": "H004",
+      "name": "Винная корзинка",
+      "categories": [
+        "display_equipment",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3233-3665-4364-a531-646630386538/2.jpg"
+      ],
+      "description": "Размеры : 27х15 см, высота 10 см, высота с ручкой 28 см. Материалы : цельный ивовый прут.",
+      "text": "Размеры : 27х15 см, высота 10 см, высота с ручкой 28 см. Материалы : цельный ивовый прут.",
+      "price": 890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h005",
+      "sku": "H005",
+      "name": "Винная корзинка Шампань",
+      "categories": [
+        "display_equipment",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3535-3164-4335-b730-346431376636/noroot.jpg"
+      ],
+      "description": "Размеры : 27х15, высота 9-14, высота с ручкой 28 см. Материалы : цельный ивовый прут.",
+      "text": "Размеры : 27х15, высота 9-14, высота с ручкой 28 см. Материалы : цельный ивовый прут.",
+      "price": 950,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t023",
+      "sku": "T023",
+      "name": "Овальная корзина для выкладки",
+      "categories": [
+        "display_equipment",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6331-3665-4839-b436-356433316663/2.jpg"
+      ],
+      "description": "Размеры : 42х25 см, высота 15 см. Материалы : цельный ивовый прут.",
+      "text": "Размеры : 42х25 см, высота 15 см. Материалы : цельный ивовый прут.",
+      "price": 1500,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "oa5gnosvybx1jlaz6ybo",
+      "sku": null,
+      "name": "Плетеный короб Ноктюрн",
+      "categories": [
+        "chests",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3436-6531-4336-b035-373166656338/100_2067.JPG"
+      ],
+      "description": "Размеры : 50*35 см, высота 25 см",
+      "text": "Темный сундук с плетеной крышкой и колечками. Размеры : 50*35 см, высота 25 см Материал : цельный ивовый прут. Фанерное или плетеное дно.",
+      "price": null,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "2nkeovfh94aoxp1g5lhb",
+      "sku": null,
+      "name": "Плетеный короб Ноктюрн - Фанерное",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 3850,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ol6grtlzmozeipsb106m",
+      "sku": null,
+      "name": "Плетеный короб Ноктюрн - Плетеное",
+      "categories": [
+        "baskets"
+      ],
+      "images": [],
+      "description": "",
+      "text": null,
+      "price": 4950,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b015",
+      "sku": "B015",
+      "name": "Плетеный короб Триест",
+      "categories": [
+        "chests",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3531-6561-4935-b833-633032336434/2.JPG"
+      ],
+      "description": "Размеры: длинная сторона 55 см, высота 75 см.",
+      "text": "Размеры: длинная сторона 55 см, высота 75 см. Материалы : цельный ивовый прут, фанерное дно, плетеное полотно из ленты.",
+      "price": 7950,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": {
+        "length": 550,
+        "width": null,
+        "height": 750
+      },
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b016",
+      "sku": "B016",
+      "name": "Плетеный сундук Фиренце",
+      "categories": [
+        "chests",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3834-6265-4339-b561-643938343439/1.JPG"
+      ],
+      "description": "Размеры сундука: 70х60 см, высота 50 см.",
+      "text": "Размеры сундука: 70х60 см, высота 50 см. Материалы : цельный ивовый прут, фанерное дно, полотно из ленты на крышке.",
+      "price": 11190,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b017",
+      "sku": "B017",
+      "name": "Плетеный короб Виноград",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6238-6664-4264-b066-313931643538/1.JPG"
+      ],
+      "description": "Размеры : ширина 43 см, глубина 33 см, высота 35 см.",
+      "text": "Размеры : ширина 43 см, глубина 33 см, высота 35 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 3590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b018",
+      "sku": "B018",
+      "name": "Плетеный сундук Тумба",
+      "categories": [
+        "chests",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6233-3438-4661-a266-663233666265/noroot.JPG"
+      ],
+      "description": "Размеры: ширина 50 см, глубина 40 см, высота 80 см.",
+      "text": "Размеры: ширина 50 см, глубина 40 см, высота 80 см. Материалы : цельный ивовый прут, фанерное дно, полотно из ленты на крышке.",
+      "price": 10900,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b019",
+      "sku": "B019",
+      "name": "Плетеный короб Кратер",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3235-3634-4336-b535-366137306462/2.jpg"
+      ],
+      "description": "Размеры: ширина 43 см, глубина 33 см, высота 35 см.",
+      "text": "Размеры: ширина 43 см, глубина 33 см, высота 35 см. Материалы : цельный ивовый прут, плетеное дно.",
+      "price": 4290,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b020",
+      "sku": "B020",
+      "name": "Плетеный сундук Берта",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3464-3965-4635-b136-666662393336/1.jpeg"
+      ],
+      "description": "Размеры сундука : ширина 50 см, глубина 40 см, высота 80 см.",
+      "text": "Размеры сундука : ширина 50 см, глубина 40 см, высота 80 см. Материалы : цельный ивовый прут, фанерное дно, крышка из ивовой ленты.",
+      "price": 12390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b021",
+      "sku": "B021",
+      "name": "Плетеный сундук Гранд",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6538-3063-4531-b734-373237303130/2.jpg"
+      ],
+      "description": "Размеры сундука: ширина 70 см, глубина 40 см, высота 35 см.",
+      "text": "Размеры сундука: ширина 70 см, глубина 40 см, высота 35 см. Материалы : цельный ивовый прут, фанерное дно, полотно из ленты на крышке.",
+      "price": 7690,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p001",
+      "sku": "П001",
+      "name": "Корзина для кота Феличита",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6236-3961-4964-b131-376135653936/1.jpg"
+      ],
+      "description": "Лежанка для кота из полностью натуральных материалов, сделанная вручную. Подойдет для крупных кошек. Размеры: дно: 32х46 см, верх 63х34 см. Высота 9 — 20 см. Материал: фанерное дно, ивовый прут.",
+      "text": "Размеры : дно: 32х46 см, верх 63х34 см. Высота 9 — 20 см. Материал : фанерное дно, ивовый прут.",
+      "price": 1790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p003",
+      "sku": "П003",
+      "name": "Корзина для собаки Трезор",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6632-3662-4532-b663-636264323935/IMG_20180326_232918.jpg"
+      ],
+      "description": "Плетеная лежанка для собаки — из натуральных материалов, ручная работа. Уютная и удобная корзина. Делается на заказ. Размеры: 80х50 см, высота 10-20 см. Материалы: цельный ивовый прут, фанерное дно. Подстилка в комплект не входит.",
+      "text": "Размеры : 80х50 см, высота 10-20 см. Материалы : цельный ивовый прут, фанерное дно. Подстилка в комплект не входит.",
+      "price": 4730,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p002",
+      "sku": "П002",
+      "name": "Кошачий дом",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6330-6437-4033-b966-623231653536/IMG-20190924-WA0026.jpg"
+      ],
+      "description": "Плетеный двухэтажный дом для кота или кошки",
+      "text": "Возможна конструкция с 3 этажами: еще один посередине, с окнами и входом. Размеры : высота 80 см. Материал : фанерное дно, ивовый прут.",
+      "price": 10500,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "h001",
+      "sku": "H001",
+      "name": "Аннет",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3066-3834-4563-b061-653338623737/_3.jpg"
+      ],
+      "description": "Маленькая корзина для хранения вещей Размеры: дно 26х16 см, верх 32х23 см, высота 9 см. Материалы: цельный ивовый прут, фанерное дно",
+      "text": "Маленькая корзина для хранения вещей Размеры : дно 26х16 см, верх 32х23 см, высота 9 см. Материалы : цельный ивовый прут, фанерное дно",
+      "price": 650,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "b003",
+      "sku": "B003",
+      "name": "Арчер",
+      "categories": [
+        "chests"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3163-6630-4334-a538-613439363338/IMG_20190609_092753_.jpg"
+      ],
+      "description": "Размеры : дно 42х25 см, высота 15 см",
+      "text": "Размеры : дно 42х25 см, высота 15 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 2990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r002",
+      "sku": "Р002",
+      "name": "Тэффи",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6163-3965-4431-b231-366134613163/12.jpg"
+      ],
+      "description": "Корзинка для мелочей Размеры : дно 20х13 см, верх 30х20 см, высота 13 см. Материал: цельный ивовый прут.",
+      "text": "Размеры : дно 20х13 см, верх 30х20 см, высота 13 см. Материал : цельный ивовый прут.",
+      "price": 1090,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r003",
+      "sku": "Р003",
+      "name": "Лилечка",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3561-6437-4635-b062-633036663464/2.jpg"
+      ],
+      "description": "Корзинка для мелочей Размеры: диаметр дна 17 см, диаметр верха 27 см, высота 14 см Материал: цельный ивовый прут.",
+      "text": "Размеры : диаметр дна 17 см, диаметр верха 27 см, высота 14 см Материал : цельный ивовый прут.",
+      "price": 990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t023",
+      "sku": "Т023",
+      "name": "Короб Куба",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6636-3734-4631-b631-623534336234/400.JPG"
+      ],
+      "description": "Размеры : 30х35 см, высота 30 см.",
+      "text": "Размеры: 30х35 см, высота 30 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 2650,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r004",
+      "sku": "Р004",
+      "name": "Оливия",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3261-6432-4433-a231-366133623136/2400.jpg"
+      ],
+      "description": "Корзина для белья Размеры: диаметр дна 45 см, диаметр верха 60 см, высота 60 см. Материал: цельный ивовый прут.",
+      "text": "Размеры : диаметр дна 45 см, диаметр верха 60 см, высота 60 см. Материал : цельный ивовый прут.",
+      "price": 7390,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t025",
+      "sku": "Т025",
+      "name": "Квадратный лоток",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3463-6662-4630-b131-306636333963/2.jpg"
+      ],
+      "description": "Размеры : 40х45 см, высота 13 см.",
+      "text": "Размеры : 40х45 см, высота 13 см. Материалы : цельный ивовый прут, фанерное дно, оклеенное пленкой.",
+      "price": 1590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t025",
+      "sku": "Т025",
+      "name": "Помона",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3935-6637-4535-b834-373331653339/400.jpg"
+      ],
+      "description": "Корзина для белья Размеры: диаметр 40 см, высота 70 см.",
+      "text": "Размеры : диаметр 40 см, высота 70 см.",
+      "price": 5750,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t026",
+      "sku": "Т026",
+      "name": "Милан",
+      "categories": [
+        "chests",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3132-3639-4934-b834-646530353064/35113302.jpg"
+      ],
+      "description": "Корзина для белья Размеры: высота 50 см.",
+      "text": "Размеры : высота 50 см.",
+      "price": 6175,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t027",
+      "sku": "Т027",
+      "name": "Пикниковая корзина Italy",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6438-6338-4437-a635-666263663934/400.JPG"
+      ],
+      "description": "Корзина для пикника Размеры: 40х30 см, высота 35 см Материал: цельный ивовый прут, лента.",
+      "text": "Размеры : 40х30 см, высота 35 см Материал : цельный ивовый прут, лента.",
+      "price": 3880,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t028",
+      "sku": "Т028",
+      "name": "Кантри",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3062-6332-4665-b037-306562623262/400.JPG"
+      ],
+      "description": "Пикниковая корзина Размеры: дно 40х30 см, высота 28 см.",
+      "text": "Размеры : дно 40х30 см, высота 28 см.",
+      "price": 3750,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t029",
+      "sku": "Т029",
+      "name": "Мечта",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3138-6632-4139-b333-356163326462/NOqzVLptDIc.jpg"
+      ],
+      "description": "Велокорзина Размеры: низ 27х18 см, верх 36х27 см, высота 24 см.",
+      "text": "Размеры : низ 27х18 см, верх 36х27 см, высота 24 см.",
+      "price": 2590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t030",
+      "sku": "Т030",
+      "name": "Классика",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3438-3432-4233-a134-643831626662/400.JPG"
+      ],
+      "description": "Велокорзина Размеры: 30х20 см, верх 40х30 см, высота 24 см.",
+      "text": "Размеры : 30х20 см, верх 40х30 см, высота 24 см.",
+      "price": 2700,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t031",
+      "sku": "Т031",
+      "name": "Улов",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3364-3838-4331-a332-633438313862/400.JPG"
+      ],
+      "description": "Корзина для рыбы Размеры: 42х25 см, высота 25 см.",
+      "text": "Размеры : 42х25 см, высота 25 см.",
+      "price": 2990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t032",
+      "sku": "Т032",
+      "name": "Элен",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6436-3037-4534-a233-336164393635/2400.JPG"
+      ],
+      "description": "Велокорзина Размеры: низ 27х18 см, верх 36х27 см, высота 24 см.",
+      "text": "Размеры : низ 27х18 см, верх 36х27 см, высота 24 см.",
+      "price": 2580,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t033",
+      "sku": "Т033",
+      "name": "Рыбацкая",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6231-6163-4033-b536-666465353833/400.jpg"
+      ],
+      "description": "Корзина для рыбы Размеры: низ 33х20 см, крышка 23х15 см, высота 20 см.",
+      "text": "Размеры : низ 33х20 см, крышка 23х15 см, высота 20 см.",
+      "price": 2990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t034",
+      "sku": "Т034",
+      "name": "Пайва",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3266-3937-4165-a664-613466613937/48300370.jpg"
+      ],
+      "description": "Наплечная корзина Размеры: 43х25 см, высота 42 см. Материал : цельный ивовый прут. Крепления - ремни.",
+      "text": "Размеры : 43х25 см, высота 42 см. Материал : цельный ивовый прут. Крепления - ремни.",
+      "price": 6175,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p005",
+      "sku": "P005",
+      "name": "Подарочная корзина Вивьен",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3666-3231-4133-b138-353664346561/photo539806870514287.jpg"
+      ],
+      "description": "Круглая подарочная корзина с плетеным дном. Размеры: диаметр низа 25 см, диаметр верха 31 см. Высота 10 см, высота около ручек 14 см, высота с ручкой 33 см. Материал: цельный ивовый прут.",
+      "text": "Круглая подарочная корзина с плетеным дном, в которую поместится всё, чем вы хотите порадовать друзей или коллегу. Идеальный вариант для подарка семейной паре или для корпоративных презентов на праздники. Легко оформить, практично и при этом необычно. Ручная работа! Размеры : диаметр низа 25 см, диаметр верха 31 см. Высота 10 см, высота около ручек 14 см, высота с ручкой 33 см. Материал : цельный ивовый прут.",
+      "price": 1450,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p006",
+      "sku": "P006",
+      "name": "Подарочная корзина Ливиньо",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3336-3963-4065-a438-633635613763/-.JPG"
+      ],
+      "description": "Плетеное дно, изящество и объем — плюсы этой корзины. Часто выбирают для подарка учителям или коллегам. Размеры: дно 20х29 см, верх 28х40, высота 17 см. Материал: цельный ивовый прут.",
+      "text": "Размеры : дно 20х29 см, верх 28х40, высота 17 см. Материал : цельный ивовый прут.",
+      "price": 1650,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p007",
+      "sku": "P007",
+      "name": "Подарочная корзина Асимметрия",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6339-3732-4666-a631-613766636634/400.JPG"
+      ],
+      "description": "Корзинка для тех, кто хочет оригинально оформить подарок. Асимметричный край позволяет интересно закрепить декор и расположить наполнение. Размеры: дно 28 х18 см, высота 11-20 см, высота с ручкой 57 см. Материал: цельный ивовый прут.",
+      "text": "Корзинка для тех, кто хочет оригинально оформить подарок. Асимметричный край позволяет интересно закрепить декор и расположить наполнение. Размеры : дно 28 х18 см, высота 11-20 см, высота с ручкой 57 см. Материал : цельный ивовый прут.",
+      "price": 1250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p008",
+      "sku": "P008",
+      "name": "Подарочная корзина Гармония",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3739-3830-4063-a366-666438636139/400.JPG"
+      ],
+      "description": "Отличный вариант для тех, кто хочет подать подарок во всей его красе. Бортики разной высоты позволяют оптимально расположить подарок. Размеры: дно 28х18 см, высота 16,5 см, высота с ручкой 57 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : дно 28х18 см, высота 16,5 см, высота с ручкой 57 см. Материалы : цельный ивовый прут.",
+      "price": 1250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r009",
+      "sku": "Р009",
+      "name": "Корзина ажурная Светлица",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3239-6430-4561-a138-653637623063/noroot.png"
+      ],
+      "description": "Круглая изящная корзинка с высоким ажурным верхом — идеальный вариант для романтичных натур. Размеры: диаметр дна 22 см, диаметр верха 27 см, высота 25 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : диаметр дна 22 см, диаметр верха 27 см, высота 25 см. Материалы : цельный ивовый прут.",
+      "price": 2290,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p010",
+      "sku": "P010",
+      "name": "Подарочная корзина Пьемонт",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3638-3765-4166-a234-323261363736/-.JPG"
+      ],
+      "description": "Плетеное дно, вместительность и прочность — вот фишки этой корзины. Она популярна для подарков коллегам и родственникам на свадьбу. Размеры: дно 28 х19 см, высота 13-17 см, высота с ручкой 50 см. Материал: цельный ивовый прут.",
+      "text": "Размеры : дно 28 х19 см, высота 13-17 см, высота с ручкой 50 см. Материал : цельный ивовый прут.",
+      "price": 1850,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r011",
+      "sku": "Р011",
+      "name": "Корзина ажурная Радость",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6164-3666-4662-b934-363965306438/noroot.JPG"
+      ],
+      "description": "Круглая корзина с ажурным верхом и высокой ручкой отлично подойдет под фрукты, цветы, косметику. Размеры: диаметр низа 20 см, диаметр верха 35 см, высота 17 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : диаметр низа 20 см, диаметр верха 35 см, высота 17 см. Материалы : цельный ивовый прут.",
+      "price": 1990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p003",
+      "sku": "P003",
+      "name": "Подарочная корзина Весенняя",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6432-3737-4039-a263-316162353537/400.JPG"
+      ],
+      "description": "Небольшая изящная корзинка, идеально подходящая под цветочные или фруктовые композиции. Хороший вариант для оформления свадебного презента. Размеры: 32х19 см, высота без ручки 28 см, высота с ручкой: 80 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : 32х19 см, высота без ручки 28 см, высота с ручкой: 80 см. Материалы : цельный ивовый пру",
+      "price": 1200,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p006",
+      "sku": "P006",
+      "name": "Подарочная корзина Колокольчик",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3935-3664-4163-b966-663739356434/400.JPG"
+      ],
+      "description": "Узкая подарочная корзина, подходит для цветов и косметики. Размеры: диаметр 20х25 см, высота без ручки 24 см, высота с ручкой 69 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : диаметр 20х25 см, высота без ручки 24 см, высота с ручкой 69 см. Материалы : цельный ивовый прут.",
+      "price": 1200,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p014",
+      "sku": "P014",
+      "name": "Подарочная корзина Круглая средняя",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3734-3564-4334-b030-316239313030/400.JPG"
+      ],
+      "description": "Корзина, с которой легко дарить мечты! Для тех, кто ценит уютные вещицы. Размеры: диаметр дна 17 см, диаметр верха 23 см, высота без ручки 10 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : диаметр дна 17 см, диаметр верха 23 см, высота без ручки 10 см. Материалы : цельный ивовый прут.",
+      "price": 890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p015",
+      "sku": "P015",
+      "name": "Подарочная корзина Овальная средняя",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3130-3066-4434-b136-303836383966/400.JPG"
+      ],
+      "description": "Отлично подходит для оформления сладких подарков. Размеры: основа 20х30 см, высота без ручки 10 см. Материалы: цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : основа 20х30 см, высота без ручки 10 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p016",
+      "sku": "P016",
+      "name": "Подарочная корзина Подарочная большая",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6337-6238-4434-b439-613934333665/400.JPG"
+      ],
+      "description": "Корзина для тех, кто готовит внушительный презент! Размеры: диаметр дна 21 см, диаметр верха 35 см, высота без ручки 17 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : диаметр дна 21 см, диаметр верха 35 см, высота без ручки 17 см. Материалы : цельный ивовый прут.",
+      "price": 1590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "p017",
+      "sku": "P017",
+      "name": "Подарочная корзина Кузовок",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6338-3732-4237-b933-653032653565/400.JPG"
+      ],
+      "description": "Корзинка как из сказки: ее особенно хорошо наполнить печеньем и сладостями. Размеры : дно 20х30 см, высота без ручки 10 см. Материалы: цельный ивовый прут, фанерное дно.",
+      "text": "Размеры : дно 20х30 см, высота без ручки 10 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 900,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r018",
+      "sku": "Р018",
+      "name": "Колобок",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6237-3734-4663-a562-303265303730/400.JPG"
+      ],
+      "description": "Небольшая корзина Размеры: диаметр верха 22 см, высота 20 см.",
+      "text": "Размеры : диаметр верха 22 см, высота 20 см.",
+      "price": 1450,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r020",
+      "sku": "Р020",
+      "name": "Каса",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3635-3631-4330-b337-623031306362/400.JPG"
+      ],
+      "description": "Небольшая корзина Размеры: дно 22 см. Верх 25х25 см. Высота 18 см.",
+      "text": "Размеры : дно 22 см. Верх 25х25 см. Высота 18 см.",
+      "price": 1490,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r023",
+      "sku": "Р023",
+      "name": "Козетта",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6432-6236-4434-b930-303430643563/400.JPG"
+      ],
+      "description": "Корзина Размеры: дно 63х40 см, верх 75х48 см, высота 17-35 см. Материалы: цельный ивовый прут.",
+      "text": "Размеры : дно 63х40 см, верх 75х48 см, высота 17-35 см. Материалы : цельный ивовый прут.",
+      "price": 3490,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r024",
+      "sku": "Р024",
+      "name": "Плетеный накопитель Тура",
+      "categories": [
+        "display_equipment",
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6563-3538-4236-b438-313464643831/400.JPG"
+      ],
+      "description": "Корзина большая Размеры: дно 35 см, верх 55 см, высота: 45 см. Материалы: цельный ивовый прут, фанерное дно.",
+      "text": "Размеры: дно 35 см, верх 55 см, высота: 45 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 4590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ck003",
+      "sku": "CK003",
+      "name": "Боровинка",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3934-3532-4731-a361-376366393639/400.JPG"
+      ],
+      "description": "Средняя корзина Размеры: дно: 28х18 см. Высота без ручки: 24 см. Высота с ручкой: 43 см. Материал: цельный ивовый прут.",
+      "text": "Средняя корзина, которая отлично пройдет как для похода в лес за грибами, так и для поездки на дачу за фруктами-овощами. Красивая, вместительная и прочная. Размеры : дно: 28х18 см. Высота без ручки: 24 см. Высота с ручкой: 43 см. Материал : цельный ивовый прут.",
+      "price": 1990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Плетеная корзина Боровинка",
+        "description": "Плетеная корзина Боровинка - идеальна для похода за грибами или ягодами, сбора фруктов и овощей на даче. Подойдет для подарка.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "ck004",
+      "sku": "CK004",
+      "name": "Урожай",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6532-3763-4633-a532-663737353630/400.JPG"
+      ],
+      "description": "Большая корзина. Размеры: дно: 45х27 см. Верх: 53х40 см. Высота: 23 см. Материал: цельный ивовый прут.",
+      "text": "Это корзина, в которую поместится всё! Идеально подходит для сбора урожая и перевозки его с дачи и для хранения крупных вещей. Размеры : дно: 45х27 см. Верх: 53х40 см. Высота: 23 см. Материал : цельный ивовый прут.",
+      "price": 3300,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Большая плетеная корзина Урожай",
+        "description": "Большая плетеная корзина Урожай из лозы. Подходит для перевозки фруктов и овощей, хранения крупных предметов.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "ck005",
+      "sku": "CK005",
+      "name": "Кантина",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3235-3035-4634-b633-613838353733/400.JPG"
+      ],
+      "description": "Большая корзина с двумя ручками. Размеры: дно: 32х22 см. Верх: 37х27 см. Высота: 45 см. Материал: цельный ивовый прут, металлическая проволока для крепления ручек.",
+      "text": "Большая корзина с двумя ручками и крышкой. Вы удивитесь, как много она вмещает! Размеры : дно: 32х22 см. Верх: 37х27 см. Высота: 45 см. Материал : цельный ивовый прут, металлическая проволока для крепления ручек.",
+      "price": 4890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Плетеная корзина с двумя ручками Кантина",
+        "description": "Большая плетеная корзина с двумя ручками и крышкой Кантина. Лоза. Ручная работа.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "p004",
+      "sku": "П004",
+      "name": "Патриция",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3666-3131-4239-b736-343833393636/IMG_0485.jpeg"
+      ],
+      "description": "Корзина для кошки Размеры: 52х37 см, высота 10-20 см. Материал: цельный ивовый прут, фанера.",
+      "text": "Плетеная лежанка для кошки. Добавьте подушку или плед - и идеальное место для отдыха вашего кота или кошки готово! Такая плетеная корзина легко вписывается практически в любой интерьер. Только натуральные материалы + ручная работа = прочность и красота. Размеры : 52х37 см, высота 10-20 см. Материал : цельный ивовый прут, фанера.",
+      "price": 3990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Плетеная лежанка для кошки",
+        "description": "Плетеная корзина для кошек. Натуральные материалы, ручная работа. Прочная, красивая и нравится котикам!",
+        "keywords": null
+      }
+    },
+    {
+      "id": "ck005",
+      "sku": "CK005",
+      "name": "Жасмин",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3961-3538-4636-a338-393237643765/Jasmin2.JPG"
+      ],
+      "description": "Круглая корзина с косой. Размеры: диаметр низа 21 см, диаметр верха 35 см, высота 26 см, высота с ручкой 40 см. Материал: цельный ивовый прут.",
+      "text": "Круглая корзина с косой - очаровательная и удобная. Подойдет для прогулки в лес или для хранения вещей дома. Размеры: диаметр низа 21 см, диаметр верха 35 см, высота 26 см, высота с ручкой 40 см. Материал: цельный ивовый прут.",
+      "price": 2450,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Круглая плетеная корзина с ручкой Жасмин.",
+        "description": "Круглая корзина с ручкой. Натуральный материал - лоза. Ручная работа.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "h002",
+      "sku": "H002",
+      "name": "Большая круглая корзина Солнце",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3730-3333-4233-b735-363531373764/photo.jpg"
+      ],
+      "description": "Размеры : диаметр дна 45 см, диаметр верха 57 см. Высота 20 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "text": "В эту корзину поместится всё! Размеры : диаметр дна 45 см, диаметр верха 57 см. Высота 20 см. Материалы : цельный ивовый прут, фанерное дно.",
+      "price": 2890,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Большая круглая плетеная корзина",
+        "description": "Большая круглая плетеная корзина - ручная работа, лоза.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "apiza5ydtcgn1yksjvlv",
+      "sku": null,
+      "name": "Стойка деревянная для подвесной колыбели",
+      "categories": [
+        "cribs"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6332-3865-4636-b431-396237636636/photo_2020-10-08_21-.jpg"
+      ],
+      "description": "Выдерживает до 85 кг. Размеры : 1м х 1.5м в основании, 2 м высота.",
+      "text": "Выдерживает до 85 кг . Размеры : 1м х 1.5м в основании, 2 м высота.",
+      "price": 6290,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r031",
+      "sku": "Р031",
+      "name": "Хозяюшка",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3632-3064-4436-b365-623438386632/IMG_1323.jpeg"
+      ],
+      "description": "Средняя корзина с продольной ручкой. Размеры : дно 36х26 см, верх 37х28 см. Высота 18 см, высота с ручкой 26 см.",
+      "text": "Средняя корзина с продольной ручкой. Размеры : дно 36х26 см, верх 37х28 см. Высота 18 см, высота с ручкой 26 см.",
+      "price": 2300,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Средняя плетеная корзина с продольной ручкой Хозяюшка",
+        "description": "Средняя плетеная корзина с продольной ручкой Хозяюшка",
+        "keywords": null
+      }
+    },
+    {
+      "id": "r032",
+      "sku": "Р032",
+      "name": "Прямоугольная корзина Конни",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3162-3037-4233-b130-656534303035/photo_2021-03-21_12-.jpg"
+      ],
+      "description": "Размеры: 24х15 см, высота бортика11 см. Материал: цельный ивовый прут.",
+      "text": "Размеры: 24х15 см, высота бортика11 см. Материал: цельный ивовый прут. Отлично подойдет для хранения мелочей или для небольших горшочков с растениями.",
+      "price": 1250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Плетеная корзина прямоугольная",
+        "description": "Плетеная корзина прямоугольная. Ручная работа, цельный ивовый прут.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "r033",
+      "sku": "Р033",
+      "name": "Круглая корзина Арина",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild6666-3933-4664-b232-393639363638/photo_2021-03-21_12-.jpg"
+      ],
+      "description": "Размеры: диаметр низа 22 см, высота 20 см (без ручки). Материал: окрашенный ивовый прут.",
+      "text": "Размеры: диаметр низа 22 см, высота 20 см (без ручки). Материал: окрашенный ивовый прут.",
+      "price": 1590,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Круглая темная корзина",
+        "description": "Круглая корзина шоколадного цвета. Ручная работа: сплетено из ивового прута.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "ok003",
+      "sku": "OK003",
+      "name": "Виола",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/tild3935-3135-4431-b935-383565613961/photo_2021-04-13_22-.jpg"
+      ],
+      "description": "Большая плетеная корзина с косой. Идеально для походов за грибами и для поездок на дачу - вместит весь урожай. Размеры: дно 34х24 см, верх 47х36 см, высота без ручки 27 см. Материалы: цельный ивовый прут.",
+      "text": "Большая плетеная корзина с косой. Идеально для походов за грибами и для поездок на дачу - вместит весь урожай. Размеры: дно 34х24 см, верх 47х36 см, высота без ручки 27 см. Материалы: цельный ивовый прут.",
+      "price": 3050,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": "Плетеная корзина Виола из лозы, ручная работа.",
+        "description": "Плетеная корзина Виола из лозы, ручная работа. Большая, вместительная. Прочная ручка. Ручная работа уральских мастеров.",
+        "keywords": null
+      }
+    },
+    {
+      "id": "r040",
+      "sku": "Р040",
+      "name": "Лукошко",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3361-3261-4230-b761-646434343263/58659054.jpg"
+      ],
+      "description": "Размеры : диаметр верха 25 см, высота 20 см. Цвет : темно-зеленый (на фото) // темно-красный. Материал : неочищенный ивовый прут, ручка оплетена пластиком.",
+      "text": "Размеры : диаметр верха 25 см, высота 20 см. Цвет : темно-зеленый (на фото) // темно-красный. Материал : неочищенный ивовый прут, ручка оплетена пластиком.",
+      "price": 990,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r034",
+      "sku": "Р034",
+      "name": "Матильда",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3163-6362-4061-b963-363666343930/79946475.png"
+      ],
+      "description": "Размеры : дно 30х20 см, высота 25 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : дно 30х20 см, высота 25 см. Материал : цельный ивовый прут.",
+      "price": 2250,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "2970",
+      "sku": "2970",
+      "name": "Хозяйственная",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3439-3135-4031-a135-663766303962/54048448.jpg"
+      ],
+      "description": "Размеры : дно 55х35 см, высота без ручки 16 — 29 см, высота с ручкой — 48 см. Материалы : цельный ивовый прут (чищенный и неокоренный).",
+      "text": "Размеры : дно 55х35 см, высота без ручки 16 — 29 см, высота с ручкой — 48 см. Материалы : цельный ивовый прут (чищенный и неокоренный).",
+      "price": 3490,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r036",
+      "sku": "Р036",
+      "name": "Кларисса",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor6466-6530-4931-a163-336338653365/77651337.png"
+      ],
+      "description": "Размеры : 28х18 см, высота 17 см. Материал : цельный ивовый прут.",
+      "text": "Размеры : 28х18 см, высота 17 см. Материал : цельный ивовый прут.",
+      "price": 1790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r034",
+      "sku": "Р034",
+      "name": "Прованс",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3234-3863-4463-b065-616464643664/74975250.jpg"
+      ],
+      "description": "Размеры : дно 30х20 см. Верх 40х30 см. Высота 23 см.",
+      "text": "Размеры : дно 30х20 см. Верх 40х30 см. Высота 23 см.",
+      "price": 1850,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r039",
+      "sku": "Р039",
+      "name": "Феличита",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3130-3962-4266-b137-333436333535/27702663.png"
+      ],
+      "description": "Размеры : дно 30х20 см, высота 25 см.",
+      "text": "Размеры : дно 30х20 см, высота 25 см.",
+      "price": 1790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "r038",
+      "sku": "Р038",
+      "name": "Лилечка",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3637-3932-4339-b433-383362323164/62088584.jpg"
+      ],
+      "description": "Размеры : дно 32х22 см, верх 44х34 см, высота без ручки 23 см, высота с ручкой 42 см.",
+      "text": "Размеры : дно 32х22 см, верх 44х34 см, высота без ручки 23 см, высота с ручкой 42 см.",
+      "price": 1750,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "t01",
+      "sku": "Т01",
+      "name": "Плетеный накопитель Танго",
+      "categories": [
+        "display_equipment",
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3834-6334-4431-b063-393861363430/64254078.jpg"
+      ],
+      "description": "Размеры: диаметр верха и низа 50 см, диаметр середины 30 см, высота: верх 27 см, низ 53 см. Материалы: цельный ивовый прут",
+      "text": "Размеры: диаметр верха и низа 50 см, диаметр середины 30 см, высота: верх 27 см, низ 53 см. Материалы: цельный ивовый прут",
+      "price": 7490,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "paulina",
+      "sku": "PAULINA",
+      "name": "Шкатулка Паулина",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3939-6465-4066-b937-623033313037/71427584.jpg"
+      ],
+      "description": "Размеры : 30х20 см, высота 10 см. Фанерное дно.",
+      "text": "Плетеная шкатулка ручной работы будет одновременно стильной и практичной частью интерьера.#nbsp;\"Паулина\" может стать отличным подарком. Размеры : 30х20 см, высота 10 см. Фанерное дно. Крышка покрыта плетеным полотном из ивовой ленты.Прорезные ручки по узкой стороне.",
+      "price": 2000,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "ronda",
+      "sku": "RONDA",
+      "name": "Ронда",
+      "categories": [
+        "baskets"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3038-3638-4537-a435-353736353437/89336017.jpg"
+      ],
+      "description": "Размеры : Ширина 39 см, длина 35 см, высота 26 см.",
+      "text": "Круглая плетеная корзина для пикника и дома.",
+      "price": 2900,
+      "price_old": null,
+      "quantity": 1,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "amber",
+      "sku": "AMBER",
+      "name": "Янтарная",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3733-3765-4261-b033-303265616235/75116480.jpg"
+      ],
+      "description": "Размеры: Ширина 45 см, длина 35 см, высота 23 см",
+      "text": "Удобная и прочная овальная корзина с ручкой.",
+      "price": 3100,
+      "price_old": null,
+      "quantity": 1,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    },
+    {
+      "id": "e2btfthz6yanbbkhdxax",
+      "sku": null,
+      "name": "Плетёная сумочка Сильвия",
+      "categories": [
+        "baskets",
+        "decor"
+      ],
+      "images": [
+        "https://static.tildacdn.com/stor3236-3733-4361-a533-356264343832/1cf2f8dcc261c68360ee467b6f4db8d5.jpg"
+      ],
+      "description": "Стильная и изящная плетеная сумочка. Аксессуар, который сделает любой образ утончённым. Размеры : высота с ручкой 43 см, верхний диаметр 25 см, нижний диаметр 17 см. Материал : цельный ивовый прут.",
+      "text": null,
+      "price": 3790,
+      "price_old": null,
+      "quantity": 0,
+      "orderable": true,
+      "weight": null,
+      "dimensions": null,
+      "seo": {
+        "title": null,
+        "description": null,
+        "keywords": null
+      }
+    }
+  ]
+}

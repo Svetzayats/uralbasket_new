@@ -9,10 +9,11 @@ const featured = allProducts
   .sort((a, b) => a.data.order - b.data.order);
 
 const categories = [
-  { href: '/baskets', label: 'Корзины' },
-  { href: '/trade', label: 'Торговое оборудование' },
-  { href: '/design', label: 'Интерьер и дизайн' },
-  { href: '/boxes', label: 'Сундуки и короба' },
+  { href: '/baskets',           label: 'Корзины' },
+  { href: '/boxes',             label: 'Сундуки и короба' },
+  { href: '/design',            label: 'Интерьер и дизайн' },
+  { href: '/cribs',             label: 'Детские колыбели' },
+  { href: '/display_equipment', label: 'Торговое оборудование' },
 ];
 ---
 
@@ -136,8 +137,14 @@ const categories = [
 
   .category-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
+  }
+
+  @media (max-width: 900px) {
+    .category-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   .category-card {
