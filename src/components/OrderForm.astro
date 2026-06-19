@@ -37,11 +37,11 @@ const { productSlug, productTitle, productDescription, productSizes, compact = f
       <input id="of-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
       <p class="field-error" aria-live="polite"></p>
     </div>
-    <p class="either-hint">* Укажите телефон или email — достаточно одного</p>
+    <p class="either-hint">* Укажите телефон или email</p>
 
     <div class="field">
       <label for="of-message">Сообщение</label>
-      <textarea id="of-message" name="message" rows="3" placeholder="Уточните детали заказа (размер, количество, сроки…)"></textarea>
+      <textarea id="of-message" name="message" rows="3" placeholder="Уточните детали заказа — пожелания, индивидуальные размеры, количество, ожидания по срокам"></textarea>
     </div>
 
     <button type="submit" class="btn-submit">Отправить заявку</button>
@@ -263,6 +263,10 @@ const { productSlug, productTitle, productDescription, productSizes, compact = f
     font-size: 0.75rem;
     color: #c0392b;
     min-height: 1em;
+  }
+
+  .field-error:empty {
+    display: none;
   }
 
   .btn-submit {

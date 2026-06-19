@@ -1,0 +1,77 @@
+---
+---
+
+<div class="contacts-info">
+  <h2>Как с нами связаться</h2>
+
+  <ul class="info-list">
+    <li>
+      <span class="info-label">Email</span>
+      <a href="mailto:uralbasket@mail.ru">uralbasket@mail.ru</a>
+    </li>
+    <li>
+      <span class="info-label">Телефон</span>
+      <a href="tel:+79920209410">+79920209410</a>
+    </li>
+  </ul>
+</div>
+
+<style>
+  .contacts-info h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+  }
+
+  .contacts-info p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: var(--color-text-muted);
+    margin-bottom: 1.75rem;
+  }
+
+  .info-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  ul.info-list {
+      padding-left: 0;
+  }
+
+  @media (min-width: 600px) {
+    .info-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .info-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .info-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+  }
+
+  .info-list a,
+  .info-list span:not(.info-label) {
+    font-size: 0.9rem;
+    color: var(--color-text);
+  }
+
+  .info-list a {
+    color: var(--color-accent);
+    transition: color 0.15s;
+  }
+
+  .info-list a:hover {
+    color: var(--color-hover);
+  }
+</style>
