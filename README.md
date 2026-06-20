@@ -1,2 +1,2 @@
 ## TODO list 
-- [ ] add cards for faq
+- [x] add cards for faq

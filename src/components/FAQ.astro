@@ -1,0 +1,79 @@
+---
+import FaqCard from './FaqCard.astro';
+
+const items = [
+  {
+    question: 'Вы берете аванс?',
+    answer: 'Да, 100% от стоимости заказа. Исключение — стандартные грибные корзины (до 3 штук). Их мы сплетем без предоплаты.',
+  },
+  {
+    question: 'Есть доставка?',
+    answer: 'Да. Для индивидуальных заказов — от 500 рублей, цена зависит от района и размеров изделия. Для корпоративных заказов стоимость доставки зависит от объема изделий. Рассчитывается при оформлении заказа.',
+  },
+  {
+    question: 'Можно поменять размеры изделий из каталога?',
+    answer: 'Да, потому что мы плетём на заказ практически все вещи. Просто сообщите, какие размеры вас интересуют — и мы посчитаем цену по ним.',
+  },
+  {
+    question: 'Это машинное плетение или ручное?',
+    answer: 'Всё плетётся вручную нашими мастерами.',
+  },
+  {
+    question: 'Где можно посмотреть корзины?',
+    answer: 'На Белинского, 118 — только предварительно договориться по времени, так как мы не всегда на месте.',
+  },
+  {
+    question: 'Отправляете по России?',
+    answer: 'Да, Почтой России или транспортными компаниями. Посчитаем приблизительную стоимость доставки с помощью операторов ТК или Почты (обычно совпадает). Уже отправляли в Якутск, Санкт-Петербург, Краснодар, Тюмень и другие города.',
+  },
+];
+---
+
+<section class="faq-section">
+  <div class="faq-container">
+    <h2 class="faq-heading">Частые вопросы</h2>
+    <ul class="faq-grid">
+      {items.map((item) => (
+        <FaqCard question={item.question} answer={item.answer} />
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+
+  .faq-container {
+    margin: 0 auto;
+  }
+
+  .faq-heading {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
+    color: var(--color-primary);
+    margin-bottom: 2.5rem;
+  }
+
+  ul.faq-grid {
+      padding-left: 0;
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (min-width: 600px) {
+    .faq-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .faq-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+</style>
