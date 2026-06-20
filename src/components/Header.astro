@@ -17,12 +17,6 @@ const currentPath = Astro.url.pathname;
   <nav class="nav" aria-label="Главная навигация">
     <a href="/" class="logo" aria-label="UralBasket — на главную">URALBASKET</a>
 
-    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Открыть меню">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
     <ul class="nav-links" id="nav-links">
       {navLinks.map(link => (
         <li>
@@ -35,18 +29,88 @@ const currentPath = Astro.url.pathname;
         </li>
       ))}
     </ul>
+
+    <button class="menu-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-overflow" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-overflow" id="nav-overflow"></ul>
   </nav>
 </header>
 
 <script>
-  const toggle = document.querySelector('.menu-toggle') as HTMLButtonElement;
-  const navLinks = document.getElementById('nav-links');
+  function setupResponsiveNav() {
+    const nav = document.querySelector('.nav') as HTMLElement | null;
+    const row = document.getElementById('nav-links') as HTMLUListElement | null;
+    const overflowMenu = document.getElementById('nav-overflow') as HTMLUListElement | null;
+    const toggle = document.getElementById('nav-toggle') as HTMLButtonElement | null;
+    if (!nav || !row || !overflowMenu || !toggle) return;
 
-  toggle?.addEventListener('click', () => {
-    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!expanded));
-    navLinks?.classList.toggle('open');
-  });
+    // Fixed original order, captured once — used to restore correct link
+    // order when collapsing everything into the overflow menu below.
+    const allItems = Array.from(row.children);
+    const itemCount = allItems.length;
+    const collapseBelow = 451;
+
+    // scrollWidth doesn't capture overflow on right-aligned (justify-content:
+    // flex-end) flex content, since it spills to the left instead of the
+    // right — so measure the items' combined width directly.
+    function rowOverflows() {
+      let total = 0;
+      for (const li of Array.from(row!.children)) total += (li as HTMLElement).getBoundingClientRect().width;
+      return total > row!.clientWidth + 1;
+    }
+
+    function reflow() {
+      if (window.innerWidth < collapseBelow) {
+        // Below this width, no links stay inline — everything lives in the burger menu.
+        for (const li of allItems) overflowMenu!.appendChild(li);
+      } else {
+        // Pull items back into the row while there's room for them.
+        let pullGuard = itemCount + 1;
+        while (overflowMenu!.firstElementChild && pullGuard-- > 0) {
+          const first = overflowMenu!.firstElementChild;
+          row!.appendChild(first);
+          if (rowOverflows()) {
+            overflowMenu!.insertBefore(first, overflowMenu!.firstElementChild);
+            break;
+          }
+        }
+
+        // Push items into overflow while the row doesn't fit.
+        let pushGuard = itemCount + 1;
+        while (rowOverflows() && row!.lastElementChild && pushGuard-- > 0) {
+          overflowMenu!.insertBefore(row!.lastElementChild, overflowMenu!.firstElementChild);
+        }
+      }
+
+      const hasOverflow = overflowMenu!.children.length > 0;
+      toggle!.classList.toggle('visible', hasOverflow);
+      if (!hasOverflow) {
+        overflowMenu!.classList.remove('open');
+        toggle!.setAttribute('aria-expanded', 'false');
+      }
+    }
+
+    let raf = 0;
+    function scheduleReflow() {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(reflow);
+    }
+
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      overflowMenu.classList.toggle('open');
+    });
+
+    new ResizeObserver(scheduleReflow).observe(nav);
+    reflow();
+  }
+
+  setupResponsiveNav();
 </script>
 
 <style>
@@ -57,6 +121,7 @@ const currentPath = Astro.url.pathname;
     background: var(--color-bg);
     border-bottom: 1px solid var(--color-border);
     height: var(--nav-height);
+    overflow: visible;
   }
 
   .nav {
@@ -66,7 +131,8 @@ const currentPath = Astro.url.pathname;
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 0.5rem;
+    position: relative;
   }
 
   .logo {
@@ -80,9 +146,11 @@ const currentPath = Astro.url.pathname;
   .nav-links {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: 0;
-    flex-wrap: nowrap;
-    margin-left: auto;
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .nav-link {
@@ -105,11 +173,15 @@ const currentPath = Astro.url.pathname;
     display: none;
     flex-direction: column;
     gap: 5px;
+    flex-shrink: 0;
     background: none;
     border: none;
     cursor: pointer;
     padding: 0.5rem;
-    margin-left: auto;
+  }
+
+  .menu-toggle.visible {
+    display: flex;
   }
 
   .menu-toggle span {
@@ -120,46 +192,39 @@ const currentPath = Astro.url.pathname;
     transition: transform 0.2s, opacity 0.2s;
   }
 
-  @media (max-width: 1200px) {
-    .menu-toggle {
-      display: flex;
-    }
+  .nav-overflow {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-primary);
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
 
-    .nav-links {
-      display: none;
-      position: absolute;
-      top: var(--nav-height);
-      left: 0;
-      right: 0;
-      background: var(--color-primary);
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0;
-      margin-left: 0;
-      padding: 1rem 0;
-    }
+  .nav-overflow.open {
+    display: flex;
+  }
 
-    .nav-links.open {
-      display: flex;
-    }
+  .nav-overflow li {
+    width: 100%;
+  }
 
-    .nav-links li {
-      width: 100%;
-    }
+  .nav-overflow .nav-link {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    color: #ffffff;
+    border-radius: 0;
+    font-size: 0.95rem;
+    white-space: normal;
+  }
 
-    .nav-link {
-      display: block;
-      width: 100%;
-      padding: 0.75rem 1.5rem;
-      color: #ffffff;
-      border-radius: 0;
-      font-size: 0.95rem;
-    }
-
-    .nav-link:hover,
-    .nav-link.active {
-      color: #ffffff;
-      background: var(--color-hover);
-    }
+  .nav-overflow .nav-link:hover,
+  .nav-overflow .nav-link.active {
+    color: #ffffff;
+    background: var(--color-hover);
   }
 </style>
