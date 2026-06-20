@@ -18,7 +18,10 @@ const { title, breadcrumbLabel } = Astro.props;
 </div>
 
 <div class="container prose-body">
-  <slot />
+  <div class="">
+    <slot />
+  </div>
+  <slot name="wide" />
 </div>
 
 <style>
@@ -29,9 +32,13 @@ const { title, breadcrumbLabel } = Astro.props;
   }
 
   .container {
-    max-width: 760px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem;
+  }
+
+  .container.narrow {
+    max-width: 760px;
   }
 
   .breadcrumb {
@@ -60,6 +67,11 @@ const { title, breadcrumbLabel } = Astro.props;
 
   .prose-body {
     padding: 2.5rem 1.5rem 4rem;
+  }
+
+  .prose-body .narrow {
+    max-width: 760px;
+    margin: 0 auto;
   }
 
   .prose-body :global(h2) {
