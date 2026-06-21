@@ -1,0 +1,13 @@
+---
+import { getEntry } from 'astro:content';
+import ProductCard from './ProductCard.astro';
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+const product = await getEntry('products', slug);
+---
+
+{product && <ProductCard product={product} />}

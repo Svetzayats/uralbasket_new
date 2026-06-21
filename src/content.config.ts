@@ -8,7 +8,7 @@ export const collections = {
     schema: productSchema,
   }),
   blog: defineCollection({
-    loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
+    loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog' }),
     schema: blogSchema,
   }),
   pages: defineCollection({
