@@ -2,6 +2,8 @@
 import { getEntry, render } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import ProseContent from '../components/ProseContent.astro';
+import OrderForm from '../components/OrderForm.astro';
+import Contacts from '../components/Contacts.astro'
 
 const entry = await getEntry('pages', 'delivery');
 if (!entry) return Astro.redirect('/404');
@@ -14,5 +16,7 @@ const { Content } = await render(entry);
 >
   <ProseContent title={entry.data.title} breadcrumbLabel="Оплата и доставка">
     <Content />
+    <Contacts />
+    <OrderForm />
   </ProseContent>
 </Layout>
