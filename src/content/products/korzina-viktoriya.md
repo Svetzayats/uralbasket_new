@@ -6,7 +6,7 @@ categories:
   - home_and_garden
   - baskets
 description: "Большая высокая корзина. Размеры: низ 23х31 см, верх 35х47 см, высота 28 см. Материал: цельный ивовый прут."
-price: "2600 р."
+price: "2900 р."
 images:
   - /images/products/korzina-viktoriya_0.jpg
   - /images/products/korzina-viktoriya_1.jpg
@@ -21,4 +21,3 @@ order: 1
 
 Размеры: низ 23х31 см, верх 35х47 см, высота 28 см.
 Материал: цельный ивовый прут.
-

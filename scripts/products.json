@@ -4,10 +4,7 @@
       "id": "sk002",
       "sku": "СК002",
       "name": "Круглая корзина Фрида",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6163-6133-4239-b930-366163613430/IMG_20190121_204930_.jpg"
       ],
@@ -33,10 +30,7 @@
       "id": "b001",
       "sku": "B001",
       "name": "Плетеный короб Моряк",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3935-6232-4630-b033-613764666361/IMG_20190608_101035.jpg"
       ],
@@ -62,9 +56,7 @@
       "id": "ok001",
       "sku": "OK001",
       "name": "Большая овальная корзина Полли",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6535-6165-4362-a336-613365346333/IMG_20190121_204339_.jpg"
       ],
@@ -90,10 +82,7 @@
       "id": "sk001",
       "sku": "СК001",
       "name": "Плетеная круглая корзина Ариана",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6334-3761-4563-b666-363261626461/IMG_20190601_145709.jpg"
       ],
@@ -115,9 +104,7 @@
       "id": "ok002",
       "sku": "OK002",
       "name": "Корзина Виктория",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6236-6230-4436-b932-336338663461/2.jpg"
       ],
@@ -143,9 +130,7 @@
       "id": "ok003",
       "sku": "OK003",
       "name": "Корзина Чарли",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6336-3939-4462-a262-633461396162/2.jpg"
       ],
@@ -171,9 +156,7 @@
       "id": "ok004",
       "sku": "OK004",
       "name": "Корзина Дачная",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6566-6638-4532-b036-363531373933/2.jpg"
       ],
@@ -199,10 +182,7 @@
       "id": "p001",
       "sku": "P001",
       "name": "Корзина подарочная Лодка",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3064-6536-4865-b032-623633366563/photo.jpg"
       ],
@@ -224,10 +204,7 @@
       "id": "ck004",
       "sku": "CK004",
       "name": "Домашняя корзина Бриджит",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3134-3161-4465-a631-633833303739/IMG_20190714_1303091.jpg"
       ],
@@ -249,10 +226,7 @@
       "id": "kk001",
       "sku": "КК001",
       "name": "Корзина Шарлотта",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6439-3266-4463-a432-666236666631/photo532103736288252.jpg"
       ],
@@ -278,10 +252,7 @@
       "id": "s001",
       "sku": "С001",
       "name": "Плетеная сумка Джейн",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3263-6530-4162-b132-656130316430/photo533931635714724.jpg"
       ],
@@ -307,10 +278,7 @@
       "id": "s002",
       "sku": "С002",
       "name": "Плетеная сумка Мечтательница",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3661-3531-4733-b536-353766653939/photo542713266293556.jpg"
       ],
@@ -336,10 +304,7 @@
       "id": "h003",
       "sku": "H003",
       "name": "Винная корзина Эмилия",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3662-3139-4637-b932-373732393362/IMG-20190629-WA0006.jpg"
       ],
@@ -365,10 +330,7 @@
       "id": "sk005",
       "sku": "СК005",
       "name": "Корзина Малышка",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3539-3135-4931-b833-336263383133/1.jpg"
       ],
@@ -394,9 +356,7 @@
       "id": "ok006",
       "sku": "OK006",
       "name": "Средняя корзина Кубышка",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6633-3663-4136-b836-346161353761/IMG_20190609_093530.jpg"
       ],
@@ -418,9 +378,7 @@
       "id": "0100",
       "sku": "0100",
       "name": "Семейный набор корзин",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3861-3165-4631-a266-343565353933/photo547415320468295.jpg"
       ],
@@ -442,9 +400,7 @@
       "id": "ok005",
       "sku": "OK005",
       "name": "Городская корзина Венецианка",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6134-6137-4666-b537-306665303930/photo535063505196611.jpg"
       ],
@@ -470,9 +426,7 @@
       "id": "0900",
       "sku": "0900",
       "name": "Колыбель подвесная Колыбель с капюшоном",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild3139-3764-4737-b932-323532656361/craddle-mini.jpg"
       ],
@@ -498,9 +452,7 @@
       "id": "0901",
       "sku": "0901",
       "name": "Люлька подвесная Люлька с косой",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild3332-6536-4666-b839-366363663632/IMG_20180326_232258_.jpg"
       ],
@@ -526,9 +478,7 @@
       "id": "0902",
       "sku": "0902",
       "name": "Колыбель подвесная Парнас",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild6264-3566-4639-b735-363363663038/2.jpg"
       ],
@@ -554,9 +504,7 @@
       "id": "0903",
       "sku": "0903",
       "name": "Люлька напольная Геркулес",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild3061-3163-4435-b063-333636343036/noroot.jpg"
       ],
@@ -578,9 +526,7 @@
       "id": "0904",
       "sku": "0904",
       "name": "Колыбель подвесная Шармант",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild6666-3038-4134-b033-363136303662/IMG_20190609_092519-.jpg"
       ],
@@ -602,9 +548,7 @@
       "id": "uiexiadr27xijhky8jc9",
       "sku": null,
       "name": "Система крепления для колыбели",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild6430-6232-4337-a535-306462383538/photo_2020-10-08_21-.jpg"
       ],
@@ -626,9 +570,7 @@
       "id": "apiza5ydtcgn1yksjvlv",
       "sku": null,
       "name": "Полный комплект для стандартной люльки",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild3233-3662-4765-b133-396661396637/photo_2020-10-08_21-.jpg"
       ],
@@ -650,10 +592,7 @@
       "id": "i001",
       "sku": "И001",
       "name": "Корзина для кухни Муза",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6534-3862-4434-b437-316232386132/IMG_20180326_233142.jpg"
       ],
@@ -679,10 +618,7 @@
       "id": "i002",
       "sku": "И002",
       "name": "Корзина настольная Грация",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3333-6533-4634-a462-366236396439/photo.jpg"
       ],
@@ -708,10 +644,7 @@
       "id": "i003",
       "sku": "И003",
       "name": "Корзинка настольная Амур",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3864-6431-4564-a132-326537333635/photo.jpg"
       ],
@@ -737,9 +670,7 @@
       "id": "i004",
       "sku": "И004",
       "name": "Корзины для стеллажа 4 шт.",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild3662-3336-4962-a634-353138633965/noroot.jpg"
       ],
@@ -761,10 +692,7 @@
       "id": "i005",
       "sku": "И005",
       "name": "Плетеный мини-бар Винный велосипед",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3965-6430-4336-a565-653937653363/IMG20170809WA0000.jpg"
       ],
@@ -786,10 +714,7 @@
       "id": "i006",
       "sku": "И006",
       "name": "Плетеная шкатулка Фландрия",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6536-3530-4534-b236-363734363632/IMG20170821WA0005.jpg"
       ],
@@ -811,10 +736,7 @@
       "id": "h008",
       "sku": "H008",
       "name": "Винная полка Майорка",
-      "categories": [
-        "display_equipment",
-        "decor"
-      ],
+      "categories": ["display_equipment", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3938-6564-4132-a233-316564373630/4.jpg"
       ],
@@ -840,10 +762,7 @@
       "id": "h009",
       "sku": "H009",
       "name": "Винная полка Швейцария",
-      "categories": [
-        "display_equipment",
-        "decor"
-      ],
+      "categories": ["display_equipment", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6239-6565-4166-a336-356139386162/1000.jpg"
       ],
@@ -865,10 +784,7 @@
       "id": "h010",
       "sku": "H010",
       "name": "Плетеный комод Дворянский",
-      "categories": [
-        "chests",
-        "decor"
-      ],
+      "categories": ["chests", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6537-6564-4238-b563-306636653235/1000.jpg"
       ],
@@ -894,9 +810,7 @@
       "id": "n011",
       "sku": "Н011",
       "name": "Плетеная ваза",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild3638-6134-4466-b339-623237346564/noroot.JPG"
       ],
@@ -922,10 +836,7 @@
       "id": "h006",
       "sku": "H006",
       "name": "Винная полка Италия",
-      "categories": [
-        "display_equipment",
-        "decor"
-      ],
+      "categories": ["display_equipment", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6561-3163-4438-b133-323831336532/1.jpg"
       ],
@@ -951,10 +862,7 @@
       "id": "h007",
       "sku": "H007",
       "name": "Винная полка Классика",
-      "categories": [
-        "display_equipment",
-        "decor"
-      ],
+      "categories": ["display_equipment", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3834-6436-4434-a464-616362336135/2.jpg"
       ],
@@ -980,11 +888,7 @@
       "id": "t001",
       "sku": "T001",
       "name": "Багетница «Колизей»",
-      "categories": [
-        "display_equipment",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["display_equipment", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3535-3032-4533-b365-373465313735/photo_2018-04-03_22-.jpg"
       ],
@@ -1010,10 +914,7 @@
       "id": "01nev0zp5sdljzl9rhht",
       "sku": null,
       "name": "Корзинка интерьерная Алиса",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3036-6333-4365-b862-633031353162/-.jpg"
       ],
@@ -1039,9 +940,7 @@
       "id": "hjhbzhpdtuzlojx5bczs",
       "sku": null,
       "name": "Корзинка интерьерная Алиса - Да",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -1061,9 +960,7 @@
       "id": "pdduh4srnfxhn24nvzhz",
       "sku": null,
       "name": "Корзинка интерьерная Алиса - Да",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -1083,10 +980,7 @@
       "id": "zh001",
       "sku": "Ж001",
       "name": "Плетеная клетка",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3033-3936-4635-a236-393464623837/ZiTksNH1cuE.jpg"
       ],
@@ -1108,9 +1002,7 @@
       "id": "n012",
       "sku": "Н012",
       "name": "Плетеная клумба",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild3663-3362-4234-a438-376539663332/noroot.JPG"
       ],
@@ -1132,9 +1024,7 @@
       "id": "n013",
       "sku": "Н013",
       "name": "Клумба цветочная",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild6232-3535-4735-b962-393061626434/f13011653d1640babb2ef7393e670a8e.jpg"
       ],
@@ -1156,9 +1046,7 @@
       "id": "n014",
       "sku": "Н014",
       "name": "Плетень Ограда",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild6130-3632-4439-a266-613165376661/noroot.JPG"
       ],
@@ -1180,9 +1068,7 @@
       "id": "n015",
       "sku": "Н015",
       "name": "Плетень Весенний",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild3233-3830-4336-b534-376335333035/1.JPG"
       ],
@@ -1204,9 +1090,7 @@
       "id": "n016",
       "sku": "Н016",
       "name": "Плетень Французский",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild6263-3231-4334-b534-353037383465/noroot.JPG"
       ],
@@ -1228,9 +1112,7 @@
       "id": "n017",
       "sku": "Н017",
       "name": "Плетень Ажурный",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild6461-3563-4563-a636-363331646230/noroot.JPG"
       ],
@@ -1252,9 +1134,7 @@
       "id": "d001",
       "sku": "D001",
       "name": "Арка",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild3638-3764-4030-b865-393662616665/noroot.JPG"
       ],
@@ -1276,9 +1156,7 @@
       "id": "d002",
       "sku": "D002",
       "name": "Калитка в плетне",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild3130-3536-4566-b833-323462363633/2.jpg"
       ],
@@ -1300,9 +1178,7 @@
       "id": "d003",
       "sku": "D003",
       "name": "Плетеная тачка",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild3939-3862-4330-b135-663061383834/noroot.jpg"
       ],
@@ -1324,9 +1200,7 @@
       "id": "517072475283",
       "sku": null,
       "name": "Плетеное дерево",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6265-6232-4636-b037-313639633564/noroot.jpg"
       ],
@@ -1348,11 +1222,7 @@
       "id": "n018",
       "sku": "Н018",
       "name": "Плетеный самовар",
-      "categories": [
-        "display_equipment",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["display_equipment", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6632-6261-4433-a664-633466626265/1000.jpg"
       ],
@@ -1374,9 +1244,7 @@
       "id": "cz92uyznsfmbfhvfunky",
       "sku": null,
       "name": "Плетеные сани",
-      "categories": [
-        "decor"
-      ],
+      "categories": ["decor"],
       "images": [
         "https://static.tildacdn.com/tild6630-3637-4562-a362-383831363833/750.jpg"
       ],
@@ -1398,10 +1266,7 @@
       "id": "b010",
       "sku": "B010",
       "name": "Плетеный сундук Бали",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3564-3763-4132-b933-326533616334/noroot.jpg"
       ],
@@ -1423,10 +1288,7 @@
       "id": "130491235210",
       "sku": null,
       "name": "Интерьерный плетёный щиток",
-      "categories": [
-        "display_equipment",
-        "decor"
-      ],
+      "categories": ["display_equipment", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3165-3062-4737-a136-326165373833/noroot.JPG"
       ],
@@ -1448,10 +1310,7 @@
       "id": "t001",
       "sku": "T001",
       "name": "Ширма для ресторана",
-      "categories": [
-        "display_equipment",
-        "decor"
-      ],
+      "categories": ["display_equipment", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6132-3266-4235-b566-393664386436/2.jpg"
       ],
@@ -1473,10 +1332,7 @@
       "id": "t002",
       "sku": "T002",
       "name": "Щиток в деревянной раме",
-      "categories": [
-        "display_equipment",
-        "decor"
-      ],
+      "categories": ["display_equipment", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3562-6466-4535-a662-653030633033/noroot.JPG"
       ],
@@ -1498,10 +1354,7 @@
       "id": "t003",
       "sku": "T003",
       "name": "Наклонный короб Локки",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild6138-3731-4432-b336-376362333830/2.jpg"
       ],
@@ -1523,10 +1376,7 @@
       "id": "t004",
       "sku": "T004",
       "name": "Прямоугольный короб с ручками",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3136-6563-4636-b334-633533346337/noroot.jpg"
       ],
@@ -1548,10 +1398,7 @@
       "id": "t005",
       "sku": "T005",
       "name": "Поднос с ручкой",
-      "categories": [
-        "display_equipment",
-        "baskets"
-      ],
+      "categories": ["display_equipment", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3633-6335-4333-b663-333866393238/noroot.jpg"
       ],
@@ -1573,11 +1420,7 @@
       "id": "clya5m8g7hmpdaxyo6yc",
       "sku": null,
       "name": "Багетницы разных размеров",
-      "categories": [
-        "display_equipment",
-        "chests",
-        "baskets"
-      ],
+      "categories": ["display_equipment", "chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild6263-3134-4538-a431-356361393139/noroot.jpg"
       ],
@@ -1596,79 +1439,10 @@
       }
     },
     {
-      "id": "t006",
-      "sku": "T006",
-      "name": "Багетницы разных размеров - 55 см",
-      "categories": [
-        "baskets"
-      ],
-      "images": [],
-      "description": "",
-      "text": null,
-      "price": 3390,
-      "price_old": null,
-      "quantity": 0,
-      "orderable": true,
-      "weight": null,
-      "dimensions": null,
-      "seo": {
-        "title": null,
-        "description": null,
-        "keywords": null
-      }
-    },
-    {
-      "id": "t007",
-      "sku": "T007",
-      "name": "Багетницы разных размеров - 75 см",
-      "categories": [
-        "baskets"
-      ],
-      "images": [],
-      "description": "",
-      "text": null,
-      "price": 4590,
-      "price_old": null,
-      "quantity": 0,
-      "orderable": true,
-      "weight": null,
-      "dimensions": null,
-      "seo": {
-        "title": null,
-        "description": null,
-        "keywords": null
-      }
-    },
-    {
-      "id": "t008",
-      "sku": "T008",
-      "name": "Багетницы разных размеров - 95 см",
-      "categories": [
-        "baskets"
-      ],
-      "images": [],
-      "description": "",
-      "text": null,
-      "price": 5490,
-      "price_old": null,
-      "quantity": 0,
-      "orderable": true,
-      "weight": null,
-      "dimensions": null,
-      "seo": {
-        "title": null,
-        "description": null,
-        "keywords": null
-      }
-    },
-    {
       "id": "t009",
       "sku": "T009",
       "name": "Длинный узкий короб",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3530-3033-4262-a363-303038633730/noroot.jpg"
       ],
@@ -1690,11 +1464,7 @@
       "id": "t010",
       "sku": "T010",
       "name": "Лоток для приборов",
-      "categories": [
-        "display_equipment",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["display_equipment", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6239-3232-4430-b062-393634613837/2.jpg"
       ],
@@ -1716,9 +1486,7 @@
       "id": "t011",
       "sku": "T011",
       "name": "Круглый поднос",
-      "categories": [
-        "display_equipment"
-      ],
+      "categories": ["display_equipment"],
       "images": [
         "https://static.tildacdn.com/tild6234-6332-4037-a536-633635373365/noroot.jpg"
       ],
@@ -1740,11 +1508,7 @@
       "id": "t012",
       "sku": "T012",
       "name": "Короб с разделителями",
-      "categories": [
-        "display_equipment",
-        "chests",
-        "decor"
-      ],
+      "categories": ["display_equipment", "chests", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3531-6162-4166-b638-623632643264/2.jpg"
       ],
@@ -1766,10 +1530,7 @@
       "id": "t013",
       "sku": "T013",
       "name": "Наклонный короб Дюшес",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3763-6639-4338-a236-633666323430/2.jpg"
       ],
@@ -1791,11 +1552,7 @@
       "id": "1ikexlpbvye96vejnd3d",
       "sku": null,
       "name": "Квадратный короб с ручками",
-      "categories": [
-        "display_equipment",
-        "chests",
-        "baskets"
-      ],
+      "categories": ["display_equipment", "chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3439-6662-4463-b164-386137666432/1384013583215.jpg"
       ],
@@ -1817,9 +1574,7 @@
       "id": "t015",
       "sku": "T015",
       "name": "Квадратный короб с ручками - Фанерное",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -1839,9 +1594,7 @@
       "id": "t016",
       "sku": "T016",
       "name": "Квадратный короб с ручками - Плетеное",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -1861,11 +1614,7 @@
       "id": "b002",
       "sku": "B002",
       "name": "Ажурный короб",
-      "categories": [
-        "display_equipment",
-        "chests",
-        "baskets"
-      ],
+      "categories": ["display_equipment", "chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3866-3166-4564-a364-656561336139/2.jpg"
       ],
@@ -1887,10 +1636,7 @@
       "id": "b011",
       "sku": "B011",
       "name": "Прямоугольный низкий короб",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3538-6535-4437-a236-646461353362/noroot.jpg"
       ],
@@ -1912,10 +1658,7 @@
       "id": "an7hmf8kkv1gz58mjxrh",
       "sku": null,
       "name": "Квадратный короб",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3831-6535-4631-b034-363262613262/2.jpg"
       ],
@@ -1937,9 +1680,7 @@
       "id": "t016",
       "sku": "T016",
       "name": "Квадратный короб",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -1959,9 +1700,7 @@
       "id": "t017",
       "sku": "T017",
       "name": "Квадратный короб",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -1981,11 +1720,7 @@
       "id": "t016",
       "sku": "T016",
       "name": "Круглый маленький короб",
-      "categories": [
-        "display_equipment",
-        "chests",
-        "baskets"
-      ],
+      "categories": ["display_equipment", "chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3838-6337-4336-a332-376465626464/mini.jpg"
       ],
@@ -2007,10 +1742,7 @@
       "id": "t017",
       "sku": "T017",
       "name": "Прямоугольный высокий короб",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3832-3861-4131-a265-653061373936/400.jpg"
       ],
@@ -2032,11 +1764,7 @@
       "id": "t018",
       "sku": "T018",
       "name": "Короб под картошку",
-      "categories": [
-        "display_equipment",
-        "chests",
-        "decor"
-      ],
+      "categories": ["display_equipment", "chests", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6432-3838-4537-b835-623663616666/noroot.jpg"
       ],
@@ -2058,9 +1786,7 @@
       "id": "t019",
       "sku": "T019",
       "name": "Полка для выпечки",
-      "categories": [
-        "display_equipment"
-      ],
+      "categories": ["display_equipment"],
       "images": [
         "https://static.tildacdn.com/tild6163-3064-4339-b933-623335653038/noroot.jpg"
       ],
@@ -2082,10 +1808,7 @@
       "id": "t021",
       "sku": "T021",
       "name": "Лоток наклонный Булочка",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3431-3233-4030-a131-366632333532/400.JPG"
       ],
@@ -2107,10 +1830,7 @@
       "id": "t022",
       "sku": "T022",
       "name": "Накопитель низкий",
-      "categories": [
-        "display_equipment",
-        "chests"
-      ],
+      "categories": ["display_equipment", "chests"],
       "images": [
         "https://static.tildacdn.com/tild3538-3531-4037-a539-646465656331/400.JPG"
       ],
@@ -2132,11 +1852,7 @@
       "id": "h004",
       "sku": "H004",
       "name": "Винная корзинка",
-      "categories": [
-        "display_equipment",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["display_equipment", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3233-3665-4364-a531-646630386538/2.jpg"
       ],
@@ -2158,11 +1874,7 @@
       "id": "h005",
       "sku": "H005",
       "name": "Винная корзинка Шампань",
-      "categories": [
-        "display_equipment",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["display_equipment", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3535-3164-4335-b730-346431376636/noroot.jpg"
       ],
@@ -2184,10 +1896,7 @@
       "id": "t023",
       "sku": "T023",
       "name": "Овальная корзина для выкладки",
-      "categories": [
-        "display_equipment",
-        "baskets"
-      ],
+      "categories": ["display_equipment", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild6331-3665-4839-b436-356433316663/2.jpg"
       ],
@@ -2209,10 +1918,7 @@
       "id": "oa5gnosvybx1jlaz6ybo",
       "sku": null,
       "name": "Плетеный короб Ноктюрн",
-      "categories": [
-        "chests",
-        "decor"
-      ],
+      "categories": ["chests", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3436-6531-4336-b035-373166656338/100_2067.JPG"
       ],
@@ -2234,9 +1940,7 @@
       "id": "2nkeovfh94aoxp1g5lhb",
       "sku": null,
       "name": "Плетеный короб Ноктюрн - Фанерное",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -2256,9 +1960,7 @@
       "id": "ol6grtlzmozeipsb106m",
       "sku": null,
       "name": "Плетеный короб Ноктюрн - Плетеное",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [],
       "description": "",
       "text": null,
@@ -2278,11 +1980,7 @@
       "id": "b015",
       "sku": "B015",
       "name": "Плетеный короб Триест",
-      "categories": [
-        "chests",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["chests", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3531-6561-4935-b833-633032336434/2.JPG"
       ],
@@ -2308,11 +2006,7 @@
       "id": "b016",
       "sku": "B016",
       "name": "Плетеный сундук Фиренце",
-      "categories": [
-        "chests",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["chests", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3834-6265-4339-b561-643938343439/1.JPG"
       ],
@@ -2334,10 +2028,7 @@
       "id": "b017",
       "sku": "B017",
       "name": "Плетеный короб Виноград",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild6238-6664-4264-b066-313931643538/1.JPG"
       ],
@@ -2359,10 +2050,7 @@
       "id": "b018",
       "sku": "B018",
       "name": "Плетеный сундук Тумба",
-      "categories": [
-        "chests",
-        "decor"
-      ],
+      "categories": ["chests", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6233-3438-4661-a266-663233666265/noroot.JPG"
       ],
@@ -2384,10 +2072,7 @@
       "id": "b019",
       "sku": "B019",
       "name": "Плетеный короб Кратер",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3235-3634-4336-b535-366137306462/2.jpg"
       ],
@@ -2409,10 +2094,7 @@
       "id": "b020",
       "sku": "B020",
       "name": "Плетеный сундук Берта",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3464-3965-4635-b136-666662393336/1.jpeg"
       ],
@@ -2434,10 +2116,7 @@
       "id": "b021",
       "sku": "B021",
       "name": "Плетеный сундук Гранд",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild6538-3063-4531-b734-373237303130/2.jpg"
       ],
@@ -2459,9 +2138,7 @@
       "id": "p001",
       "sku": "П001",
       "name": "Корзина для кота Феличита",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6236-3961-4964-b131-376135653936/1.jpg"
       ],
@@ -2483,9 +2160,7 @@
       "id": "p003",
       "sku": "П003",
       "name": "Корзина для собаки Трезор",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6632-3662-4532-b663-636264323935/IMG_20180326_232918.jpg"
       ],
@@ -2507,9 +2182,7 @@
       "id": "p002",
       "sku": "П002",
       "name": "Кошачий дом",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6330-6437-4033-b966-623231653536/IMG-20190924-WA0026.jpg"
       ],
@@ -2531,9 +2204,7 @@
       "id": "h001",
       "sku": "H001",
       "name": "Аннет",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3066-3834-4563-b061-653338623737/_3.jpg"
       ],
@@ -2555,9 +2226,7 @@
       "id": "b003",
       "sku": "B003",
       "name": "Арчер",
-      "categories": [
-        "chests"
-      ],
+      "categories": ["chests"],
       "images": [
         "https://static.tildacdn.com/tild3163-6630-4334-a538-613439363338/IMG_20190609_092753_.jpg"
       ],
@@ -2579,9 +2248,7 @@
       "id": "r002",
       "sku": "Р002",
       "name": "Тэффи",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6163-3965-4431-b231-366134613163/12.jpg"
       ],
@@ -2603,9 +2270,7 @@
       "id": "r003",
       "sku": "Р003",
       "name": "Лилечка",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3561-6437-4635-b062-633036663464/2.jpg"
       ],
@@ -2627,10 +2292,7 @@
       "id": "t023",
       "sku": "Т023",
       "name": "Короб Куба",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild6636-3734-4631-b631-623534336234/400.JPG"
       ],
@@ -2652,10 +2314,7 @@
       "id": "r004",
       "sku": "Р004",
       "name": "Оливия",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3261-6432-4433-a231-366133623136/2400.jpg"
       ],
@@ -2677,10 +2336,7 @@
       "id": "t025",
       "sku": "Т025",
       "name": "Квадратный лоток",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3463-6662-4630-b131-306636333963/2.jpg"
       ],
@@ -2702,10 +2358,7 @@
       "id": "t025",
       "sku": "Т025",
       "name": "Помона",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/tild3935-6637-4535-b834-373331653339/400.jpg"
       ],
@@ -2727,10 +2380,7 @@
       "id": "t026",
       "sku": "Т026",
       "name": "Милан",
-      "categories": [
-        "chests",
-        "baskets"
-      ],
+      "categories": ["chests", "baskets"],
       "images": [
         "https://static.tildacdn.com/stor3132-3639-4934-b834-646530353064/35113302.jpg"
       ],
@@ -2752,9 +2402,7 @@
       "id": "t027",
       "sku": "Т027",
       "name": "Пикниковая корзина Italy",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6438-6338-4437-a635-666263663934/400.JPG"
       ],
@@ -2776,9 +2424,7 @@
       "id": "t028",
       "sku": "Т028",
       "name": "Кантри",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3062-6332-4665-b037-306562623262/400.JPG"
       ],
@@ -2800,10 +2446,7 @@
       "id": "t029",
       "sku": "Т029",
       "name": "Мечта",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3138-6632-4139-b333-356163326462/NOqzVLptDIc.jpg"
       ],
@@ -2825,10 +2468,7 @@
       "id": "t030",
       "sku": "Т030",
       "name": "Классика",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3438-3432-4233-a134-643831626662/400.JPG"
       ],
@@ -2850,9 +2490,7 @@
       "id": "t031",
       "sku": "Т031",
       "name": "Улов",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3364-3838-4331-a332-633438313862/400.JPG"
       ],
@@ -2874,10 +2512,7 @@
       "id": "t032",
       "sku": "Т032",
       "name": "Элен",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6436-3037-4534-a233-336164393635/2400.JPG"
       ],
@@ -2899,9 +2534,7 @@
       "id": "t033",
       "sku": "Т033",
       "name": "Рыбацкая",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6231-6163-4033-b536-666465353833/400.jpg"
       ],
@@ -2923,10 +2556,7 @@
       "id": "t034",
       "sku": "Т034",
       "name": "Пайва",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/stor3266-3937-4165-a664-613466613937/48300370.jpg"
       ],
@@ -2948,10 +2578,7 @@
       "id": "p005",
       "sku": "P005",
       "name": "Подарочная корзина Вивьен",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3666-3231-4133-b138-353664346561/photo539806870514287.jpg"
       ],
@@ -2973,10 +2600,7 @@
       "id": "p006",
       "sku": "P006",
       "name": "Подарочная корзина Ливиньо",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3336-3963-4065-a438-633635613763/-.JPG"
       ],
@@ -2998,10 +2622,7 @@
       "id": "p007",
       "sku": "P007",
       "name": "Подарочная корзина Асимметрия",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6339-3732-4666-a631-613766636634/400.JPG"
       ],
@@ -3023,9 +2644,7 @@
       "id": "p008",
       "sku": "P008",
       "name": "Подарочная корзина Гармония",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3739-3830-4063-a366-666438636139/400.JPG"
       ],
@@ -3047,9 +2666,7 @@
       "id": "r009",
       "sku": "Р009",
       "name": "Корзина ажурная Светлица",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3239-6430-4561-a138-653637623063/noroot.png"
       ],
@@ -3071,10 +2688,7 @@
       "id": "p010",
       "sku": "P010",
       "name": "Подарочная корзина Пьемонт",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3638-3765-4166-a234-323261363736/-.JPG"
       ],
@@ -3096,9 +2710,7 @@
       "id": "r011",
       "sku": "Р011",
       "name": "Корзина ажурная Радость",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6164-3666-4662-b934-363965306438/noroot.JPG"
       ],
@@ -3120,9 +2732,7 @@
       "id": "p003",
       "sku": "P003",
       "name": "Подарочная корзина Весенняя",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6432-3737-4039-a263-316162353537/400.JPG"
       ],
@@ -3144,9 +2754,7 @@
       "id": "p006",
       "sku": "P006",
       "name": "Подарочная корзина Колокольчик",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3935-3664-4163-b966-663739356434/400.JPG"
       ],
@@ -3168,9 +2776,7 @@
       "id": "p014",
       "sku": "P014",
       "name": "Подарочная корзина Круглая средняя",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3734-3564-4334-b030-316239313030/400.JPG"
       ],
@@ -3192,9 +2798,7 @@
       "id": "p015",
       "sku": "P015",
       "name": "Подарочная корзина Овальная средняя",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3130-3066-4434-b136-303836383966/400.JPG"
       ],
@@ -3216,9 +2820,7 @@
       "id": "p016",
       "sku": "P016",
       "name": "Подарочная корзина Подарочная большая",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6337-6238-4434-b439-613934333665/400.JPG"
       ],
@@ -3240,9 +2842,7 @@
       "id": "p017",
       "sku": "P017",
       "name": "Подарочная корзина Кузовок",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6338-3732-4237-b933-653032653565/400.JPG"
       ],
@@ -3264,9 +2864,7 @@
       "id": "r018",
       "sku": "Р018",
       "name": "Колобок",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6237-3734-4663-a562-303265303730/400.JPG"
       ],
@@ -3288,9 +2886,7 @@
       "id": "r020",
       "sku": "Р020",
       "name": "Каса",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3635-3631-4330-b337-623031306362/400.JPG"
       ],
@@ -3312,9 +2908,7 @@
       "id": "r023",
       "sku": "Р023",
       "name": "Козетта",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6432-6236-4434-b930-303430643563/400.JPG"
       ],
@@ -3336,11 +2930,7 @@
       "id": "r024",
       "sku": "Р024",
       "name": "Плетеный накопитель Тура",
-      "categories": [
-        "display_equipment",
-        "baskets",
-        "decor"
-      ],
+      "categories": ["display_equipment", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6563-3538-4236-b438-313464643831/400.JPG"
       ],
@@ -3362,9 +2952,7 @@
       "id": "ck003",
       "sku": "CK003",
       "name": "Боровинка",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3934-3532-4731-a361-376366393639/400.JPG"
       ],
@@ -3386,9 +2974,7 @@
       "id": "ck004",
       "sku": "CK004",
       "name": "Урожай",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6532-3763-4633-a532-663737353630/400.JPG"
       ],
@@ -3410,9 +2996,7 @@
       "id": "ck005",
       "sku": "CK005",
       "name": "Кантина",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3235-3035-4634-b633-613838353733/400.JPG"
       ],
@@ -3434,9 +3018,7 @@
       "id": "p004",
       "sku": "П004",
       "name": "Патриция",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3666-3131-4239-b736-343833393636/IMG_0485.jpeg"
       ],
@@ -3458,9 +3040,7 @@
       "id": "ck005",
       "sku": "CK005",
       "name": "Жасмин",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3961-3538-4636-a338-393237643765/Jasmin2.JPG"
       ],
@@ -3482,9 +3062,7 @@
       "id": "h002",
       "sku": "H002",
       "name": "Большая круглая корзина Солнце",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3730-3333-4233-b735-363531373764/photo.jpg"
       ],
@@ -3506,9 +3084,7 @@
       "id": "apiza5ydtcgn1yksjvlv",
       "sku": null,
       "name": "Стойка деревянная для подвесной колыбели",
-      "categories": [
-        "cribs"
-      ],
+      "categories": ["cribs"],
       "images": [
         "https://static.tildacdn.com/tild6332-3865-4636-b431-396237636636/photo_2020-10-08_21-.jpg"
       ],
@@ -3530,9 +3106,7 @@
       "id": "r031",
       "sku": "Р031",
       "name": "Хозяюшка",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3632-3064-4436-b365-623438386632/IMG_1323.jpeg"
       ],
@@ -3554,9 +3128,7 @@
       "id": "r032",
       "sku": "Р032",
       "name": "Прямоугольная корзина Конни",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3162-3037-4233-b130-656534303035/photo_2021-03-21_12-.jpg"
       ],
@@ -3578,10 +3150,7 @@
       "id": "r033",
       "sku": "Р033",
       "name": "Круглая корзина Арина",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild6666-3933-4664-b232-393639363638/photo_2021-03-21_12-.jpg"
       ],
@@ -3603,9 +3172,7 @@
       "id": "ok003",
       "sku": "OK003",
       "name": "Виола",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild3935-3135-4431-b935-383565613961/photo_2021-04-13_22-.jpg"
       ],
@@ -3627,9 +3194,7 @@
       "id": "r040",
       "sku": "Р040",
       "name": "Лукошко",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/stor3361-3261-4230-b761-646434343263/58659054.jpg"
       ],
@@ -3651,9 +3216,7 @@
       "id": "r034",
       "sku": "Р034",
       "name": "Матильда",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/stor3163-6362-4061-b963-363666343930/79946475.png"
       ],
@@ -3675,9 +3238,7 @@
       "id": "2970",
       "sku": "2970",
       "name": "Хозяйственная",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/stor3439-3135-4031-a135-663766303962/54048448.jpg"
       ],
@@ -3699,9 +3260,7 @@
       "id": "r036",
       "sku": "Р036",
       "name": "Кларисса",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/stor6466-6530-4931-a163-336338653365/77651337.png"
       ],
@@ -3723,10 +3282,7 @@
       "id": "r034",
       "sku": "Р034",
       "name": "Прованс",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/stor3234-3863-4463-b065-616464643664/74975250.jpg"
       ],
@@ -3748,10 +3304,7 @@
       "id": "r039",
       "sku": "Р039",
       "name": "Феличита",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/stor3130-3962-4266-b137-333436333535/27702663.png"
       ],
@@ -3773,9 +3326,7 @@
       "id": "r038",
       "sku": "Р038",
       "name": "Лилечка",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/stor3637-3932-4339-b433-383362323164/62088584.jpg"
       ],
@@ -3797,10 +3348,7 @@
       "id": "t01",
       "sku": "Т01",
       "name": "Плетеный накопитель Танго",
-      "categories": [
-        "display_equipment",
-        "baskets"
-      ],
+      "categories": ["display_equipment", "baskets"],
       "images": [
         "https://static.tildacdn.com/stor3834-6334-4431-b063-393861363430/64254078.jpg"
       ],
@@ -3822,10 +3370,7 @@
       "id": "paulina",
       "sku": "PAULINA",
       "name": "Шкатулка Паулина",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/stor3939-6465-4066-b937-623033313037/71427584.jpg"
       ],
@@ -3847,9 +3392,7 @@
       "id": "ronda",
       "sku": "RONDA",
       "name": "Ронда",
-      "categories": [
-        "baskets"
-      ],
+      "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/stor3038-3638-4537-a435-353736353437/89336017.jpg"
       ],
@@ -3871,10 +3414,7 @@
       "id": "amber",
       "sku": "AMBER",
       "name": "Янтарная",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/stor3733-3765-4261-b033-303265616235/75116480.jpg"
       ],
@@ -3896,10 +3436,7 @@
       "id": "e2btfthz6yanbbkhdxax",
       "sku": null,
       "name": "Плетёная сумочка Сильвия",
-      "categories": [
-        "baskets",
-        "decor"
-      ],
+      "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/stor3236-3733-4361-a533-356264343832/1cf2f8dcc261c68360ee467b6f4db8d5.jpg"
       ],

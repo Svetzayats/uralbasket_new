@@ -5,22 +5,16 @@ categories:
   - gift
   - easter
   - baskets
-description: "Вместительная корзина с праздничным обшивом. Размеры: 44х27 см, высота 15 см Материал: цельный ивовый прут. С обшивом / Без обшива"
-price: "2600 р."
+description: "Вместительная корзина с праздничным обшивом. Размеры: 44х27 см, высота 15 см Материал: цельный ивовый прут. Без обшива — 3000 руб, с обшивом — 3700 руб."
+price: "от 3000 р."
 images:
   - /images/products/bolshaya-ovalnaya-korzina-polli_0.jpg
   - /images/products/bolshaya-ovalnaya-korzina-polli_1.jpg
 sizes:
   width: 27
-  height: 15
   depth: 47
+  height: 15
 inStock: true
 featured: false
 order: 1
 ---
-
-Вместительная корзина с праздничным обшивом.
-
-Размеры: 47х27 см, высота 15 см
-Материал: цельный ивовый прут.
-

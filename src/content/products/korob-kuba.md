@@ -6,7 +6,7 @@ categories:
   - storage
   - baskets
 description: "Размеры: 30х35 см, высота 30 см."
-price: "2650 р."
+price: "3500 р."
 images:
   - /images/products/korob-kuba_0.jpg
   - /images/products/korob-kuba_1.jpg
@@ -17,4 +17,3 @@ order: 1
 
 Размеры: 30х35 см, высота 30 см.
 Материалы: цельный ивовый прут, фанерное дно.
-

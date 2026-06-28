@@ -6,8 +6,8 @@ categories:
   - design
   - storage
   - baskets
-description: "Размеры: 12х35 см, высота 12 см. Материал: цельный ивовый прут, фанерное дно. Возможно изготовление на плетеном дне (вторая цена)."
-price: "по запросу"
+description: "Размеры: 12х35 см, высота 12 см. Материал: цельный ивовый прут"
+price: "1690 руб"
 images:
   - /images/products/korzinka-interernaya-alisa_0.jpg
   - /images/products/korzinka-interernaya-alisa_1.jpg
@@ -19,7 +19,3 @@ inStock: true
 featured: false
 order: 1
 ---
-
-Размеры: 12х35 см, высота 12 см.
-Материал: цельный ивовый прут, фанерное дно. Возможно изготовление на плетеном дне (вторая цена).
-
