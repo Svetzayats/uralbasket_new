@@ -9,8 +9,11 @@ price: "1790 р."
 images:
   - /images/products/kruglaya-korzina-arina_0.jpg
   - /images/products/kruglaya-korzina-arina_1.jpg
-inStock: true
-featured: false
+sizes:
+ height: 20
+ diameter: 22
+inStock: false
+featured: true
 order: 1
 ---
 

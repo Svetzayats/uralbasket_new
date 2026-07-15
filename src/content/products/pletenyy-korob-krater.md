@@ -4,14 +4,13 @@ categories:
   - for_children
   - chests
   - storage
-  - baskets
 description: "Размеры: ширина 43 см, глубина 33 см, высота 35 см."
 price: "4290 р."
 images:
   - /images/products/pletenyy-korob-krater_0.jpg
   - /images/products/pletenyy-korob-krater_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

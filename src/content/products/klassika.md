@@ -10,8 +10,8 @@ description: "Велокорзина Размеры: 30х20 см, верх 40х3
 price: "2700 р."
 images:
   - /images/products/klassika_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

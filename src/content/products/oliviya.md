@@ -9,8 +9,8 @@ price: "7390 р."
 images:
   - /images/products/oliviya_0.jpg
   - /images/products/oliviya_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

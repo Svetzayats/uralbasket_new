@@ -7,8 +7,8 @@ description: "Небольшая изящная корзинка, идеальн
 price: "1200 р."
 images:
   - /images/products/podarochnaya-korzina-vesennyaya_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

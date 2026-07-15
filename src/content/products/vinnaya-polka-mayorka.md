@@ -10,7 +10,7 @@ images:
 sizes:
   width: 50
   height: 85
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

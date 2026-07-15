@@ -5,17 +5,24 @@ import OrderForm from '../../components/OrderForm.astro';
 
 export async function getStaticPaths() {
   const products = await getCollection('products');
-  return products.map(product => ({
-    params: { slug: product.id },
-    props: { product },
-  }));
+  return products
+    .filter(product => product.data.published)
+    .map(product => ({
+      params: { slug: product.id },
+      props: { product },
+    }));
 }
 
 const { product } = Astro.props;
 const { title, description, price, images, sizes, inStock, category } = product.data;
 
 const sizesStr = sizes
-  ? [sizes.width, sizes.depth, sizes.height].filter(Boolean).join(' x ') + ' см'
+  ? [
+      sizes.diameter ? `⌀${sizes.diameter}` : null,
+      sizes.width,
+      sizes.depth,
+      sizes.height,
+    ].filter(Boolean).join(' x ') + ' см'
   : undefined;
 const { Content } = await render(product);
 
@@ -85,10 +92,11 @@ const categoryLabels: Record<string, string> = {
 
         <p class="description">{description}</p>
 
-        {sizes && (sizes.width || sizes.height || sizes.depth) && (
+        {sizes && (sizes.width || sizes.height || sizes.depth || sizes.diameter) && (
           <div class="sizes-block">
             <h2 class="sizes-heading">Размеры</h2>
             <dl class="sizes-grid">
+              {sizes.diameter && <><dt>Диаметр</dt><dd>{sizes.diameter} см</dd></>}
               {sizes.width && <><dt>Ширина</dt><dd>{sizes.width} см</dd></>}
               {sizes.depth && <><dt>Глубина</dt><dd>{sizes.depth} см</dd></>}
               {sizes.height && <><dt>Высота</dt><dd>{sizes.height} см</dd></>}

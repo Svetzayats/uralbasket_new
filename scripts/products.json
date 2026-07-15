@@ -887,7 +887,7 @@
     {
       "id": "t001",
       "sku": "T001",
-      "name": "Багетница «Колизей»",
+      "name": "Багетница Колизей",
       "categories": ["display_equipment", "baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/tild3535-3032-4533-b365-373465313735/photo_2018-04-03_22-.jpg"
@@ -2401,7 +2401,7 @@
     {
       "id": "t027",
       "sku": "Т027",
-      "name": "Пикниковая корзина Italy",
+      "name": "Пикниковая корзина Агата",
       "categories": ["baskets"],
       "images": [
         "https://static.tildacdn.com/tild6438-6338-4437-a635-666263663934/400.JPG"
@@ -3303,7 +3303,7 @@
     {
       "id": "r039",
       "sku": "Р039",
-      "name": "Феличита",
+      "name": "София",
       "categories": ["baskets", "decor"],
       "images": [
         "https://static.tildacdn.com/stor3130-3962-4266-b137-333436333535/27702663.png"

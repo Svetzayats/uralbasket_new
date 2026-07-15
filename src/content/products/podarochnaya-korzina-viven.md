@@ -3,14 +3,15 @@ title: Подарочная корзина Вивьен
 categories:
   - gift
   - accessories
+  - decor
   - baskets
 description: "Круглая подарочная корзина с плетеным дном. Размеры: диаметр низа 25 см, диаметр верха 31 см. Высота 10 см, высота около ручек 14 см, высота с ручкой 33 см. Материал: цельный ивовый прут."
 price: "1450 р."
 images:
   - /images/products/podarochnaya-korzina-viven_0.jpg
   - /images/products/podarochnaya-korzina-viven_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

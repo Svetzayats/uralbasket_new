@@ -1,15 +1,15 @@
 ---
 title: Короб с разделителями
 categories:
-  - design
+  - decor
   - display_equipment
   - chests
 description: "Размеры: 60х35 см, высота 15 см. Материалы: цельный ивовый прут, фанерное дно, оклеенное пленкой."
 price: "2850 р."
 images:
   - /images/products/korob-s-razdelitelyami_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

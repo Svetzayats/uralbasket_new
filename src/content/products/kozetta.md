@@ -11,8 +11,8 @@ price: "3490 р."
 images:
   - /images/products/kozetta_0.jpg
   - /images/products/kozetta_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

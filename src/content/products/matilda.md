@@ -9,8 +9,8 @@ description: "Размеры: дно 30х20 см, высота 25 см. Мате
 price: "2250 р."
 images:
   - /images/products/matilda_0.png
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

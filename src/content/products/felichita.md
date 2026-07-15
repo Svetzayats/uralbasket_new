@@ -1,5 +1,5 @@
 ---
-title: Феличита
+title: София
 categories:
   - household
   - decor
@@ -10,7 +10,7 @@ price: "2400 р."
 images:
   - /images/products/felichita_0.png
   - /images/products/felichita_1.png
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

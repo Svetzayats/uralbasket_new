@@ -8,8 +8,8 @@ description: "Корзинка как из сказки: ее особенно �
 price: "900 р."
 images:
   - /images/products/podarochnaya-korzina-kuzovok_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

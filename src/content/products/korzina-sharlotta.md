@@ -12,8 +12,9 @@ images:
   - /images/products/korzina-sharlotta_1.jpg
 sizes:
   height: 35
-inStock: true
-featured: false
+  diameter: 25 
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -6,7 +6,7 @@ description: Необычный элемент оформления участк
 price: "6790 р."
 images:
   - /images/products/pletenaya-tachka_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

@@ -6,8 +6,8 @@ description: "Размеры: диаметр 45 см. Материал: цель
 price: "1250 р."
 images:
   - /images/products/kruglyy-podnos_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

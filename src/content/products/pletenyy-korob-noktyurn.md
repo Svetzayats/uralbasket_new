@@ -8,8 +8,8 @@ price: "по запросу"
 images:
   - /images/products/pletenyy-korob-noktyurn_0.jpg
   - /images/products/pletenyy-korob-noktyurn_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

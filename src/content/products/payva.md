@@ -11,8 +11,8 @@ price: "6175 р."
 images:
   - /images/products/payva_0.jpg
   - /images/products/payva_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

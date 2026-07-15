@@ -9,7 +9,7 @@ description: "4 корзины: от очень большой для папы �
 price: "9700 р."
 images:
   - /images/products/semeynyy-nabor-korzin_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

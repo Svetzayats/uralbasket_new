@@ -10,8 +10,8 @@ price: "2950 р."
 images:
   - /images/products/domashnyaya-korzina-bridzhit_0.jpg
   - /images/products/domashnyaya-korzina-bridzhit_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

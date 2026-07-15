@@ -13,8 +13,8 @@ sizes:
   width: 31
   height: 32
   depth: 37
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

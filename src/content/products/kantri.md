@@ -9,7 +9,7 @@ price: "4100 р."
 images:
   - /images/products/kantri_0.jpg
   - /images/products/kantri_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

@@ -10,8 +10,8 @@ price: "2450 р."
 images:
   - /images/products/zhasmin_0.jpg
   - /images/products/zhasmin_1.jpeg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

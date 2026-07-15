@@ -8,8 +8,8 @@ description: "Большая корзина. Размеры: дно: 45х27 см
 price: "3300 р."
 images:
   - /images/products/urozhay_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

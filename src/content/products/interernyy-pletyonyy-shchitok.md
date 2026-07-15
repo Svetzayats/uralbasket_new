@@ -7,8 +7,8 @@ description: "Размеры: 40х50 см. Материал: цельный ив
 price: "1020 р."
 images:
   - /images/products/interernyy-pletyonyy-shchitok_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

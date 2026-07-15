@@ -7,8 +7,8 @@ description: "Корзина для кошки Размеры: 52х37 см, вы
 price: "3990 р."
 images:
   - /images/products/patritsiya_0.jpeg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

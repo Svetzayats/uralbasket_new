@@ -8,8 +8,8 @@ price: "1250 р."
 images:
   - /images/products/pryamougolnaya-korzina-konni_0.jpg
   - /images/products/pryamougolnaya-korzina-konni_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

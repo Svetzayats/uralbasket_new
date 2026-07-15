@@ -4,14 +4,13 @@ categories:
   - gift
   - decor
   - design
-  - baskets
 description: "Необычный вариант мини-бара: велосипед с корзинкой и прицепом для хранения бутылок. Яркое решение для дизайна интерьера, а также отличный подарок к юбилею или свадьбе. Размеры: высота 27 см. Цена одного велосипеда: 2 750 руб. Цена велосипеда + прицеп:#nbsp;4 090 руб."
 price: "4190 р."
 images:
   - /images/products/pletenyy-mini-bar-vinnyy-velosiped_0.jpg
   - /images/products/pletenyy-mini-bar-vinnyy-velosiped_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -3,15 +3,14 @@ title: Шкатулка Паулина
 categories:
   - gift
   - decor
-  - design
   - storage
   - baskets
 description: "Размеры: 30х20 см, высота 10 см. Фанерное дно."
 price: "2000 р."
 images:
   - /images/products/shkatulka-paulina_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

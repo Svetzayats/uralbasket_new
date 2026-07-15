@@ -7,8 +7,8 @@ description: "Размеры: 40х35, высота 12-15 см. Материал:
 price: "1690 р."
 images:
   - /images/products/naklonnyy-korob-lokki_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

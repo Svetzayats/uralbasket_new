@@ -8,7 +8,7 @@ description: "Размеры: 28х18 см, высота 17 см. Материа�
 price: "2500 р."
 images:
   - /images/products/klarissa_0.png
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

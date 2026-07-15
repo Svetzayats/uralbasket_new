@@ -6,8 +6,8 @@ description: "Калитка является частью плетеного з
 price: "590 р."
 images:
   - /images/products/kalitka-v-pletne_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

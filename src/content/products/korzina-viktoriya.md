@@ -11,9 +11,11 @@ images:
   - /images/products/korzina-viktoriya_0.jpg
   - /images/products/korzina-viktoriya_1.jpg
 sizes:
+  width: 35
+  depth: 47
   height: 28
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

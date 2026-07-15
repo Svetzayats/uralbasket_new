@@ -11,8 +11,8 @@ sizes:
   width: 45
   height: 130
   depth: 120
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

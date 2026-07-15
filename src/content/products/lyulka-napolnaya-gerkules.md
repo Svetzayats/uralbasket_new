@@ -6,8 +6,8 @@ description: "Размеры: длина окружности эллипса в 
 price: "8990 р."
 images:
   - /images/products/lyulka-napolnaya-gerkules_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

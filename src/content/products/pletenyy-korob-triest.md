@@ -2,10 +2,8 @@
 title: Плетеный короб Триест
 categories:
   - laundry_baskets
-  - design
   - chests
   - storage
-  - baskets
 description: "Размеры: длинная сторона 55 см, высота 75 см."
 price: "7950 р."
 images:
@@ -14,8 +12,8 @@ images:
 sizes:
   height: 75
   depth: 55
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

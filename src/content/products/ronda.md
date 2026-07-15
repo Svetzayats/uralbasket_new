@@ -10,8 +10,8 @@ price: "2900 р."
 images:
   - /images/products/ronda_0.jpg
   - /images/products/ronda_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

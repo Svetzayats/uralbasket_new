@@ -7,8 +7,8 @@ description: Плетеный двухэтажный дом для кота ил
 price: "10500 р."
 images:
   - /images/products/koshachiy-dom_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

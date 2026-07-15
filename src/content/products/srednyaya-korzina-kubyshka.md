@@ -11,8 +11,10 @@ price: "1890 р."
 images:
   - /images/products/srednyaya-korzina-kubyshka_0.jpg
   - /images/products/srednyaya-korzina-kubyshka_1.jpg
-inStock: true
-featured: false
+sizes:
+  diameter: 27
+inStock: false
+featured: true
 order: 1
 ---
 

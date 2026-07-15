@@ -9,8 +9,8 @@ price: "2890 р."
 images:
   - /images/products/bolshaya-kruglaya-korzina-solntse_0.jpg
   - /images/products/bolshaya-kruglaya-korzina-solntse_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

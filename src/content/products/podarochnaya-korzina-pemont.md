@@ -11,8 +11,8 @@ price: "1850 р."
 images:
   - /images/products/podarochnaya-korzina-pemont_0.jpg
   - /images/products/podarochnaya-korzina-pemont_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

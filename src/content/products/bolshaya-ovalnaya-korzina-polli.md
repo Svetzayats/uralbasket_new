@@ -14,7 +14,7 @@ sizes:
   width: 27
   depth: 47
   height: 15
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

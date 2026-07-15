@@ -7,8 +7,8 @@ description: "Размеры: боковые стороны - 36 см, высо�
 price: "4690 р."
 images:
   - /images/products/korziny-dlya-stellazha-4-sht_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

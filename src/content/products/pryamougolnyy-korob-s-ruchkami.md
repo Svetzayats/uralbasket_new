@@ -8,8 +8,8 @@ price: "2190 р."
 images:
   - /images/products/pryamougolnyy-korob-s-ruchkami_0.jpg
   - /images/products/pryamougolnyy-korob-s-ruchkami_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

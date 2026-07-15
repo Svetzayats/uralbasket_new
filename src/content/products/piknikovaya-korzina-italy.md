@@ -1,5 +1,5 @@
 ---
-title: Пикниковая корзина Italy
+title: Пикниковая корзина Агата
 categories:
   - outdoor
   - picnic
@@ -9,8 +9,8 @@ description: "Корзина для пикника Размеры: 40х30 см, 
 price: "3880 р."
 images:
   - /images/products/piknikovaya-korzina-italy_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Квадратный короб с ручками
 categories:
-  - baskets
+  - chests
 description: Квадратный короб с ручками
 price: "2050 р."
 images:
   - /images/products/kvadratnyy-korob-s-ruchkami_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

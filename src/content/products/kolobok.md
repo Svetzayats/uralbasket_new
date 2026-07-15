@@ -8,7 +8,7 @@ description: "Небольшая корзина Размеры: диаметр �
 price: "1900 р."
 images:
   - /images/products/kolobok_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

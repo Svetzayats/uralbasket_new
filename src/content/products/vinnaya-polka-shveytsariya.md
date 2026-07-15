@@ -7,8 +7,8 @@ description: "Размеры: ширина 1 м, глубина 20 см. Ваз�
 price: "5500 р."
 images:
   - /images/products/vinnaya-polka-shveytsariya_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -6,8 +6,8 @@ description: "Фигурное плетение Материал: цельный
 price: "10600 р."
 images:
   - /images/products/pletenye-sani_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

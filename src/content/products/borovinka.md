@@ -9,8 +9,8 @@ description: "Средняя корзина Размеры: дно: 28х18 см.
 price: "2300 р."
 images:
   - /images/products/borovinka_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

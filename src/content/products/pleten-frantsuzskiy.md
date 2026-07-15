@@ -6,8 +6,8 @@ description: "Плетень делается по вашим размерам, 
 price: "1290 р."
 images:
   - /images/products/pleten-frantsuzskiy_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

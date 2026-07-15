@@ -8,8 +8,8 @@ description: "Корзина, с которой легко дарить мечт
 price: "890 р."
 images:
   - /images/products/podarochnaya-korzina-kruglaya-srednyaya_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

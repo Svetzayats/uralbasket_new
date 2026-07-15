@@ -8,8 +8,8 @@ description: "Отлично подходит для оформления сла
 price: "890 р."
 images:
   - /images/products/podarochnaya-korzina-ovalnaya-srednyaya_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

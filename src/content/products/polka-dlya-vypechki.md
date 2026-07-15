@@ -6,8 +6,8 @@ description: "Размеры: 70х30 см. Материалы: цельный и
 price: "5900 р."
 images:
   - /images/products/polka-dlya-vypechki_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

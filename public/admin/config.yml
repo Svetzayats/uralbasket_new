@@ -90,6 +90,12 @@ collections:
             required: false
             value_type: int
             min: 1
+          - label: "Диаметр (см)"
+            name: diameter
+            widget: number
+            required: false
+            value_type: int
+            min: 1
 
       - label: В наличии
         name: inStock
@@ -99,7 +105,12 @@ collections:
       - label: Показывать на главной
         name: featured
         widget: boolean
-        default: false
+        default: true
+
+      - label: Опубликовано (показывать на сайте)
+        name: published
+        widget: boolean
+        default: true
 
       - label: Порядок сортировки
         name: order

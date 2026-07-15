@@ -12,8 +12,10 @@ images:
   - /images/products/korzina-charli_1.jpg
 sizes:
   height: 18
-inStock: true
-featured: false
+  width: 41
+  depth: 33
+inStock: false
+featured: true
 order: 1
 ---
 

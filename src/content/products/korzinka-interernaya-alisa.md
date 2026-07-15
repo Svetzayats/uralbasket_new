@@ -3,7 +3,6 @@ title: Корзинка интерьерная Алиса
 categories:
   - household
   - decor
-  - design
   - storage
   - baskets
 description: "Размеры: 12х35 см, высота 12 см. Материал: цельный ивовый прут"
@@ -15,7 +14,7 @@ sizes:
   width: 35
   height: 12
   depth: 12
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

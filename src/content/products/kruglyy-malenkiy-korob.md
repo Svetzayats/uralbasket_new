@@ -5,13 +5,12 @@ categories:
   - display_equipment
   - chests
   - storage
-  - baskets
 description: "Размеры: диаметр 20 см, высота 10 см."
 price: "550 р."
 images:
   - /images/products/kruglyy-malenkiy-korob_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

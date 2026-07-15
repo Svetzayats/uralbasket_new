@@ -1,12 +1,12 @@
 ---
 title: Квадратный короб
 categories:
-  - baskets
+  - chests
 description: Квадратный короб
 price: "1790 р."
 images:
   - /images/products/kvadratnyy-korob_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

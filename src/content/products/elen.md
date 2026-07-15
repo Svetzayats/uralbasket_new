@@ -11,8 +11,8 @@ price: "3500 р."
 images:
   - /images/products/elen_0.jpg
   - /images/products/elen_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 Стильная плетеная корзина для велосипеда.

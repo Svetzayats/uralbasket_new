@@ -5,14 +5,13 @@ categories:
   - display_equipment
   - chests
   - storage
-  - baskets
 description: "Размеры: дно 60х40 см, высота 17 см."
 price: "2390 р."
 images:
   - /images/products/azhurnyy-korob_0.jpg
   - /images/products/azhurnyy-korob_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

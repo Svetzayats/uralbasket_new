@@ -6,7 +6,7 @@ description: "Система крепления: ремни, 2 карабина,
 price: "по запросу"
 images:
   - /images/products/sistema-krepleniya-dlya-kolybeli_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

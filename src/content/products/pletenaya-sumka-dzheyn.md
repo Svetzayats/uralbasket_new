@@ -14,7 +14,7 @@ images:
 sizes:
   height: 26
 inStock: true
-featured: false
+featured: true
 order: 1
 ---
 

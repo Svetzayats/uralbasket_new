@@ -7,8 +7,8 @@ price: "1490 р."
 images:
   - /images/products/pleten-vesenniy_0.jpg
   - /images/products/pleten-vesenniy_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

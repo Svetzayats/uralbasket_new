@@ -5,14 +5,13 @@ categories:
   - laundry_baskets
   - chests
   - storage
-  - baskets
 description: "Размеры: ширина 43 см, глубина 33 см, высота 35 см."
 price: "3590 р."
 images:
   - /images/products/pletenyy-korob-vinograd_0.jpg
   - /images/products/pletenyy-korob-vinograd_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

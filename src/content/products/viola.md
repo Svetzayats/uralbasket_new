@@ -10,8 +10,8 @@ price: "3050 р."
 images:
   - /images/products/viola_0.jpg
   - /images/products/viola_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

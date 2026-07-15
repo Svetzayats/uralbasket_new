@@ -7,8 +7,8 @@ price: "5500 р."
 images:
   - /images/products/kolybel-podvesnaya-sharmant_0.jpg
   - /images/products/kolybel-podvesnaya-sharmant_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

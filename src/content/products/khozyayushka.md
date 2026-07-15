@@ -11,8 +11,8 @@ price: "2300 р."
 images:
   - /images/products/khozyayushka_0.jpeg
   - /images/products/khozyayushka_1.jpeg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

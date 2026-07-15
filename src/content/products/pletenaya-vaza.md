@@ -8,7 +8,7 @@ images:
   - /images/products/pletenaya-vaza_0.jpg
 sizes:
   height: 25
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

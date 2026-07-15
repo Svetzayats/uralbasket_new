@@ -10,8 +10,8 @@ price: "2430 р."
 images:
   - /images/products/pletenaya-kruglaya-korzina-ariana_0.jpg
   - /images/products/pletenaya-kruglaya-korzina-ariana_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

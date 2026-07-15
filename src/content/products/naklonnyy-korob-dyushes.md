@@ -7,8 +7,8 @@ description: "Размеры: 70х40 см, высота 10-15 см. Матери
 price: "2450 р."
 images:
   - /images/products/naklonnyy-korob-dyushes_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

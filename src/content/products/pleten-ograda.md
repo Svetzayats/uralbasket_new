@@ -7,8 +7,8 @@ price: "1190 р."
 images:
   - /images/products/pleten-ograda_0.jpg
   - /images/products/pleten-ograda_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

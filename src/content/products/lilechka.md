@@ -9,8 +9,8 @@ price: "990 р."
 images:
   - /images/products/lilechka_0.jpg
   - /images/products/lilechka_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

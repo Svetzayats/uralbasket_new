@@ -8,8 +8,8 @@ price: "2990 р."
 images:
   - /images/products/rybatskaya_0.jpg
   - /images/products/rybatskaya_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

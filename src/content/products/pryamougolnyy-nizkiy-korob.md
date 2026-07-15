@@ -7,8 +7,8 @@ description: "Размеры: 40х30 см, высота 8 см."
 price: "790 р."
 images:
   - /images/products/pryamougolnyy-nizkiy-korob_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

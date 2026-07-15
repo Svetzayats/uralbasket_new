@@ -2,12 +2,13 @@
 title: Плетеное дерево
 categories:
   - home_and_garden
+  - design
 description: "Размеры: высота от 70 см до 160 см. За деревом необходимо ухаживать, поливать. Верх дерева зеленеет, оно постепенно разрастается. Оригинальное украшение для сада, террасы или балкона."
 price: "1600 р."
 images:
   - /images/products/pletenoe-derevo_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -9,8 +9,8 @@ price: "7490 р."
 images:
   - /images/products/pletenyy-nakopitel-tango_0.jpg
   - /images/products/pletenyy-nakopitel-tango_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

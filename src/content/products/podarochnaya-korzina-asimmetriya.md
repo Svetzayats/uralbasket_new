@@ -9,8 +9,8 @@ price: "1250 р."
 images:
   - /images/products/podarochnaya-korzina-asimmetriya_0.jpg
   - /images/products/podarochnaya-korzina-asimmetriya_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

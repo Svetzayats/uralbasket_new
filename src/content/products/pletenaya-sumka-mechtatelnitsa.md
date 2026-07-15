@@ -12,8 +12,8 @@ images:
   - /images/products/pletenaya-sumka-mechtatelnitsa_1.jpg
 sizes:
   height: 25
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -12,8 +12,10 @@ images:
   - /images/products/korzina-dachnaya_1.jpg
 sizes:
   height: 24
-inStock: true
-featured: false
+  width: 44
+  depth: 33
+inStock: false
+featured: true
 order: 1
 ---
 

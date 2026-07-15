@@ -10,8 +10,8 @@ price: "4890 р."
 images:
   - /images/products/kantina_0.jpg
   - /images/products/kantina_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

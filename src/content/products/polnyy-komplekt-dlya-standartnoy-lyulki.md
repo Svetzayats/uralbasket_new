@@ -6,8 +6,8 @@ description: "Система крепления + белье. В комплек�
 price: "6900 р."
 images:
   - /images/products/polnyy-komplekt-dlya-standartnoy-lyulki_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

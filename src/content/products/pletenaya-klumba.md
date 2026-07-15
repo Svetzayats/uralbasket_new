@@ -6,8 +6,8 @@ description: "Диаметр: 50 см. Материал: цельный неоч
 price: "1390 р."
 images:
   - /images/products/pletenaya-klumba_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

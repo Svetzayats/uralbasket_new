@@ -9,8 +9,8 @@ description: "Размеры: 27х15 см, высота 10 см, высота с
 price: "890 р."
 images:
   - /images/products/vinnaya-korzinka_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

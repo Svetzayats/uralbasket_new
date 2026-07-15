@@ -7,8 +7,8 @@ price: "8390 р."
 images:
   - /images/products/arka_0.jpg
   - /images/products/arka_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

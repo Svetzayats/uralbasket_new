@@ -1,9 +1,7 @@
 ---
-title: Багетница «Колизей»
+title: Багетница Колизей
 categories:
-  - design
   - display_equipment
-  - baskets
 description: "Материал: цельный ивовый прут, покрытие лаком. Размер: диаметр 32 см, высота 40 см."
 price: "3090 р."
 images:
@@ -13,8 +11,8 @@ sizes:
   width: 32
   height: 40
   depth: 32
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

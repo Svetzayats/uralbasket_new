@@ -3,14 +3,13 @@ title: Плетеная клетка
 categories:
   - for_pets
   - design
-  - baskets
 description: "Большая плетеная клетка с дверцей. Отлично подойдет для фотосессий или декора дома. Размеры: диаметр дна 60 см, высота 60 см. Материал: цельный ивовый прут, фанерное дно, оклеенное пленкой."
 price: "4690 р."
 images:
   - /images/products/pletenaya-kletka_0.jpg
   - /images/products/pletenaya-kletka_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -29,9 +29,11 @@ export const productSchema = z.object({
     width: z.number().nullish(),
     height: z.number().nullish(),
     depth: z.number().nullish(),
+    diameter: z.number().nullish(),
   }).nullish(),
   inStock: z.boolean().default(true),
-  featured: z.boolean().default(false),
+  featured: z.boolean().default(true),
+  published: z.boolean().default(true),
   order: z.number().int().default(0),
 });
 

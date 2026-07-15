@@ -8,8 +8,8 @@ price: "2990 р."
 images:
   - /images/products/ulov_0.jpg
   - /images/products/ulov_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

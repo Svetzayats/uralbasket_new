@@ -5,7 +5,7 @@ import ProductCard from '../components/ProductCard.astro';
 
 const allProducts = await getCollection('products');
 const featured = allProducts
-  .filter(p => p.data.featured)
+  .filter(p => p.data.published && p.data.featured)
   .sort((a, b) => a.data.order - b.data.order);
 
 const categories = [

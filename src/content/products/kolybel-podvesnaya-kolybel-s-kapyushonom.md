@@ -1,9 +1,9 @@
 ---
-title: Колыбель подвесная Колыбель с капюшоном
+title: Колыбель подвесная с капюшоном
 categories:
   - cribs
-description: "Размеры: 80х40 см, высота без капюшона 30 см Материал: цельный ивовый прут."
-price: "8890 р."
+description: "Классический вариант колыбели"
+price: "10390 р."
 images:
   - /images/products/kolybel-podvesnaya-kolybel-s-kapyushonom_0.jpg
   - /images/products/kolybel-podvesnaya-kolybel-s-kapyushonom_1.jpg
@@ -11,11 +11,10 @@ sizes:
   width: 40
   height: 30
   depth: 80
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 
 Размеры: 80х40 см, высота без капюшона 30 см
 Материал: цельный ивовый прут.
-

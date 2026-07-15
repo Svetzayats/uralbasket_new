@@ -8,8 +8,8 @@ description: "Корзина для белья Размеры: диаметр 40
 price: "5750 р."
 images:
   - /images/products/pomona_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

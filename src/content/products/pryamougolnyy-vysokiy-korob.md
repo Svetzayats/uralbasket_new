@@ -8,8 +8,8 @@ price: "2690 р."
 images:
   - /images/products/pryamougolnyy-vysokiy-korob_0.jpg
   - /images/products/pryamougolnyy-vysokiy-korob_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

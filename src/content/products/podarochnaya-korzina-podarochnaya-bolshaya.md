@@ -7,8 +7,8 @@ description: "Корзина для тех, кто готовит внушите
 price: "1590 р."
 images:
   - /images/products/podarochnaya-korzina-podarochnaya-bolshaya_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

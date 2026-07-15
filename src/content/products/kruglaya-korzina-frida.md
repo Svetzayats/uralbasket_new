@@ -2,7 +2,6 @@
 title: Круглая корзина Фрида
 categories:
   - gift
-  - easter
   - accessories
   - storage
   - baskets
@@ -12,8 +11,9 @@ images:
   - /images/products/kruglaya-korzina-frida_0.jpg
 sizes:
   height: 15
-inStock: true
-featured: false
+  diameter: 26
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -8,8 +8,8 @@ description: "Круглая изящная корзинка с высоким �
 price: "2290 р."
 images:
   - /images/products/korzina-azhurnaya-svetlitsa_0.png
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

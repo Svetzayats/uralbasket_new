@@ -11,8 +11,8 @@ price: "2590 р."
 images:
   - /images/products/mechta_0.jpg
   - /images/products/mechta_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

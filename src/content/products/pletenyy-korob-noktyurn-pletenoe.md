@@ -1,13 +1,13 @@
 ---
 title: Плетеный короб Ноктюрн
 categories:
-  - baskets
+  - decor
 description: Плетеный короб Ноктюрн
 price: "4950 р."
 images:
   - /images/products/pletenyy-korob-noktyurn_0.jpg
   - /images/products/pletenyy-korob-noktyurn_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---

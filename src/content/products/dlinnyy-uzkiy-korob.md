@@ -7,8 +7,8 @@ description: "Размеры: 70х20 см, высота 5 см. Материал
 price: "1290 р."
 images:
   - /images/products/dlinnyy-uzkiy-korob_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

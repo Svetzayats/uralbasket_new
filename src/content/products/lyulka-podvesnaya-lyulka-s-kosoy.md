@@ -1,5 +1,5 @@
 ---
-title: Люлька подвесная Люлька с косой
+title: Люлька подвесная с косой
 categories:
   - cribs
 description: "Размеры: дно 80х40 см, высота 30 см. Материал: цельный ивовый прут."
@@ -11,8 +11,8 @@ sizes:
   width: 40
   height: 30
   depth: 80
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

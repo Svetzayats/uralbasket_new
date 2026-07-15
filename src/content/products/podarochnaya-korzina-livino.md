@@ -11,8 +11,8 @@ price: "1650 р."
 images:
   - /images/products/podarochnaya-korzina-livino_0.jpg
   - /images/products/podarochnaya-korzina-livino_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

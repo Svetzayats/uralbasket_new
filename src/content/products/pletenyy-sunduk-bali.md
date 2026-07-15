@@ -5,13 +5,12 @@ categories:
   - household
   - chests
   - storage
-  - baskets
 description: "Размеры сундука: ширина 60 см, глубина 40 см, высота 50 см."
 price: "8900 р."
 images:
   - /images/products/pletenyy-sunduk-bali_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -7,8 +7,8 @@ description: "Круглая корзина с ажурным верхом и в
 price: "1990 р."
 images:
   - /images/products/korzina-azhurnaya-radost_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

@@ -8,8 +8,8 @@ price: "4730 р."
 images:
   - /images/products/korzina-dlya-sobaki-trezor_0.jpg
   - /images/products/korzina-dlya-sobaki-trezor_1.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 

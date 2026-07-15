@@ -2,12 +2,13 @@
 title: Подарочная корзина Колокольчик
 categories:
   - gift
+  - baskets
 description: "Узкая подарочная корзина, подходит для цветов и косметики. Размеры: диаметр 20х25 см, высота без ручки 24 см, высота с ручкой 69 см. Материалы: цельный ивовый прут."
 price: "1200 р."
 images:
   - /images/products/podarochnaya-korzina-kolokolchik_0.jpg
-inStock: true
-featured: false
+inStock: false
+featured: true
 order: 1
 ---
 
