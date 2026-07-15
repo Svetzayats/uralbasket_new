@@ -45,7 +45,7 @@ const { category } = Astro.params;
 
 const allProducts = await getCollection('products');
 const products = allProducts
-  .filter(p => p.data.published && meta.filterCats.some(cat => p.data.categories.includes(cat as any)))
+  .filter(p => p.data.published && p.data.featured && meta.filterCats.some(cat => p.data.categories.includes(cat as any)))
   .sort((a, b) => a.data.order - b.data.order);
 ---
 

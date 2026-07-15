@@ -1,4 +1,5 @@
 ---
+id: 114
 title: Полка для выпечки
 categories:
   - display_equipment

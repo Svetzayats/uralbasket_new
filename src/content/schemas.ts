@@ -1,6 +1,7 @@
 import { z } from "zod";
 
 export const productSchema = z.object({
+  id: z.number().int(),
   title: z.string().min(1),
   categories: z.array(z.enum([
     "baskets",

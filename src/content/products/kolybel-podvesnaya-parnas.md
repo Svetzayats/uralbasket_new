@@ -1,4 +1,5 @@
 ---
+id: 26
 title: Колыбель подвесная Парнас
 categories:
   - cribs

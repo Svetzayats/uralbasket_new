@@ -1,4 +1,5 @@
 ---
+id: 73
 title: Плетень Ограда
 categories:
   - design

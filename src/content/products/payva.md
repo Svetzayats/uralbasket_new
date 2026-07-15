@@ -1,4 +1,5 @@
 ---
+id: 69
 title: Пайва
 categories:
   - outdoor

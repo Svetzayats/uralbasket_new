@@ -1,4 +1,5 @@
 ---
+id: 28
 title: Короб Куба
 categories:
   - laundry_baskets

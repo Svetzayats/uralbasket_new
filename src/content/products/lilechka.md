@@ -1,4 +1,5 @@
 ---
+id: 54
 title: Лилечка
 categories:
   - gift
@@ -10,7 +11,7 @@ images:
   - /images/products/lilechka_0.jpg
   - /images/products/lilechka_1.jpg
 inStock: false
-featured: true
+featured: false
 order: 1
 ---
 

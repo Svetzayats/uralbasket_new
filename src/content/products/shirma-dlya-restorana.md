@@ -1,4 +1,5 @@
 ---
+id: 126
 title: Ширма для ресторана
 categories:
   - design

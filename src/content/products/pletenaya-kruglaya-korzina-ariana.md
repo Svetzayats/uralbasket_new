@@ -1,4 +1,5 @@
 ---
+id: 77
 title: Плетеная круглая корзина Ариана
 categories:
   - picnic

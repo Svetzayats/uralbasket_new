@@ -1,4 +1,5 @@
 ---
+id: 4
 title: Ажурный короб
 categories:
   - for_children

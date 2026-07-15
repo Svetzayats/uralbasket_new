@@ -1,4 +1,5 @@
 ---
+id: 34
 title: Корзина Дачная
 categories:
   - outdoor

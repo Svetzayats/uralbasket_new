@@ -1,4 +1,5 @@
 ---
+id: 57
 title: Лукошко
 categories:
   - for_children
@@ -10,7 +11,7 @@ images:
   - /images/products/lukoshko_0.jpg
   - /images/products/lukoshko_1.jpg
 inStock: false
-featured: true
+featured: false
 order: 1
 ---
 

@@ -1,4 +1,5 @@
 ---
+id: 83
 title: Плетеное дерево
 categories:
   - home_and_garden

@@ -1,4 +1,5 @@
 ---
+id: 112
 title: Подарочная корзина Вивьен
 categories:
   - gift

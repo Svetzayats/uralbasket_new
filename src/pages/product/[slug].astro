@@ -6,7 +6,7 @@ import OrderForm from '../../components/OrderForm.astro';
 export async function getStaticPaths() {
   const products = await getCollection('products');
   return products
-    .filter(product => product.data.published)
+    .filter(product => product.data.published && product.data.featured)
     .map(product => ({
       params: { slug: product.id },
       props: { product },

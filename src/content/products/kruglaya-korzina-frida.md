@@ -1,4 +1,5 @@
 ---
+id: 49
 title: Круглая корзина Фрида
 categories:
   - gift

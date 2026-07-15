@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import { productSchema, blogSchema, pageSchema } from "../content/schemas";
 
 const validProduct = {
+  id: 1,
   title: "Подарочная корзина",
   categories: ["baskets"] as const,
   description: "Красивая плетёная корзина ручной работы.",
@@ -35,6 +36,7 @@ describe("productSchema", () => {
 
   it("applies defaults for inStock, featured, order", () => {
     const minimal = {
+      id: 1,
       title: "T",
       categories: ["display_equipment"] as const,
       description: "D",

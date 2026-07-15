@@ -1,4 +1,5 @@
 ---
+id: 10
 title: Длинный узкий короб
 categories:
   - display_equipment

@@ -1,4 +1,5 @@
 ---
+id: 42
 title: Корзина Виктория
 categories:
   - outdoor

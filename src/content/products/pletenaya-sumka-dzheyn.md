@@ -1,4 +1,5 @@
 ---
+id: 79
 title: Плетеная сумка Джейн
 categories:
   - picnic
@@ -13,7 +14,7 @@ images:
   - /images/products/pletenaya-sumka-dzheyn_2.jpg
 sizes:
   height: 26
-inStock: true
+inStock: false
 featured: true
 order: 1
 ---

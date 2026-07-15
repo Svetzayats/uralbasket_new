@@ -1,4 +1,5 @@
 ---
+id: 75
 title: Плетеная клетка
 categories:
   - for_pets

@@ -1,4 +1,5 @@
 ---
+id: 29
 title: Короб под картошку
 categories:
   - chests

@@ -1,4 +1,5 @@
 ---
+id: 43
 title: Корзинка интерьерная Алиса
 categories:
   - household

@@ -1,4 +1,5 @@
 ---
+id: 130
 title: Тэффи
 categories:
   - gift

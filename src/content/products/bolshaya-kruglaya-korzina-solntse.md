@@ -1,4 +1,5 @@
 ---
+id: 7
 title: Большая круглая корзина Солнце
 categories:
   - for_pets

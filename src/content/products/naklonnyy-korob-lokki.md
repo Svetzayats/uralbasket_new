@@ -1,4 +1,5 @@
 ---
+id: 64
 title: Наклонный короб Локки
 categories:
   - display_equipment

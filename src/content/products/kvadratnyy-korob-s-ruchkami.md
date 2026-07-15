@@ -1,4 +1,5 @@
 ---
+id: 52
 title: Квадратный короб с ручками
 categories:
   - chests

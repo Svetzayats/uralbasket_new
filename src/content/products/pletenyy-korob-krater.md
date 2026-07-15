@@ -1,4 +1,5 @@
 ---
+id: 86
 title: Плетеный короб Кратер
 categories:
   - for_children

@@ -1,4 +1,5 @@
 ---
+id: 1
 title: Аннет
 categories:
   - household

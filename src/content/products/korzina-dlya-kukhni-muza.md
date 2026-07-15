@@ -1,4 +1,5 @@
 ---
+id: 36
 title: Корзина для кухни Муза
 categories:
   - decor

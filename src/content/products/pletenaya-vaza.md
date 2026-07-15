@@ -1,4 +1,5 @@
 ---
+id: 82
 title: Плетеная ваза
 categories:
   - design

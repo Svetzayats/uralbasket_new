@@ -1,4 +1,5 @@
 ---
+id: 65
 title: Накопитель низкий
 categories:
   - display_equipment

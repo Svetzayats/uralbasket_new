@@ -1,4 +1,5 @@
 ---
+id: 132
 title: Улов
 categories:
   - outdoor

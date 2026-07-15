@@ -1,4 +1,5 @@
 ---
+id: 94
 title: Плетеный накопитель Тура
 categories:
   - for_children

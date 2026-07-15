@@ -1,4 +1,5 @@
 ---
+id: 47
 title: Козетта
 categories:
   - for_children

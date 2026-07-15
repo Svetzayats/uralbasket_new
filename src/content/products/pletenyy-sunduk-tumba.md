@@ -1,4 +1,5 @@
 ---
+id: 100
 title: Плетеный сундук Тумба
 categories:
   - chests

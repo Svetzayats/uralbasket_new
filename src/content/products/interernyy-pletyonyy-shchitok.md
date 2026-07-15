@@ -1,4 +1,5 @@
 ---
+id: 15
 title: Интерьерный плетёный щиток
 categories:
   - decor

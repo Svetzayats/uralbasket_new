@@ -1,4 +1,5 @@
 ---
+id: 113
 title: Поднос с ручкой
 categories:
   - household

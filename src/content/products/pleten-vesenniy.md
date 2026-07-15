@@ -1,4 +1,5 @@
 ---
+id: 74
 title: Плетень Весенний
 categories:
   - design

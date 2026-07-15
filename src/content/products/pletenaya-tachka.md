@@ -1,4 +1,5 @@
 ---
+id: 81
 title: Плетеная тачка
 categories:
   - design

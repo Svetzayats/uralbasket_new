@@ -1,4 +1,5 @@
 ---
+id: 25
 title: Колыбель подвесная с капюшоном
 categories:
   - cribs

@@ -1,4 +1,5 @@
 ---
+id: 66
 title: Оливия
 categories:
   - laundry_baskets

@@ -1,4 +1,5 @@
 ---
+id: 120
 title: Прямоугольный низкий короб
 categories:
   - display_equipment

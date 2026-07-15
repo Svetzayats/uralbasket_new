@@ -1,4 +1,5 @@
 ---
+id: 19
 title: Хозяйственная
 categories:
   - household

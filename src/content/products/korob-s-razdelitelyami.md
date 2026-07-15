@@ -1,4 +1,5 @@
 ---
+id: 30
 title: Короб с разделителями
 categories:
   - decor

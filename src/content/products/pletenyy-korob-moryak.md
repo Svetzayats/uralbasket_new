@@ -1,4 +1,5 @@
 ---
+id: 87
 title: Плетеный короб Моряк
 categories:
   - laundry_baskets

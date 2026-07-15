@@ -1,4 +1,5 @@
 ---
+id: 46
 title: Кошачий дом
 categories:
   - for_pets

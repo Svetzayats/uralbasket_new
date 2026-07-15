@@ -1,4 +1,5 @@
 ---
+id: 6
 title: Багетницы разных размеров
 categories:
   - display_equipment

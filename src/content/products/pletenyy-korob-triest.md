@@ -1,4 +1,5 @@
 ---
+id: 90
 title: Плетеный короб Триест
 categories:
   - laundry_baskets

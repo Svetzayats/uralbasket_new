@@ -1,4 +1,5 @@
 ---
+id: 121
 title: Прямоугольный высокий короб
 categories:
   - display_equipment

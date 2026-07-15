@@ -1,4 +1,5 @@
 ---
+id: 17
 title: Кантина
 categories:
   - outdoor

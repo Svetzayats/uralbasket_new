@@ -1,4 +1,5 @@
 ---
+id: 53
 title: Квадратный короб
 categories:
   - chests

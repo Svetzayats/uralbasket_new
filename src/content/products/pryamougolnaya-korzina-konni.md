@@ -1,4 +1,5 @@
 ---
+id: 118
 title: Прямоугольная корзина Конни
 categories:
   - gift
@@ -9,7 +10,7 @@ images:
   - /images/products/pryamougolnaya-korzina-konni_0.jpg
   - /images/products/pryamougolnaya-korzina-konni_1.jpg
 inStock: false
-featured: true
+featured: false
 order: 1
 ---
 

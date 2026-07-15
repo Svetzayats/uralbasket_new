@@ -1,4 +1,5 @@
 ---
+id: 31
 title: Корзина ажурная Радость
 categories:
   - gift

@@ -1,4 +1,5 @@
 ---
+id: 129
 title: Средняя корзина Кубышка
 categories:
   - outdoor

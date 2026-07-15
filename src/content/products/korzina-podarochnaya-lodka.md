@@ -1,4 +1,5 @@
 ---
+id: 40
 title: Корзина подарочная Лодка
 categories:
   - gift

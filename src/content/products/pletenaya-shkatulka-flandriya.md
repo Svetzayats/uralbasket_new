@@ -1,4 +1,5 @@
 ---
+id: 78
 title: Плетеная шкатулка Фландрия
 categories:
   - gift

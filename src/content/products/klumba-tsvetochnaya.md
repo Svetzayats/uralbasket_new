@@ -1,4 +1,5 @@
 ---
+id: 23
 title: Клумба цветочная
 categories:
   - design

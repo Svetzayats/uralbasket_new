@@ -1,4 +1,5 @@
 ---
+id: 63
 title: Наклонный короб Дюшес
 categories:
   - display_equipment

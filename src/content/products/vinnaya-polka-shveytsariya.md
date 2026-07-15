@@ -1,4 +1,5 @@
 ---
+id: 140
 title: Винная полка Швейцария
 categories:
   - design

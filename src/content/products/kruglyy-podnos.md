@@ -1,4 +1,5 @@
 ---
+id: 51
 title: Круглый поднос
 categories:
   - display_equipment

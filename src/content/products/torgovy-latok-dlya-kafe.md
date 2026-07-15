@@ -1,4 +1,5 @@
 ---
+id: 131
 title: Торговый лоток для кафе
 categories:
   - display_equipment
@@ -10,7 +11,7 @@ sizes:
   width: 25
   height: 8
   depth: 35
-inStock: true
+inStock: false
 featured: true
 order: 1
 ---

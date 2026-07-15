@@ -1,4 +1,5 @@
 ---
+id: 98
 title: Плетеный сундук Фиренце
 categories:
   - for_children

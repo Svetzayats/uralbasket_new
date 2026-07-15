@@ -1,4 +1,5 @@
 ---
+id: 11
 title: Домашняя корзина Бриджит
 categories:
   - household

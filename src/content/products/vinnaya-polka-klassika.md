@@ -1,4 +1,5 @@
 ---
+id: 138
 title: Винная полка Классика
 categories:
   - design

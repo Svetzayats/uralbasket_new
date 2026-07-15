@@ -1,4 +1,5 @@
 ---
+id: 27
 title: Колыбель подвесная Шармант
 categories:
   - cribs

@@ -1,4 +1,5 @@
 ---
+id: 134
 title: Винная корзина Эмилия
 categories:
   - picnic

@@ -1,4 +1,5 @@
 ---
+id: 106
 title: Подарочная корзина Кузовок
 categories:
   - gift

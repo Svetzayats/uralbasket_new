@@ -1,4 +1,5 @@
 ---
+id: 96
 title: Плетеный сундук Бали
 categories:
   - laundry_baskets

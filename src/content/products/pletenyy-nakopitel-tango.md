@@ -1,4 +1,5 @@
 ---
+id: 93
 title: Плетеный накопитель Танго
 categories:
   - household

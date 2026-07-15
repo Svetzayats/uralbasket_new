@@ -1,4 +1,5 @@
 ---
+id: 101
 title: Плетёная сумочка Сильвия
 categories:
   - accessories

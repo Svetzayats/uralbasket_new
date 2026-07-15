@@ -1,4 +1,5 @@
 ---
+id: 70
 title: Пикниковая корзина Агата
 categories:
   - outdoor

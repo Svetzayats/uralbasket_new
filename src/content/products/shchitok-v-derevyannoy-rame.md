@@ -1,4 +1,5 @@
 ---
+id: 125
 title: Щиток в деревянной раме
 categories:
   - design

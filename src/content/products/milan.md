@@ -1,4 +1,5 @@
 ---
+id: 62
 title: Милан
 categories:
   - laundry_baskets

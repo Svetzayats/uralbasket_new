@@ -1,4 +1,5 @@
 ---
+id: 88
 title: Плетеный короб Ноктюрн
 categories:
   - decor

@@ -1,4 +1,5 @@
 ---
+id: 16
 title: Калитка в плетне
 categories:
   - design

@@ -1,4 +1,5 @@
 ---
+id: 8
 title: Большая овальная корзина Полли
 categories:
   - picnic

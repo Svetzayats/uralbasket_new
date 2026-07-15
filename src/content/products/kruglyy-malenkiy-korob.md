@@ -1,4 +1,5 @@
 ---
+id: 50
 title: Круглый маленький короб
 categories:
   - household

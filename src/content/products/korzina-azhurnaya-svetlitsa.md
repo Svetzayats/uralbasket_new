@@ -1,4 +1,5 @@
 ---
+id: 32
 title: Корзина ажурная Светлица
 categories:
   - gift

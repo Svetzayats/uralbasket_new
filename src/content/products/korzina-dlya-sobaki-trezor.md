@@ -1,4 +1,5 @@
 ---
+id: 37
 title: Корзина для собаки Трезор
 categories:
   - for_pets

@@ -1,4 +1,5 @@
 ---
+id: 119
 title: Прямоугольный короб с ручками
 categories:
   - display_equipment

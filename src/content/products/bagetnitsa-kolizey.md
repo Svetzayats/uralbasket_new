@@ -1,4 +1,5 @@
 ---
+id: 5
 title: Багетница Колизей
 categories:
   - display_equipment

@@ -1,4 +1,5 @@
 ---
+id: 39
 title: Корзина настольная Грация
 categories:
   - decor

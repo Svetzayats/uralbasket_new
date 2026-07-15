@@ -1,4 +1,5 @@
 ---
+id: 85
 title: Плетеный комод Дворянский
 categories:
   - design

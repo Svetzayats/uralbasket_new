@@ -1,4 +1,5 @@
 ---
+id: 102
 title: Подарочная корзина Асимметрия
 categories:
   - gift
@@ -10,7 +11,7 @@ images:
   - /images/products/podarochnaya-korzina-asimmetriya_0.jpg
   - /images/products/podarochnaya-korzina-asimmetriya_1.jpg
 inStock: false
-featured: true
+featured: false
 order: 1
 ---
 

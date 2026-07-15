@@ -1,4 +1,5 @@
 ---
+id: 72
 title: Плетень Французский
 categories:
   - design

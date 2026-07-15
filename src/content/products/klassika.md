@@ -1,4 +1,5 @@
 ---
+id: 22
 title: Классика
 categories:
   - outdoor

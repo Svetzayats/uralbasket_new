@@ -1,4 +1,5 @@
 ---
+id: 58
 title: Люлька напольная Геркулес
 categories:
   - cribs

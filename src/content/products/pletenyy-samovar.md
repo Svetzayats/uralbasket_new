@@ -1,4 +1,5 @@
 ---
+id: 95
 title: Плетеный самовар
 categories:
   - gift

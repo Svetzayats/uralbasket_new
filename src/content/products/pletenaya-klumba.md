@@ -1,4 +1,5 @@
 ---
+id: 76
 title: Плетеная клумба
 categories:
   - design

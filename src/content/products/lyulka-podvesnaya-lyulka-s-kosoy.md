@@ -1,4 +1,5 @@
 ---
+id: 59
 title: Люлька подвесная с косой
 categories:
   - cribs

@@ -1,4 +1,5 @@
 ---
+id: 80
 title: Плетеная сумка Мечтательница
 categories:
   - outdoor

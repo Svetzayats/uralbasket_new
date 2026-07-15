@@ -1,4 +1,5 @@
 ---
+id: 48
 title: Круглая корзина Арина
 categories:
   - household

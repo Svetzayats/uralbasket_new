@@ -1,4 +1,5 @@
 ---
+id: 123
 title: Рыбацкая
 categories:
   - outdoor

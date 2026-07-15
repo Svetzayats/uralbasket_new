@@ -1,4 +1,5 @@
 ---
+id: 128
 title: Система крепления для колыбели
 categories:
   - cribs

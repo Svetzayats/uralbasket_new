@@ -1,4 +1,5 @@
 ---
+id: 33
 title: Корзина Чарли
 categories:
   - outdoor

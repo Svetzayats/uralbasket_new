@@ -1,4 +1,5 @@
 ---
+id: 99
 title: Плетеный сундук Гранд
 categories:
   - laundry_baskets

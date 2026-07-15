@@ -1,4 +1,5 @@
 ---
+id: 44
 title: Корзинка настольная Амур
 categories:
   - decor

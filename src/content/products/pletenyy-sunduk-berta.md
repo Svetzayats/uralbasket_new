@@ -1,4 +1,5 @@
 ---
+id: 97
 title: Плетеный сундук Берта
 categories:
   - for_children

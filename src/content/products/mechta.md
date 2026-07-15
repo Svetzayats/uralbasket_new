@@ -1,4 +1,5 @@
 ---
+id: 61
 title: Мечта
 categories:
   - outdoor

@@ -1,4 +1,5 @@
 ---
+id: 41
 title: Корзина Шарлотта
 categories:
   - picnic

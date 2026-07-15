@@ -1,4 +1,5 @@
 ---
+id: 142
 title: Янтарная
 categories:
   - outdoor

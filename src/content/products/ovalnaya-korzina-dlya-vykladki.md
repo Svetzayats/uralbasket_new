@@ -1,4 +1,5 @@
 ---
+id: 67
 title: Овальная корзина для выкладки
 categories:
   - household

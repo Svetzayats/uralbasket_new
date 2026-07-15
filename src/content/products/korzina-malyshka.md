@@ -1,4 +1,5 @@
 ---
+id: 38
 title: Корзина Малышка
 categories:
   - picnic

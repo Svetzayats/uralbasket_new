@@ -1,4 +1,5 @@
 ---
+id: 71
 title: Плетень Ажурный
 categories:
   - design

@@ -1,4 +1,5 @@
 ---
+id: 45
 title: Корзины для стеллажа 4 шт.
 categories:
   - decor

@@ -1,4 +1,5 @@
 ---
+id: 9
 title: Боровинка
 categories:
   - picnic

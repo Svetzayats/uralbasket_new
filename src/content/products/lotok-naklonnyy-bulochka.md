@@ -1,4 +1,5 @@
 ---
+id: 56
 title: Лоток наклонный Булочка
 categories:
   - display_equipment

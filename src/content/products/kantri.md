@@ -1,4 +1,5 @@
 ---
+id: 18
 title: Кантри
 categories:
   - outdoor

@@ -1,4 +1,5 @@
 ---
+id: 84
 title: Плетеные сани
 categories:
   - decor
