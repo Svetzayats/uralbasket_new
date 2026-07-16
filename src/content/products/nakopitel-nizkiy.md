@@ -8,7 +8,8 @@ price: "1900 р."
 images:
   - /images/products/nakopitel-nizkiy_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

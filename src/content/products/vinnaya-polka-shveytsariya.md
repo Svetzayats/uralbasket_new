@@ -10,6 +10,7 @@ images:
   - /images/products/vinnaya-polka-shveytsariya_0.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

@@ -10,6 +10,7 @@ images:
   - /images/products/koshachiy-dom_0.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

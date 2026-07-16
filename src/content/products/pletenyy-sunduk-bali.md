@@ -12,6 +12,7 @@ images:
   - /images/products/pletenyy-sunduk-bali_0.jpg
 inStock: false
 featured: true
+popular: true
 order: 1
 ---
 

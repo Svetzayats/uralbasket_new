@@ -12,6 +12,7 @@ images:
   - /images/products/pletenyy-mini-bar-vinnyy-velosiped_1.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

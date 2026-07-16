@@ -34,6 +34,7 @@ export const productSchema = z.object({
   }).nullish(),
   inStock: z.boolean().default(true),
   featured: z.boolean().default(true),
+  popular: z.boolean().default(false),
   published: z.boolean().default(true),
   order: z.number().int().default(0),
 });

@@ -14,5 +14,6 @@ sizes:
   width: 60
 inStock: false
 featured: true
+popular: true
 order: 1
 ---

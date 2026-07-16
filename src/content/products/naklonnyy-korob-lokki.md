@@ -9,7 +9,8 @@ price: "1690 р."
 images:
   - /images/products/naklonnyy-korob-lokki_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

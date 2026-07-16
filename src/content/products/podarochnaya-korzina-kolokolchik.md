@@ -9,7 +9,8 @@ price: "1200 р."
 images:
   - /images/products/podarochnaya-korzina-kolokolchik_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

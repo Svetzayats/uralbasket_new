@@ -12,5 +12,6 @@ images:
   - /images/products/pletenaya-shkatulka-flandriya_1.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---

@@ -11,7 +11,8 @@ price: "4590 р."
 images:
   - /images/products/pletenyy-nakopitel-tura_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

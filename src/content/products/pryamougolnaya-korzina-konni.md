@@ -11,6 +11,7 @@ images:
   - /images/products/pryamougolnaya-korzina-konni_1.jpg
 inStock: false
 featured: false
+popular: false
 order: 1
 ---
 

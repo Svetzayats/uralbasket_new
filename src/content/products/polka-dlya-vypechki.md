@@ -8,7 +8,8 @@ price: "5900 р."
 images:
   - /images/products/polka-dlya-vypechki_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

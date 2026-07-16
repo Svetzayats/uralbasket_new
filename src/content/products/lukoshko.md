@@ -12,6 +12,7 @@ images:
   - /images/products/lukoshko_1.jpg
 inStock: false
 featured: false
+popular: false
 order: 1
 ---
 

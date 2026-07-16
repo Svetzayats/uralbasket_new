@@ -2,7 +2,6 @@
 id: 89
 title: Плетеный короб Ноктюрн
 categories:
-  - design
   - chests
 description: "Размеры: 50*35 см, высота 25 см"
 price: "по запросу"
@@ -11,6 +10,7 @@ images:
   - /images/products/pletenyy-korob-noktyurn_1.jpg
 inStock: false
 featured: true
+popular: true
 order: 1
 ---
 

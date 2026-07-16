@@ -9,7 +9,8 @@ price: "1600 р."
 images:
   - /images/products/pletenoe-derevo_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

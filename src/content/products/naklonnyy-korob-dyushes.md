@@ -10,6 +10,7 @@ images:
   - /images/products/naklonnyy-korob-dyushes_0.jpg
 inStock: false
 featured: true
+popular: true
 order: 1
 ---
 

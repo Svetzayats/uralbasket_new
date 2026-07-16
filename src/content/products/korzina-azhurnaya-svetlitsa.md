@@ -11,6 +11,7 @@ images:
   - /images/products/korzina-azhurnaya-svetlitsa_0.png
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

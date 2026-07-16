@@ -10,7 +10,8 @@ price: "2850 р."
 images:
   - /images/products/korob-s-razdelitelyami_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

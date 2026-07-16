@@ -3,10 +3,13 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import ProductCard from '../components/ProductCard.astro';
 
+const POPULAR_LIMIT = 12;
+
 const allProducts = await getCollection('products');
-const featured = allProducts
-  .filter(p => p.data.published && p.data.featured)
-  .sort((a, b) => a.data.order - b.data.order);
+const popular = allProducts
+  .filter(p => p.data.published && p.data.featured && p.data.popular)
+  .sort((a, b) => a.data.order - b.data.order)
+  .slice(0, POPULAR_LIMIT);
 
 const categories = [
   { href: '/baskets',           label: 'Корзины' },
@@ -44,12 +47,12 @@ const categories = [
     </div>
   </section>
 
-  {featured.length > 0 && (
+  {popular.length > 0 && (
     <section class="featured-section">
       <div class="container">
         <h2 class="section-title">Популярные товары</h2>
         <ul class="product-grid">
-          {featured.map(product => (
+          {popular.map(product => (
             <li>
               <ProductCard product={product} />
             </li>

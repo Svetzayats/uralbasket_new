@@ -13,5 +13,6 @@ images:
   - /images/products/felichita_1.png
 inStock: false
 featured: true
+popular: false
 order: 1
 ---

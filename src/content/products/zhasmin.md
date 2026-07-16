@@ -13,6 +13,7 @@ images:
   - /images/products/zhasmin_1.jpeg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

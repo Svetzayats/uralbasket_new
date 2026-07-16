@@ -10,6 +10,7 @@ images:
   - /images/products/bagetnitsy-raznykh-razmerov_0.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

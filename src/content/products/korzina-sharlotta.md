@@ -16,6 +16,7 @@ sizes:
   diameter: 25 
 inStock: false
 featured: true
+popular: true
 order: 1
 ---
 

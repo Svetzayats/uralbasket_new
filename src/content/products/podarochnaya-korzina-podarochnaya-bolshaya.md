@@ -10,6 +10,7 @@ images:
   - /images/products/podarochnaya-korzina-podarochnaya-bolshaya_0.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

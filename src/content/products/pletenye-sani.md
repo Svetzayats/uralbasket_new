@@ -8,7 +8,8 @@ price: "10600 р."
 images:
   - /images/products/pletenye-sani_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

@@ -9,7 +9,8 @@ price: "1020 р."
 images:
   - /images/products/interernyy-pletyonyy-shchitok_0.jpg
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

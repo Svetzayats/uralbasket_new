@@ -11,6 +11,7 @@ images:
   - /images/products/korzina-dlya-kota-felichita_1.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

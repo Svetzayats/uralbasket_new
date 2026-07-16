@@ -12,6 +12,7 @@ images:
   - /images/products/khozyaystvennaya_1.jpg
 inStock: false
 featured: true
+popular: true
 order: 1
 ---
 

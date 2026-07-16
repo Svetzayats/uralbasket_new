@@ -12,6 +12,7 @@ images:
   - /images/products/bolshaya-kruglaya-korzina-solntse_1.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

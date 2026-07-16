@@ -9,6 +9,7 @@ images:
   - /images/products/pletenyy-sunduk-tumba_0.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

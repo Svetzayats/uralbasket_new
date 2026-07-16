@@ -12,6 +12,7 @@ images:
   - /images/products/matilda_0.png
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

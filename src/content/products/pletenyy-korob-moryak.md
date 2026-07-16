@@ -16,6 +16,7 @@ sizes:
   depth: 37
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

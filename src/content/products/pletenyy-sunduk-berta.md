@@ -11,6 +11,7 @@ images:
   - /images/products/pletenyy-sunduk-berta_0.jpeg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

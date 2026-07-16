@@ -13,6 +13,7 @@ images:
   - /images/products/ovalnaya-korzina-dlya-vykladki_1.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

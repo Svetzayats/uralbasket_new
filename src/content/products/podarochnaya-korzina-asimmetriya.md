@@ -12,6 +12,7 @@ images:
   - /images/products/podarochnaya-korzina-asimmetriya_1.jpg
 inStock: false
 featured: false
+popular: false
 order: 1
 ---
 

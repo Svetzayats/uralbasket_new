@@ -9,6 +9,7 @@ images:
   - /images/products/shchitok-v-derevyannoy-rame_0.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

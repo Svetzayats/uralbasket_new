@@ -12,7 +12,8 @@ images:
 sizes:
   height: 20
 inStock: false
-featured: true
+featured: false
+popular: false
 order: 1
 ---
 

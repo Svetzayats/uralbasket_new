@@ -17,5 +17,6 @@ sizes:
   depth: 12
 inStock: false
 featured: true
+popular: false
 order: 1
 ---

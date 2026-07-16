@@ -10,6 +10,7 @@ images:
   - /images/products/patritsiya_0.jpeg
 inStock: false
 featured: true
+popular: true
 order: 1
 ---
 

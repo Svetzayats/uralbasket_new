@@ -16,6 +16,7 @@ sizes:
   height: 26
 inStock: false
 featured: true
+popular: true
 order: 1
 ---
 

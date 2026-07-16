@@ -11,5 +11,6 @@ images:
   - /images/products/klarissa_0.png
 inStock: false
 featured: true
+popular: false
 order: 1
 ---

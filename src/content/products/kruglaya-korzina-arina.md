@@ -15,6 +15,7 @@ sizes:
  diameter: 22
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

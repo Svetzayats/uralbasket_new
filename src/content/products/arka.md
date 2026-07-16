@@ -10,6 +10,7 @@ images:
   - /images/products/arka_1.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
 

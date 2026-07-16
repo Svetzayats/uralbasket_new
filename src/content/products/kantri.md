@@ -12,5 +12,6 @@ images:
   - /images/products/kantri_1.jpg
 inStock: false
 featured: true
+popular: true
 order: 1
 ---

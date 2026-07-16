@@ -9,5 +9,6 @@ images:
   - /images/products/sistema-krepleniya-dlya-kolybeli_0.jpg
 inStock: false
 featured: true
+popular: false
 order: 1
 ---
